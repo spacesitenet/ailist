@@ -1,7 +1,31 @@
 {
   "source": "PRTV",
-  "fetched_at": "2026-05-08T06:59:49.215Z",
+  "fetched_at": "2026-05-09T07:15:45.306Z",
   "items": [
+    {
+      "title": "Радио",
+      "link": "https://s.prtv.su/informery/radio",
+      "date": "2026-05-08T18:08:42.000Z",
+      "description": ""
+    },
+    {
+      "title": "Радио без рекламы",
+      "link": "https://s.prtv.su/informery/radio-free",
+      "date": "2026-05-08T12:56:10.000Z",
+      "description": ""
+    },
+    {
+      "title": "Цифровые экраны для выставок",
+      "link": "https://s.prtv.su/otraslevye-resheniya/czifrovye-ekrany-dlya-vystavok",
+      "date": "2026-05-08T12:41:30.000Z",
+      "description": ""
+    },
+    {
+      "title": "Коллекция слайд-шоу",
+      "link": "https://s.prtv.su/shablony/kollekcziya-slajd-shou",
+      "date": "2026-05-08T12:10:42.000Z",
+      "description": ""
+    },
     {
       "title": "Меню борд &#8212; шаурмичная индустриальный стиль",
       "link": "https://s.prtv.su/menyu-bordy/shaurmichnaya/menyu-bord-shaurmichnaya-industrialnyj-stil",
