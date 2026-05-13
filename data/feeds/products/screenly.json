@@ -1,7 +1,19 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-05-12T07:51:50.628Z",
+  "fetched_at": "2026-05-13T07:58:05.909Z",
   "items": [
+    {
+      "title": "Screenly Sync 0x04: May updates from Screenly",
+      "link": "https://www.screenly.io/blog/2026/05/08/screenly-sync-0x04/",
+      "date": "2026-05-08T00:00:00.000Z",
+      "description": "<p>Welcome to the 5th edition of Screenly Sync, where we share the latest updates across our platform, product, and community.</p> <p>This month, our focus has been heavily centered on security, comp…"
+    },
+    {
+      "title": "Centralized billing for all your workspaces",
+      "link": "https://www.screenly.io/blog/2026/04/30/centralized-billing-workspaces/",
+      "date": "2026-04-30T00:00:00.000Z",
+      "description": "<p>Not every team starts with a single workspace. For many of the organizations we work with, especially larger ones, the structure is clear from day one: one workspace per department, per office, or…"
+    },
     {
       "title": "No more passwords in Screenly",
       "link": "https://www.screenly.io/blog/2026/04/29/no-more-passwords/",

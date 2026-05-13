@@ -1,7 +1,25 @@
 {
   "source": "PRTV",
-  "fetched_at": "2026-05-12T07:51:50.628Z",
+  "fetched_at": "2026-05-13T07:58:05.909Z",
   "items": [
+    {
+      "title": "QR информер",
+      "link": "https://s.prtv.su/informery/qr-infomer",
+      "date": "2026-05-12T11:36:50.000Z",
+      "description": ""
+    },
+    {
+      "title": "Акция дня",
+      "link": "https://s.prtv.su/informery/skidka-dnya-kombo-dnya-biznes-lanch-skidki",
+      "date": "2026-05-12T11:28:42.000Z",
+      "description": ""
+    },
+    {
+      "title": "До конца рабочего дня / до закрытия",
+      "link": "https://s.prtv.su/informery/do-koncza-rabochego-dnya",
+      "date": "2026-05-12T10:39:09.000Z",
+      "description": ""
+    },
     {
       "title": "Календарь",
       "link": "https://s.prtv.su/informery/kalendar",

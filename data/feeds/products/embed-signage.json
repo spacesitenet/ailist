@@ -1,7 +1,19 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-05-12T07:51:50.628Z",
+  "fetched_at": "2026-05-13T07:58:05.909Z",
   "items": [
+    {
+      "title": "New ChromeOS v2.0.0 App (PWA)",
+      "link": "https://embedsignage.com/releases/new-chromeos-v2-0-0-app-pwa/",
+      "date": "2026-05-12T16:19:59.000Z",
+      "description": ""
+    },
+    {
+      "title": "Downloads",
+      "link": "https://embedsignage.com/downloads/",
+      "date": "2026-05-12T12:21:46.000Z",
+      "description": ""
+    },
     {
       "title": "Various Bug Fixes",
       "link": "https://embedsignage.com/releases/various-bug-fixes-2/",
@@ -24,6 +36,18 @@
       "title": "Nexmosphere XC-748 and Content App updates",
       "link": "https://embedsignage.com/releases/nexmosphere-xc-748-and-content-app-updates/",
       "date": "2026-04-23T08:56:16.000Z",
+      "description": ""
+    },
+    {
+      "title": "Dynamic Data Added POST Method for JSON and XML Sources",
+      "link": "https://embedsignage.com/releases/dynamic-data-added-post-method-for-json-and-xml-sources/",
+      "date": "2026-04-13T15:59:09.000Z",
+      "description": ""
+    },
+    {
+      "title": "New Dashboard, User Activity Logs and Subscription Updates",
+      "link": "https://embedsignage.com/releases/new-dashboard-user-activity-logs-and-subscription-updates/",
+      "date": "2026-03-26T09:31:56.000Z",
       "description": ""
     },
     {
