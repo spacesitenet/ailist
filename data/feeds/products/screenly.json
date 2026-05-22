@@ -1,6 +1,6 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-05-21T08:40:43.683Z",
+  "fetched_at": "2026-05-22T08:29:49.547Z",
   "items": [
     {
       "title": "Password login is being removed on May 21",
@@ -13,6 +13,12 @@
       "link": "https://www.screenly.io/blog/2026/05/15/anthias-v2026-05-0/",
       "date": "2026-05-15T00:00:00.000Z",
       "description": "<p>After months of work, we&rsquo;re thrilled to ship Anthias v2026.05.0, a landmark update that touches nearly every part of the project. Whether you&rsquo;re running a single display in a coffee sh…"
+    },
+    {
+      "title": "Screenly changelog episode 19 - fractional ciso, cybersecurity reality, and why tools fail smbs",
+      "link": "https://www.screenly.io/blog/2026/05/15/screenly-changelog-episode-19/",
+      "date": "2026-05-15T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog episode 19:</strong> <em>Fractional CISO, Cybersecurity Reality, and Why Tools Fail SMBs</em></p> <p>Cybersecurity for small and mid-sized businesses is often framed as …"
     },
     {
       "title": "Screenly Sync 0x04: May updates from Screenly",
