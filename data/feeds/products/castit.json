@@ -1,7 +1,13 @@
 {
   "source": "Castit",
-  "fetched_at": "2026-05-25T09:24:52.872Z",
+  "fetched_at": "2026-05-26T08:39:50.667Z",
   "items": [
+    {
+      "title": "Castit Update: Role-Based Permissions and Drafts in the CMS",
+      "link": "https://castitsignage.com/blog/castit-update-role-based-permissions-and-drafts-in-the-cms",
+      "date": "2026-05-25T12:29:54.000Z",
+      "description": "Most digital signage problems don't start on the screens. They start in the back office, when too many people have access to the same content manager and nobody is quite sure who pushed what live. A …"
+    },
     {
       "title": "Castit Update: Upload Images and Videos from the Cloud",
       "link": "https://castitsignage.com/blog/castit-update-upload-images-and-videos-from-the-cloud",
