@@ -1,7 +1,13 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-06-02T09:17:37.619Z",
+  "fetched_at": "2026-06-03T10:03:05.806Z",
   "items": [
+    {
+      "title": "New Send HTTP/WebHook to any URL from content and various Bug Fixes",
+      "link": "https://embedsignage.com/releases/new-send-http-webhook-to-any-url-from-content-and-various-bug-fixes/",
+      "date": "2026-06-02T10:35:49.000Z",
+      "description": ""
+    },
     {
       "title": "New ChromeOS v2.0.0 App (PWA)",
       "link": "https://embedsignage.com/releases/new-chromeos-v2-0-0-app-pwa/",
@@ -48,6 +54,12 @@
       "title": "New Dashboard, User Activity Logs and Subscription Updates",
       "link": "https://embedsignage.com/releases/new-dashboard-user-activity-logs-and-subscription-updates/",
       "date": "2026-03-26T09:31:56.000Z",
+      "description": ""
+    },
+    {
+      "title": "Improved Analytics Export and New Detailed Impressions Report",
+      "link": "https://embedsignage.com/releases/improved-analytics-export-and-new-detailed-impressions-report/",
+      "date": "2026-03-19T09:56:27.000Z",
       "description": ""
     },
     {
