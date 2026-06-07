@@ -24,6 +24,7 @@ platforms:
   - Raspberry Pi
   - Tizen
   - Web Browser
+  - webOS
 models:
   - delivery: cloud
     free_trial: true
