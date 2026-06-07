@@ -8,6 +8,7 @@ export interface FilterState {
 	showFreemiumOnly: boolean
 	showFreeOnly: boolean
 	selectedPlatforms: string[]
+	selectedHQ: string[]
 	selectedCompliance: string[]
 	selectedAuthentication: string[]
 	signupIsOpenOnly: boolean
@@ -24,6 +25,7 @@ export class FilterEngine {
 		showFreemiumOnly: false,
 		showFreeOnly: false,
 		selectedPlatforms: [],
+		selectedHQ: [],
 		selectedCompliance: [],
 		selectedAuthentication: [],
 		signupIsOpenOnly: false,
@@ -96,6 +98,7 @@ export class FilterEngine {
 				this.matchesFreemium(row) &&
 				this.matchesFree(row) &&
 				this.matchesPlatforms(row) &&
+				this.matchesHQ(row) &&
 				this.matchesCompliance(row) &&
 				this.matchesAuthentication(row) &&
 				this.matchesSignup(row)
@@ -183,6 +186,12 @@ export class FilterEngine {
 		return this.state.selectedPlatforms.every((p) => platforms.includes(p))
 	}
 
+	private matchesHQ(row: HTMLElement): boolean {
+		if (this.state.selectedHQ.length === 0) return true
+		const hqs = (row.dataset.hq || '').split(',').filter(Boolean)
+		return this.state.selectedHQ.some((h) => hqs.includes(h))
+	}
+
 	private matchesCompliance(row: HTMLElement): boolean {
 		if (this.state.selectedCompliance.length === 0) return true
 		const compliance = (row.dataset.compliance || '').split(',').filter(Boolean)
@@ -241,14 +250,26 @@ export class FilterEngine {
 		this.updateVisibleCount()
 
 		const matchingSet = new Set(this.matchingRows)
-		const platformCheckboxes = document.querySelectorAll<HTMLElement>('[data-platform-count]')
-		for (const el of platformCheckboxes) {
+		const platformCountEls = document.querySelectorAll<HTMLElement>('[data-platform-count]')
+		for (const el of platformCountEls) {
 			const platform = el.dataset.platformCount || ''
 			let count = 0
 			for (const row of this.rows) {
 				if (!matchingSet.has(row)) continue
 				const platforms = (row.dataset.platforms || '').split(',').filter(Boolean)
 				if (platforms.includes(platform)) count++
+			}
+			el.textContent = String(count)
+		}
+
+		const hqCountEls = document.querySelectorAll<HTMLElement>('[data-hq-count]')
+		for (const el of hqCountEls) {
+			const hq = el.dataset.hqCount || ''
+			let count = 0
+			for (const row of this.rows) {
+				if (!matchingSet.has(row)) continue
+				const hqs = (row.dataset.hq || '').split(',').filter(Boolean)
+				if (hqs.includes(hq)) count++
 			}
 			el.textContent = String(count)
 		}

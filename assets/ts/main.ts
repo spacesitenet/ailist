@@ -238,7 +238,6 @@ function initHomePage(productList: HTMLElement): void {
 	const platformCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]'))
 	for (const cb of platformCheckboxes) {
 		cb.addEventListener('change', () => {
-			// Sync all checkboxes with the same platform value (sidebar ↔ modal)
 			const val = cb.dataset.platformCheckbox!
 			for (const other of platformCheckboxes) {
 				if (other.dataset.platformCheckbox === val) other.checked = cb.checked
@@ -246,6 +245,20 @@ function initHomePage(productList: HTMLElement): void {
 			const seen = new Set<string>()
 			const selected = platformCheckboxes.filter((c) => c.checked).map((c) => c.dataset.platformCheckbox!).filter((v) => seen.has(v) ? false : seen.add(v) && true)
 			engine.setState({ selectedPlatforms: selected })
+		})
+	}
+
+	// HQ checkboxes (sidebar + mobile modal share same data-hq-checkbox attr)
+	const hqCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>('[data-hq-checkbox]'))
+	for (const cb of hqCheckboxes) {
+		cb.addEventListener('change', () => {
+			const val = cb.dataset.hqCheckbox!
+			for (const other of hqCheckboxes) {
+				if (other.dataset.hqCheckbox === val) other.checked = cb.checked
+			}
+			const seen = new Set<string>()
+			const selected = hqCheckboxes.filter((c) => c.checked).map((c) => c.dataset.hqCheckbox!).filter((v) => seen.has(v) ? false : seen.add(v) && true)
+			engine.setState({ selectedHQ: selected })
 		})
 	}
 
@@ -259,9 +272,10 @@ function initHomePage(productList: HTMLElement): void {
 	const resetBtns = Array.from(document.querySelectorAll<HTMLButtonElement>('#reset-filters, #empty-state-reset'))
 	for (const btn of resetBtns) {
 		btn.addEventListener('click', () => {
-			engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+			engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
 			if (searchInput) searchInput.value = ''
 			for (const cb of platformCheckboxes) cb.checked = false
+			for (const cb of hqCheckboxes) cb.checked = false
 			syncTypePills(typePills, engine)
 		})
 	}
@@ -273,7 +287,7 @@ function initHomePage(productList: HTMLElement): void {
 	function updateMobileFilterBadge(): void {
 		if (!mobileFilterBadge) return
 		const s = engine.getState()
-		const count = [s.showOpenSource, s.showFreeOnly, s.showFreeTrialOnly, s.showProprietary, s.showDiscontinuedOnly, s.signupIsOpenOnly].filter(Boolean).length + s.selectedPlatforms.length
+		const count = [s.showOpenSource, s.showFreeOnly, s.showFreeTrialOnly, s.showProprietary, s.showDiscontinuedOnly, s.signupIsOpenOnly].filter(Boolean).length + s.selectedPlatforms.length + s.selectedHQ.length
 		mobileFilterBadge.textContent = String(count)
 		mobileFilterBadge.classList.toggle('hidden', count === 0)
 	}
@@ -293,9 +307,10 @@ function initHomePage(productList: HTMLElement): void {
 	document.querySelector('#mobile-filter-close')?.addEventListener('click', closeFilterModal)
 	document.querySelector('#mobile-filter-done')?.addEventListener('click', closeFilterModal)
 	document.querySelector('#mobile-filter-reset')?.addEventListener('click', () => {
-		engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+		engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
 		if (searchInput) searchInput.value = ''
 		for (const cb of platformCheckboxes) cb.checked = false
+		for (const cb of hqCheckboxes) cb.checked = false
 		syncTypePills(typePills, engine)
 		updateMobileFilterBadge()
 	})
@@ -328,6 +343,17 @@ function initHomePage(productList: HTMLElement): void {
 				},
 			})
 		}
+		for (const hq of s.selectedHQ) {
+			const h = hq
+			const label = h.split(' ').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+			pills.push({
+				label,
+				onRemove: () => {
+					engine.setState({ selectedHQ: engine.getState().selectedHQ.filter((x) => x !== h) })
+					for (const cb of hqCheckboxes) if (cb.dataset.hqCheckbox === h) cb.checked = false
+				},
+			})
+		}
 
 		if (pills.length === 0) {
 			container.innerHTML = ''
@@ -354,8 +380,9 @@ function initHomePage(productList: HTMLElement): void {
 			clearBtn.className = 'inline-flex items-center px-2.5 py-1 text-xs font-medium text-neutral-400 hover:text-neutral-700 transition-colors'
 			clearBtn.textContent = 'Clear all'
 			clearBtn.addEventListener('click', () => {
-				engine.setState({ showOpenSource: false, showFreeOnly: false, showFreeTrialOnly: false, showProprietary: false, showDiscontinuedOnly: false, showFreemiumOnly: false, selectedPlatforms: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+				engine.setState({ showOpenSource: false, showFreeOnly: false, showFreeTrialOnly: false, showProprietary: false, showDiscontinuedOnly: false, showFreemiumOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
 				for (const cb of platformCheckboxes) cb.checked = false
+				for (const cb of hqCheckboxes) cb.checked = false
 				syncTypePills(typePills, engine)
 			})
 			container.appendChild(clearBtn)
@@ -366,7 +393,7 @@ function initHomePage(productList: HTMLElement): void {
 	engine.onChange(() => {
 		renderActiveFilters()
 		const s = engine.getState()
-		const isDefault = !s.searchTerm && !s.showOpenSource && !s.showFreeOnly && !s.showProprietary && !s.showDiscontinuedOnly && !s.showFreeTrialOnly && !s.showFreemiumOnly && s.selectedPlatforms.length === 0 && !s.signupIsOpenOnly
+		const isDefault = !s.searchTerm && !s.showOpenSource && !s.showFreeOnly && !s.showProprietary && !s.showDiscontinuedOnly && !s.showFreeTrialOnly && !s.showFreemiumOnly && s.selectedPlatforms.length === 0 && s.selectedHQ.length === 0 && !s.signupIsOpenOnly
 		document.querySelector('#reset-filters')?.classList.toggle('hidden', isDefault)
 		updateMobileFilterBadge()
 

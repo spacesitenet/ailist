@@ -1,6 +1,6 @@
 {{/*
-  Homepage left sidebar: category filter + platform checkboxes.
-  Input: the /products section page context (has .Pages for platform counts).
+  Homepage left sidebar: type filter, platform checkboxes, HQ checkboxes.
+  Input: the /products section page context (has .Pages for counts).
 */}}
 
 {{/* Collect unique platforms with counts */}}
@@ -12,14 +12,28 @@
     {{ $platformMap = merge $platformMap (dict . $count) }}
   {{ end }}
 {{ end }}
-
-{{/* Build sortable slice: descending by count, then ascending by name */}}
 {{ $platforms := slice }}
 {{ range $name, $count := $platformMap }}
   {{ $sortKey := printf "%010d|%s" (math.Sub 9999999999 $count) $name }}
   {{ $platforms = $platforms | append (dict "name" $name "count" $count "sortKey" $sortKey) }}
 {{ end }}
 {{ $platforms = sort $platforms "sortKey" "asc" }}
+
+{{/* Collect unique HQs with counts */}}
+{{ $hqMap := dict }}
+{{ range .Pages }}
+  {{ range .Params.headquarters }}
+    {{ $count := 1 }}
+    {{ if isset $hqMap . }}{{ $count = add (index $hqMap .) 1 }}{{ end }}
+    {{ $hqMap = merge $hqMap (dict . $count) }}
+  {{ end }}
+{{ end }}
+{{ $hqs := slice }}
+{{ range $name, $count := $hqMap }}
+  {{ $sortKey := printf "%010d|%s" (math.Sub 9999999999 $count) $name }}
+  {{ $hqs = $hqs | append (dict "name" $name "count" $count "sortKey" $sortKey) }}
+{{ end }}
+{{ $hqs = sort $hqs "sortKey" "asc" }}
 
 <aside class="hidden md:block w-48 flex-shrink-0 pt-0.5 self-start sticky top-20">
   {{/* Type filters as pill toggles */}}
@@ -41,6 +55,18 @@
         <input type="checkbox" data-platform-checkbox="{{ .name }}" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20 flex-shrink-0">
         <span class="flex-1 truncate">{{ .name }}</span>
         <span data-platform-count="{{ .name }}" class="text-neutral-400 text-xs tabular-nums">{{ .count }}</span>
+      </label>
+    {{ end }}
+  </div>
+
+  {{/* HQ / Country */}}
+  <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2 px-2 mt-6">Country</p>
+  <div class="flex flex-col gap-0.5 max-h-48 overflow-y-auto">
+    {{ range $hqs }}
+      <label class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 cursor-pointer hover:bg-neutral-100 rounded-lg transition-colors">
+        <input type="checkbox" data-hq-checkbox="{{ .name | lower }}" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20 flex-shrink-0">
+        <span class="flex-1 truncate">{{ .name }}</span>
+        <span data-hq-count="{{ .name | lower }}" class="text-neutral-400 text-xs tabular-nums">{{ .count }}</span>
       </label>
     {{ end }}
   </div>
