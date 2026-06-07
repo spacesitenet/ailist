@@ -37,7 +37,7 @@
 
 <aside class="hidden md:flex md:flex-col w-56 flex-shrink-0 pt-0.5 sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto pb-4 pr-2">
   {{/* Type filters as pill toggles */}}
-  <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2 px-2">Filter</p>
+  <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2 px-2">Filter</p>
   <div class="flex flex-col gap-0.5 mb-6">
     <button data-type-pill="open-source" class="type-pill text-left text-sm font-medium px-3 py-2 rounded-lg transition-[background-color] duration-100 text-neutral-600 hover:bg-neutral-200 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:hover:bg-neutral-800">Open Source</button>
     <button data-type-pill="free" class="type-pill text-left text-sm font-medium px-3 py-2 rounded-lg transition-[background-color] duration-100 text-neutral-600 hover:bg-neutral-200 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:hover:bg-neutral-800">Free / Freemium</button>
@@ -48,25 +48,25 @@
   </div>
 
   {{/* Platform */}}
-  <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2 px-2">Platform</p>
+  <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2 px-2">Platform</p>
   <div class="flex flex-col gap-0.5">
     {{ range $platforms }}
       <label class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 cursor-pointer hover:bg-neutral-100 rounded-lg transition-colors">
         <input type="checkbox" data-platform-checkbox="{{ .name }}" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20 flex-shrink-0">
         <span class="flex-1 truncate">{{ .name }}</span>
-        <span data-platform-count="{{ .name }}" class="text-neutral-400 text-xs tabular-nums">{{ .count }}</span>
+        <span data-platform-count="{{ .name }}" class="text-neutral-500 text-xs tabular-nums">{{ .count }}</span>
       </label>
     {{ end }}
   </div>
 
   {{/* HQ / Headquarters */}}
-  <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2 px-2 mt-6">Headquarters</p>
+  <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2 px-2 mt-6">Headquarters</p>
   <div class="flex flex-col gap-0.5">
     {{ range $hqs }}
       <label class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 cursor-pointer hover:bg-neutral-100 rounded-lg transition-colors">
         <input type="checkbox" data-hq-checkbox="{{ .name | lower }}" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20 flex-shrink-0">
         <span class="flex-1 truncate">{{ .name }}</span>
-        <span data-hq-count="{{ .name | lower }}" class="text-neutral-400 text-xs tabular-nums">{{ .count }}</span>
+        <span data-hq-count="{{ .name | lower }}" class="text-neutral-500 text-xs tabular-nums">{{ .count }}</span>
       </label>
     {{ end }}
   </div>
