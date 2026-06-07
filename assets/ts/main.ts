@@ -1,8 +1,8 @@
-import { initProductModal } from './modal'
 import { initAuthenticationDropdown } from './authentication-dropdown'
 import { initComplianceDropdown } from './compliance-dropdown'
 import { FilterEngine } from './filter'
 import { initGitHubStars } from './github-stars'
+import { initProductModal } from './modal'
 import { initPlatformDropdown } from './platform-dropdown'
 import { initSearch } from './search'
 import { initSort } from './sort'
@@ -48,17 +48,21 @@ document.addEventListener('DOMContentLoaded', () => {
 			try {
 				const { indexUrl, indexLabel, termUrl, termTitle } = JSON.parse(raw)
 				let referrerPath = ''
-				try { referrerPath = new URL(document.referrer).pathname } catch {}
+				try {
+					referrerPath = new URL(document.referrer).pathname
+				} catch {}
 				const isFromTermPage = referrerPath.startsWith(termUrl)
 				if (isFromTermPage) {
-					const chevron = '<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>'
+					const chevron =
+						'<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>'
 					const link = (href: string, label: string) =>
 						`<a href="${href}" class="hover:text-neutral-600 transition-colors truncate">${label}</a>`
 					const productSpan = productBreadcrumb.querySelector('span')!
 					productSpan.previousElementSibling?.remove()
-					const crumbs = indexUrl === termUrl
-						? `${chevron}${link(termUrl, termTitle)}${chevron}`
-						: `${chevron}${link(indexUrl, indexLabel)}${chevron}${link(termUrl, termTitle)}${chevron}`
+					const crumbs =
+						indexUrl === termUrl
+							? `${chevron}${link(termUrl, termTitle)}${chevron}`
+							: `${chevron}${link(indexUrl, indexLabel)}${chevron}${link(termUrl, termTitle)}${chevron}`
 					productSpan.insertAdjacentHTML('beforebegin', crumbs)
 				} else {
 					sessionStorage.removeItem(BREADCRUMB_KEY)
@@ -109,10 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	const osCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source')
 	const propCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary')
 	if (osCheckbox) osCheckbox.addEventListener('change', () => engine.setState({ showOpenSource: osCheckbox.checked }))
-	if (propCheckbox) propCheckbox.addEventListener('change', () => engine.setState({ showProprietary: propCheckbox.checked }))
+	if (propCheckbox)
+		propCheckbox.addEventListener('change', () => engine.setState({ showProprietary: propCheckbox.checked }))
 
 	const signupCheckbox = document.querySelector<HTMLInputElement>('#filter-signup')
-	if (signupCheckbox) signupCheckbox.addEventListener('change', () => engine.setState({ signupIsOpenOnly: signupCheckbox.checked }))
+	if (signupCheckbox)
+		signupCheckbox.addEventListener('change', () => engine.setState({ signupIsOpenOnly: signupCheckbox.checked }))
 
 	const osMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source-mobile')
 	const propMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary-mobile')
@@ -136,10 +142,21 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	const resetBtns = Array.from(document.querySelectorAll<HTMLButtonElement>('#reset-filters, #reset-filters-mobile, #empty-state-reset'))
+	const resetBtns = Array.from(
+		document.querySelectorAll<HTMLButtonElement>('#reset-filters, #reset-filters-mobile, #empty-state-reset'),
+	)
 	for (const btn of resetBtns) {
 		btn.addEventListener('click', () =>
-			resetTableFilters(engine, categoryBtns, osCheckbox, propCheckbox, signupCheckbox, osMobileCheckbox, propMobileCheckbox, signupMobileCheckbox),
+			resetTableFilters(
+				engine,
+				categoryBtns,
+				osCheckbox,
+				propCheckbox,
+				signupCheckbox,
+				osMobileCheckbox,
+				propMobileCheckbox,
+				signupMobileCheckbox,
+			),
 		)
 	}
 
@@ -243,7 +260,10 @@ function initHomePage(productList: HTMLElement): void {
 				if (other.dataset.platformCheckbox === val) other.checked = cb.checked
 			}
 			const seen = new Set<string>()
-			const selected = platformCheckboxes.filter((c) => c.checked).map((c) => c.dataset.platformCheckbox!).filter((v) => seen.has(v) ? false : seen.add(v) && true)
+			const selected = platformCheckboxes
+				.filter((c) => c.checked)
+				.map((c) => c.dataset.platformCheckbox!)
+				.filter((v) => (seen.has(v) ? false : seen.add(v) && true))
 			engine.setState({ selectedPlatforms: selected })
 		})
 	}
@@ -257,7 +277,10 @@ function initHomePage(productList: HTMLElement): void {
 				if (other.dataset.hqCheckbox === val) other.checked = cb.checked
 			}
 			const seen = new Set<string>()
-			const selected = hqCheckboxes.filter((c) => c.checked).map((c) => c.dataset.hqCheckbox!).filter((v) => seen.has(v) ? false : seen.add(v) && true)
+			const selected = hqCheckboxes
+				.filter((c) => c.checked)
+				.map((c) => c.dataset.hqCheckbox!)
+				.filter((v) => (seen.has(v) ? false : seen.add(v) && true))
 			engine.setState({ selectedHQ: selected })
 		})
 	}
@@ -272,7 +295,21 @@ function initHomePage(productList: HTMLElement): void {
 	const resetBtns = Array.from(document.querySelectorAll<HTMLButtonElement>('#reset-filters, #empty-state-reset'))
 	for (const btn of resetBtns) {
 		btn.addEventListener('click', () => {
-			engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+			engine.setState({
+				category: '',
+				searchTerm: '',
+				showOpenSource: false,
+				showProprietary: false,
+				showDiscontinuedOnly: false,
+				showFreeTrialOnly: false,
+				showFreemiumOnly: false,
+				showFreeOnly: false,
+				selectedPlatforms: [],
+				selectedHQ: [],
+				selectedCompliance: [],
+				selectedAuthentication: [],
+				signupIsOpenOnly: false,
+			})
 			if (searchInput) searchInput.value = ''
 			for (const cb of platformCheckboxes) cb.checked = false
 			for (const cb of hqCheckboxes) cb.checked = false
@@ -287,7 +324,17 @@ function initHomePage(productList: HTMLElement): void {
 	function updateMobileFilterBadge(): void {
 		if (!mobileFilterBadge) return
 		const s = engine.getState()
-		const count = [s.showOpenSource, s.showFreeOnly, s.showFreeTrialOnly, s.showProprietary, s.showDiscontinuedOnly, s.signupIsOpenOnly].filter(Boolean).length + s.selectedPlatforms.length + s.selectedHQ.length
+		const count =
+			[
+				s.showOpenSource,
+				s.showFreeOnly,
+				s.showFreeTrialOnly,
+				s.showProprietary,
+				s.showDiscontinuedOnly,
+				s.signupIsOpenOnly,
+			].filter(Boolean).length +
+			s.selectedPlatforms.length +
+			s.selectedHQ.length
 		mobileFilterBadge.textContent = String(count)
 		mobileFilterBadge.classList.toggle('hidden', count === 0)
 	}
@@ -307,7 +354,21 @@ function initHomePage(productList: HTMLElement): void {
 	document.querySelector('#mobile-filter-close')?.addEventListener('click', closeFilterModal)
 	document.querySelector('#mobile-filter-done')?.addEventListener('click', closeFilterModal)
 	document.querySelector('#mobile-filter-reset')?.addEventListener('click', () => {
-		engine.setState({ category: '', searchTerm: '', showOpenSource: false, showProprietary: false, showDiscontinuedOnly: false, showFreeTrialOnly: false, showFreemiumOnly: false, showFreeOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+		engine.setState({
+			category: '',
+			searchTerm: '',
+			showOpenSource: false,
+			showProprietary: false,
+			showDiscontinuedOnly: false,
+			showFreeTrialOnly: false,
+			showFreemiumOnly: false,
+			showFreeOnly: false,
+			selectedPlatforms: [],
+			selectedHQ: [],
+			selectedCompliance: [],
+			selectedAuthentication: [],
+			signupIsOpenOnly: false,
+		})
 		if (searchInput) searchInput.value = ''
 		for (const cb of platformCheckboxes) cb.checked = false
 		for (const cb of hqCheckboxes) cb.checked = false
@@ -325,7 +386,14 @@ function initHomePage(productList: HTMLElement): void {
 		const pills: Pill[] = []
 
 		const addType = (active: boolean, label: string, patch: Partial<typeof s>) => {
-			if (active) pills.push({ label, onRemove: () => { engine.setState(patch); syncTypePills(typePills, engine) } })
+			if (active)
+				pills.push({
+					label,
+					onRemove: () => {
+						engine.setState(patch)
+						syncTypePills(typePills, engine)
+					},
+				})
 		}
 		addType(s.showOpenSource, 'Open Source', { showOpenSource: false })
 		addType(s.showFreeOnly, 'Free / Freemium', { showFreeOnly: false })
@@ -345,7 +413,10 @@ function initHomePage(productList: HTMLElement): void {
 		}
 		for (const hq of s.selectedHQ) {
 			const h = hq
-			const label = h.split(' ').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+			const label = h
+				.split(' ')
+				.map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+				.join(' ')
 			pills.push({
 				label,
 				onRemove: () => {
@@ -366,10 +437,12 @@ function initHomePage(productList: HTMLElement): void {
 		container.classList.add('flex')
 		container.innerHTML = ''
 
-		const xIcon = '<svg class="w-3 h-3 text-neutral-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>'
+		const xIcon =
+			'<svg class="w-3 h-3 text-neutral-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>'
 		for (const pill of pills) {
 			const btn = document.createElement('button')
-			btn.className = 'inline-flex items-center gap-1 pl-2.5 pr-1.5 py-1 text-xs font-medium text-neutral-700 bg-white border border-neutral-200 rounded-full hover:bg-neutral-50 transition-colors'
+			btn.className =
+				'inline-flex items-center gap-1 pl-2.5 pr-1.5 py-1 text-xs font-medium text-neutral-700 bg-white border border-neutral-200 rounded-full hover:bg-neutral-50 transition-colors'
 			btn.innerHTML = `${pill.label}${xIcon}`
 			btn.addEventListener('click', pill.onRemove)
 			container.appendChild(btn)
@@ -377,10 +450,23 @@ function initHomePage(productList: HTMLElement): void {
 
 		if (pills.length > 1) {
 			const clearBtn = document.createElement('button')
-			clearBtn.className = 'inline-flex items-center px-2.5 py-1 text-xs font-medium text-neutral-400 hover:text-neutral-700 transition-colors'
+			clearBtn.className =
+				'inline-flex items-center px-2.5 py-1 text-xs font-medium text-neutral-400 hover:text-neutral-700 transition-colors'
 			clearBtn.textContent = 'Clear all'
 			clearBtn.addEventListener('click', () => {
-				engine.setState({ showOpenSource: false, showFreeOnly: false, showFreeTrialOnly: false, showProprietary: false, showDiscontinuedOnly: false, showFreemiumOnly: false, selectedPlatforms: [], selectedHQ: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+				engine.setState({
+					showOpenSource: false,
+					showFreeOnly: false,
+					showFreeTrialOnly: false,
+					showProprietary: false,
+					showDiscontinuedOnly: false,
+					showFreemiumOnly: false,
+					selectedPlatforms: [],
+					selectedHQ: [],
+					selectedCompliance: [],
+					selectedAuthentication: [],
+					signupIsOpenOnly: false,
+				})
 				for (const cb of platformCheckboxes) cb.checked = false
 				for (const cb of hqCheckboxes) cb.checked = false
 				syncTypePills(typePills, engine)
@@ -393,7 +479,17 @@ function initHomePage(productList: HTMLElement): void {
 	engine.onChange(() => {
 		renderActiveFilters()
 		const s = engine.getState()
-		const isDefault = !s.searchTerm && !s.showOpenSource && !s.showFreeOnly && !s.showProprietary && !s.showDiscontinuedOnly && !s.showFreeTrialOnly && !s.showFreemiumOnly && s.selectedPlatforms.length === 0 && s.selectedHQ.length === 0 && !s.signupIsOpenOnly
+		const isDefault =
+			!s.searchTerm &&
+			!s.showOpenSource &&
+			!s.showFreeOnly &&
+			!s.showProprietary &&
+			!s.showDiscontinuedOnly &&
+			!s.showFreeTrialOnly &&
+			!s.showFreemiumOnly &&
+			s.selectedPlatforms.length === 0 &&
+			s.selectedHQ.length === 0 &&
+			!s.signupIsOpenOnly
 		document.querySelector('#reset-filters')?.classList.toggle('hidden', isDefault)
 		updateMobileFilterBadge()
 
@@ -420,8 +516,22 @@ function initHomePage(productList: HTMLElement): void {
 
 	const pagePrev = document.querySelector<HTMLButtonElement>('#page-prev')
 	const pageNext = document.querySelector<HTMLButtonElement>('#page-next')
-	if (pagePrev) pagePrev.addEventListener('click', () => { const { current } = engine.getPageInfo(); if (current > 1) { engine.setPage(current - 1); scrollToList() } })
-	if (pageNext) pageNext.addEventListener('click', () => { const { current, total } = engine.getPageInfo(); if (current < total) { engine.setPage(current + 1); scrollToList() } })
+	if (pagePrev)
+		pagePrev.addEventListener('click', () => {
+			const { current } = engine.getPageInfo()
+			if (current > 1) {
+				engine.setPage(current - 1)
+				scrollToList()
+			}
+		})
+	if (pageNext)
+		pageNext.addEventListener('click', () => {
+			const { current, total } = engine.getPageInfo()
+			if (current < total) {
+				engine.setPage(current + 1)
+				scrollToList()
+			}
+		})
 
 	engine.applyFilters()
 	initProductModal(productList, engine)
@@ -431,10 +541,10 @@ function syncTypePills(pills: HTMLButtonElement[], engine: FilterEngine): void {
 	const s = engine.getState()
 	const activeMap: Record<string, boolean> = {
 		'open-source': s.showOpenSource,
-		'free': s.showFreeOnly,
+		free: s.showFreeOnly,
 		'free-trial': s.showFreeTrialOnly,
-		'proprietary': s.showProprietary,
-		'discontinued': s.showDiscontinuedOnly,
+		proprietary: s.showProprietary,
+		discontinued: s.showDiscontinuedOnly,
 		'self-signup': s.signupIsOpenOnly,
 	}
 	for (const pill of pills) {
@@ -466,7 +576,16 @@ function resetTableFilters(
 	propMobileCheckbox: HTMLInputElement | null,
 	signupMobileCheckbox: HTMLInputElement | null,
 ): void {
-	engine.setState({ category: 'CMS', searchTerm: '', showOpenSource: true, showProprietary: true, selectedPlatforms: [], selectedCompliance: [], selectedAuthentication: [], signupIsOpenOnly: false })
+	engine.setState({
+		category: 'CMS',
+		searchTerm: '',
+		showOpenSource: true,
+		showProprietary: true,
+		selectedPlatforms: [],
+		selectedCompliance: [],
+		selectedAuthentication: [],
+		signupIsOpenOnly: false,
+	})
 	const searchInput = document.querySelector<HTMLInputElement>('#search-input')
 	if (searchInput) searchInput.value = ''
 	updateCategoryButtons(categoryBtns, 'CMS')
@@ -476,10 +595,22 @@ function resetTableFilters(
 	if (osMobileCheckbox) osMobileCheckbox.checked = true
 	if (propMobileCheckbox) propMobileCheckbox.checked = true
 	if (signupMobileCheckbox) signupMobileCheckbox.checked = false
-	document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]').forEach((cb) => (cb.checked = false))
-	document.querySelectorAll('.platform-label').forEach((el) => (el.textContent = 'All platforms'))
-	document.querySelectorAll<HTMLInputElement>('[data-compliance-checkbox]').forEach((cb) => (cb.checked = false))
-	document.querySelectorAll('.compliance-label').forEach((el) => (el.textContent = 'Compliance'))
-	document.querySelectorAll<HTMLInputElement>('[data-authentication-checkbox]').forEach((cb) => (cb.checked = false))
-	document.querySelectorAll('.authentication-label').forEach((el) => (el.textContent = 'Authentication'))
+	document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]').forEach((cb) => {
+		cb.checked = false
+	})
+	document.querySelectorAll('.platform-label').forEach((el) => {
+		el.textContent = 'All platforms'
+	})
+	document.querySelectorAll<HTMLInputElement>('[data-compliance-checkbox]').forEach((cb) => {
+		cb.checked = false
+	})
+	document.querySelectorAll('.compliance-label').forEach((el) => {
+		el.textContent = 'Compliance'
+	})
+	document.querySelectorAll<HTMLInputElement>('[data-authentication-checkbox]').forEach((cb) => {
+		cb.checked = false
+	})
+	document.querySelectorAll('.authentication-label').forEach((el) => {
+		el.textContent = 'Authentication'
+	})
 }

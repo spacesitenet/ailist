@@ -6,8 +6,8 @@
  * Usage: bun run gen:terms
  */
 
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 import yaml from 'js-yaml'
 
 const PRODUCTS_DIR = 'data/products'

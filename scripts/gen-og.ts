@@ -1,6 +1,6 @@
-import sharp from 'sharp'
-import { readdirSync, readFileSync, existsSync, mkdirSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync } from 'node:fs'
 import yaml from 'js-yaml'
+import sharp from 'sharp'
 
 const OG_VERSION = 'v1'
 const BG_PATH = 'static/og-bg.png'
@@ -17,7 +17,10 @@ const H = 630
 const TEXT_W = 880
 
 function slugify(str: string): string {
-	return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+	return str
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '')
 }
 
 function wrapText(text: string, charsPerLine: number): string[] {
@@ -41,7 +44,12 @@ function escapeXml(str: string): string {
 	return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 
-async function generateOg(dir: string, slug: string, name: string, description: string): Promise<'generated' | 'skipped'> {
+async function generateOg(
+	dir: string,
+	slug: string,
+	name: string,
+	description: string,
+): Promise<'generated' | 'skipped'> {
 	const outPath = `${dir}/${OG_VERSION}-${slug}.png`
 
 	if (existsSync(outPath)) {
@@ -74,20 +82,26 @@ async function generateOg(dir: string, slug: string, name: string, description: 
 
 	const lx = 60
 
-	const titleSvg = titleLines.map((line, i) =>
-		`<text x="${lx}" y="${startY + i * titleLineH}" text-anchor="start"
+	const titleSvg = titleLines
+		.map(
+			(line, i) =>
+				`<text x="${lx}" y="${startY + i * titleLineH}" text-anchor="start"
 			font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
 			font-weight="700" font-size="${titleSize}" fill="#0a0a0a"
-		>${escapeXml(line)}</text>`
-	).join('\n')
+		>${escapeXml(line)}</text>`,
+		)
+		.join('\n')
 
 	const descY = startY + titleLines.length * titleLineH + gap
-	const descSvg = descLines.map((line, i) =>
-		`<text x="${lx}" y="${descY + i * descLineH}" text-anchor="start"
+	const descSvg = descLines
+		.map(
+			(line, i) =>
+				`<text x="${lx}" y="${descY + i * descLineH}" text-anchor="start"
 			font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
 			font-weight="400" font-size="${descSize}" fill="#737373"
-		>${escapeXml(line)}</text>`
-	).join('\n')
+		>${escapeXml(line)}</text>`,
+		)
+		.join('\n')
 
 	const urlSvg = `<text x="${lx}" y="${H - 85}" text-anchor="start"
 		font-family="Helvetica Neue, Helvetica, Arial, sans-serif"

@@ -54,7 +54,11 @@ function normalize(s: string): string {
 
 // Preserves word boundaries for word-sequence matching
 function normalizeSpaced(s: string): string {
-	return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim()
+	return s
+		.toLowerCase()
+		.replace(/[^a-z0-9 ]/g, '')
+		.replace(/\s+/g, ' ')
+		.trim()
 }
 
 function containsWordSequence(haystack: string[], needle: string[]): boolean {
@@ -87,21 +91,21 @@ const products = files.map((f) => {
 
 function addPlatformToContent(content: string, platform: string): string {
 	// Match the entire platforms block
-	const platformsMatch = content.match(/^(platforms:\n)((?:  - .+\n?)+)/m)
+	const platformsMatch = content.match(/^(platforms:\n)((?: {2}- .+\n?)+)/m)
 	if (!platformsMatch) {
 		// No platforms block — shouldn't happen but handle gracefully
 		throw new Error('Could not find platforms block in YAML')
 	}
 
 	const blockLines = platformsMatch[2]
-	const existing = [...blockLines.matchAll(/^  - (.+)$/gm)].map((m) => m[1])
+	const existing = [...blockLines.matchAll(/^ {2}- (.+)$/gm)].map((m) => m[1])
 
 	if (existing.includes(platform)) return content // already present
 
 	const sorted = [...existing, platform].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
-	const newBlock = sorted.map((p) => `  - ${p}`).join('\n') + '\n'
+	const newBlock = `${sorted.map((p) => `  - ${p}`).join('\n')}\n`
 
-	return content.replace(/^(platforms:\n)(?:  - .+\n?)+/m, `$1${newBlock}`)
+	return content.replace(/^(platforms:\n)(?: {2}- .+\n?)+/m, `$1${newBlock}`)
 }
 
 // ---------------------------------------------------------------------------
@@ -131,11 +135,7 @@ for (const { filename, content, product } of products) {
 		const spProduct = normalizeSpaced(product.name).split(' ')
 		const shorter = spPartner.length <= spProduct.length ? spPartner : spProduct
 		const longer = spPartner.length <= spProduct.length ? spProduct : spPartner
-		return (
-			shorter.length >= 1 &&
-			shorter.length / longer.length >= 0.5 &&
-			containsWordSequence(longer, shorter)
-		)
+		return shorter.length >= 1 && shorter.length / longer.length >= 0.5 && containsWordSequence(longer, shorter)
 	})
 
 	if (!matchedPartner) continue
