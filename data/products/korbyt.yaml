@@ -16,6 +16,7 @@ platforms:
   - Android
   - BrightSign
   - ChromeOS
+  - Crestron AirMedia
   - Fire OS
   - Linux
   - Tizen
