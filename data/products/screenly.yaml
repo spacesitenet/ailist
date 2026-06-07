@@ -21,6 +21,7 @@ platforms:
   - Android
   - ChromeOS
   - Fire OS
+  - Raspberry Pi
   - Tizen
   - Web Browser
 models:
