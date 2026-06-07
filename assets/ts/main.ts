@@ -251,6 +251,19 @@ function initHomePage(productList: HTMLElement): void {
 		})
 	}
 
+	// Hide discontinued checkboxes
+	const hideDiscontinuedCbs = [
+		document.querySelector<HTMLInputElement>('#hide-discontinued'),
+		document.querySelector<HTMLInputElement>('#hide-discontinued-mobile'),
+	].filter(Boolean) as HTMLInputElement[]
+	for (const cb of hideDiscontinuedCbs) {
+		cb.addEventListener('change', () => {
+			for (const other of hideDiscontinuedCbs) other.checked = cb.checked
+			engine.setState({ hideDiscontinued: cb.checked })
+			updateMobileFilterBadge()
+		})
+	}
+
 	// Platform checkboxes (sidebar + mobile modal share same data-platform-checkbox attr)
 	const platformCheckboxes = Array.from(document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]'))
 	for (const cb of platformCheckboxes) {
@@ -301,6 +314,7 @@ function initHomePage(productList: HTMLElement): void {
 				showOpenSource: false,
 				showProprietary: false,
 				showDiscontinuedOnly: false,
+				hideDiscontinued: false,
 				showFreeTrialOnly: false,
 				showFreemiumOnly: false,
 				showFreeOnly: false,
@@ -313,6 +327,7 @@ function initHomePage(productList: HTMLElement): void {
 			if (searchInput) searchInput.value = ''
 			for (const cb of platformCheckboxes) cb.checked = false
 			for (const cb of hqCheckboxes) cb.checked = false
+			for (const cb of hideDiscontinuedCbs) cb.checked = false
 			syncTypePills(typePills, engine)
 		})
 	}
@@ -485,6 +500,7 @@ function initHomePage(productList: HTMLElement): void {
 			!s.showFreeOnly &&
 			!s.showProprietary &&
 			!s.showDiscontinuedOnly &&
+			!s.hideDiscontinued &&
 			!s.showFreeTrialOnly &&
 			!s.showFreemiumOnly &&
 			s.selectedPlatforms.length === 0 &&

@@ -55,6 +55,10 @@
         <button data-type-pill="self-signup"  class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Self Signup</button>
         <button data-type-pill="discontinued" class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Discontinued</button>
       </div>
+      <label class="flex items-center gap-2 mt-3 text-sm text-neutral-600 cursor-pointer">
+        <input type="checkbox" id="hide-discontinued-mobile" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20">
+        <span>Hide discontinued</span>
+      </label>
       <p class="text-xs font-semibold text-neutral-600 uppercase tracking-wider mb-2 mt-6">Platform</p>
       <div class="flex flex-col gap-0.5">
         {{ range $platforms }}

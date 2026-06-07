@@ -4,6 +4,7 @@ export interface FilterState {
 	showOpenSource: boolean
 	showProprietary: boolean
 	showDiscontinuedOnly: boolean
+	hideDiscontinued: boolean
 	showFreeTrialOnly: boolean
 	showFreemiumOnly: boolean
 	showFreeOnly: boolean
@@ -21,6 +22,7 @@ export class FilterEngine {
 		showOpenSource: true,
 		showProprietary: true,
 		showDiscontinuedOnly: false,
+		hideDiscontinued: false,
 		showFreeTrialOnly: false,
 		showFreemiumOnly: false,
 		showFreeOnly: false,
@@ -155,8 +157,10 @@ export class FilterEngine {
 	}
 
 	private matchesDiscontinued(row: HTMLElement): boolean {
+		const isDiscontinued = row.dataset.discontinued === 'true'
+		if (this.state.hideDiscontinued && isDiscontinued) return false
 		if (!this.state.showDiscontinuedOnly) return true
-		return row.dataset.discontinued === 'true'
+		return isDiscontinued
 	}
 
 	private matchesFreeTrial(row: HTMLElement): boolean {

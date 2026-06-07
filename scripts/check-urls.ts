@@ -57,15 +57,16 @@ async function checkUrl(slug: string, name: string, url: string): Promise<Result
 		return { ...base, status, category: 'ok', detail: `HTTP ${status}` }
 	} catch (err: unknown) {
 		const msg = err instanceof Error ? err.message : String(err)
-		const detail = msg.includes('timed out') || msg.includes('TimeoutError')
-			? 'Timeout'
-			: msg.includes('ENOTFOUND') || msg.includes('getaddrinfo')
-			? 'DNS failure'
-			: msg.includes('ECONNREFUSED')
-			? 'Connection refused'
-			: msg.includes('certificate') || msg.includes('SSL')
-			? 'SSL error'
-			: `Error: ${msg.slice(0, 80)}`
+		const detail =
+			msg.includes('timed out') || msg.includes('TimeoutError')
+				? 'Timeout'
+				: msg.includes('ENOTFOUND') || msg.includes('getaddrinfo')
+					? 'DNS failure'
+					: msg.includes('ECONNREFUSED')
+						? 'Connection refused'
+						: msg.includes('certificate') || msg.includes('SSL')
+							? 'SSL error'
+							: `Error: ${msg.slice(0, 80)}`
 		return { ...base, status: null, category: 'dead', detail }
 	}
 }
@@ -117,7 +118,9 @@ const pad = (s: string, n: number) => s.slice(0, n).padEnd(n)
 
 lines.push(`URL Health Report`)
 lines.push(`Generated: ${new Date().toISOString()}`)
-lines.push(`Checked: ${tasks.length} | OK: ${ok.length} | Blocked: ${blocked.length} | Redirects: ${redirects.length} | Dead: ${dead.length} | Skipped: ${skipped.length}`)
+lines.push(
+	`Checked: ${tasks.length} | OK: ${ok.length} | Blocked: ${blocked.length} | Redirects: ${redirects.length} | Dead: ${dead.length} | Skipped: ${skipped.length}`,
+)
 lines.push('')
 
 const section = (title: string, items: Result[]) => {
