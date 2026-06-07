@@ -1,3 +1,5 @@
+const CACHE_TTL = 60 * 60 * 1000 // 1 hour
+
 export function initGitHubStars(): void {
 	const elements = document.querySelectorAll<HTMLElement>('[data-github-repo]')
 	if (!elements.length) return
@@ -7,10 +9,11 @@ export function initGitHubStars(): void {
 		if (!repo) continue
 
 		const row = el.closest('[data-github-stars-row]')
+		const cacheKey = `gh-stars-${repo}`
 
-		const cached = sessionStorage.getItem(`gh-stars-${repo}`)
-		if (cached) {
-			showStars(el, row, Number.parseInt(cached, 10))
+		const cached = readCache(cacheKey)
+		if (cached !== null) {
+			showStars(el, row, cached)
 			continue
 		}
 
@@ -19,15 +22,31 @@ export function initGitHubStars(): void {
 			.then((data) => {
 				if (!data?.stargazers_count) return
 				const count = data.stargazers_count
-				sessionStorage.setItem(`gh-stars-${repo}`, String(count))
+				writeCache(cacheKey, count)
 				showStars(el, row, count)
 			})
 			.catch(() => {})
 	}
 }
 
+function readCache(key: string): number | null {
+	try {
+		const raw = localStorage.getItem(key)
+		if (!raw) return null
+		const { value, expires } = JSON.parse(raw)
+		if (Date.now() > expires) { localStorage.removeItem(key); return null }
+		return value
+	} catch { return null }
+}
+
+function writeCache(key: string, value: number): void {
+	try {
+		localStorage.setItem(key, JSON.stringify({ value, expires: Date.now() + CACHE_TTL }))
+	} catch {}
+}
+
 function showStars(el: HTMLElement, row: Element | null, count: number): void {
-	el.insertAdjacentText('beforeend', formatStars(count))
+	el.textContent = formatStars(count)
 	row?.classList.remove('hidden')
 }
 
