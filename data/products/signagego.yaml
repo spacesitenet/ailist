@@ -7,7 +7,7 @@ headquarters:
   - India
 open_source: false
 self_signup: false
-discontinued: false
+discontinued: true
 categories:
   - CMS
 platforms:

@@ -8,7 +8,7 @@ headquarters:
 open_source: false
 rss_feed_url: https://www.noticebrandedmedia.com/narrowcasting/feed/
 self_signup: false
-discontinued: false
+discontinued: true
 categories:
   - CMS
 platforms:
@@ -20,7 +20,8 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
-notes: []
+notes:
+  - "Acquired by and merged into mCubeDigital."
 features: []
 integrations: []
 target_audience: []

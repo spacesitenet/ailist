@@ -7,7 +7,7 @@ headquarters:
   - USA
 open_source: false
 self_signup: true
-discontinued: false
+discontinued: true
 categories:
   - CMS
 platforms:
