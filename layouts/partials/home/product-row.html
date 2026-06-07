@@ -71,10 +71,10 @@
     {{ $hasTags := or $p.open_source $p.discontinued $p.self_signup $hasFreeTrialModel $hasFreemiumModel }}
     {{ if $hasTags }}
       <div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
-        {{ if $p.open_source }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Open Source</span>{{ end }}
-        {{ if $p.self_signup }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Self Signup</span>{{ end }}
-        {{ if $hasFreemiumModel }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Freemium</span>{{ end }}
-        {{ if $hasFreeTrialModel }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Free Trial</span>{{ end }}
+        {{ if $p.open_source }}<span class="text-xs text-neutral-600 bg-neutral-100 px-2 py-0.5 rounded-md">Open Source</span>{{ end }}
+        {{ if $p.self_signup }}<span class="text-xs text-neutral-600 bg-neutral-100 px-2 py-0.5 rounded-md">Self Signup</span>{{ end }}
+        {{ if $hasFreemiumModel }}<span class="text-xs text-neutral-600 bg-neutral-100 px-2 py-0.5 rounded-md">Freemium</span>{{ end }}
+        {{ if $hasFreeTrialModel }}<span class="text-xs text-neutral-600 bg-neutral-100 px-2 py-0.5 rounded-md">Free Trial</span>{{ end }}
         {{ if $p.discontinued }}<span class="text-xs text-amber-700 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-md">Discontinued</span>{{ end }}
       </div>
     {{ end }}
