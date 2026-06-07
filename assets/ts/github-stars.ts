@@ -34,9 +34,14 @@ function readCache(key: string): number | null {
 		const raw = localStorage.getItem(key)
 		if (!raw) return null
 		const { value, expires } = JSON.parse(raw)
-		if (Date.now() > expires) { localStorage.removeItem(key); return null }
+		if (Date.now() > expires) {
+			localStorage.removeItem(key)
+			return null
+		}
 		return value
-	} catch { return null }
+	} catch {
+		return null
+	}
 }
 
 function writeCache(key: string, value: number): void {

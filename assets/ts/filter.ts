@@ -142,10 +142,7 @@ export class FilterEngine {
 	private matchesSearch(row: HTMLElement): boolean {
 		const term = this.state.searchTerm.toLowerCase()
 		if (!term) return true
-		return (
-			(row.dataset.name || '').includes(term) ||
-			(row.dataset.website || '').includes(term)
-		)
+		return (row.dataset.name || '').includes(term) || (row.dataset.website || '').includes(term)
 	}
 
 	private matchesOpenSource(row: HTMLElement): boolean {
@@ -277,9 +274,10 @@ export class FilterEngine {
 
 	private updateVisibleCount(): void {
 		const { current, total, matchCount } = this.getPageInfo()
-		const text = total <= 1
-			? String(matchCount)
-			: `${(current - 1) * this.pageSize + 1}–${Math.min(current * this.pageSize, matchCount)} of ${matchCount}`
+		const text =
+			total <= 1
+				? String(matchCount)
+				: `${(current - 1) * this.pageSize + 1}–${Math.min(current * this.pageSize, matchCount)} of ${matchCount}`
 		for (const el of document.querySelectorAll('.visible-count')) {
 			el.textContent = text
 		}

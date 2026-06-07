@@ -1,4 +1,4 @@
-import { FilterEngine } from './filter'
+import type { FilterEngine } from './filter'
 
 export function initProductModal(productList: HTMLElement, engine: FilterEngine): void {
 	const listUrl = location.href
@@ -103,7 +103,11 @@ export function initProductModal(productList: HTMLElement, engine: FilterEngine)
 		overlay.classList.remove('hidden')
 		document.body.style.overflow = 'hidden'
 		panel.style.transform = 'translateY(100%)'
-		requestAnimationFrame(() => requestAnimationFrame(() => { panel.style.transform = 'translateY(0)' }))
+		requestAnimationFrame(() =>
+			requestAnimationFrame(() => {
+				panel.style.transform = 'translateY(0)'
+			}),
+		)
 		openLink.href = href
 		if (pushState) history.pushState({ modal: true, href }, '', href)
 		updateNav()

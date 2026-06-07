@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
-import yaml from 'js-yaml'
 import { XMLParser } from 'fast-xml-parser'
+import yaml from 'js-yaml'
 
 const PRODUCTS_DIR = join(import.meta.dir, '..', 'data', 'products')
 const FEEDS_PRODUCTS_DIR = join(import.meta.dir, '..', 'data', 'feeds', 'products')
