@@ -1,0 +1,86 @@
+{{/*
+  Homepage product list row (div-based, not table).
+  Input: a product page context.
+*/}}
+{{ $p := .Params }}
+
+{{ $hqRaw := "" }}
+{{ with $p.headquarters }}
+  {{ $hqRaw = delimit . "," | lower }}
+{{ end }}
+
+{{ $screensTotal := 0 }}
+{{ with $p.stats }}{{ with .screens }}{{ with .total }}{{ $screensTotal = . }}{{ end }}{{ end }}{{ end }}
+
+{{ $hasFreeTrialModel := false }}
+{{ $hasFreemiumModel := false }}
+{{ $hasPricingModel := false }}
+{{ range $p.models }}
+  {{ if .free_trial }}{{ $hasFreeTrialModel = true }}{{ end }}
+  {{ if .has_freemium }}{{ $hasFreemiumModel = true }}{{ end }}
+  {{ if gt (len .pricing) 0 }}{{ $hasPricingModel = true }}{{ end }}
+  {{ range .pricing }}
+    {{ if eq .monthly 0.0 }}{{ $hasFreemiumModel = true }}{{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $complianceList := slice }}
+{{ with $p.compliance }}
+  {{ if .soc2 }}{{ $complianceList = $complianceList | append "soc2" }}{{ end }}
+  {{ if .iso27001 }}{{ $complianceList = $complianceList | append "iso27001" }}{{ end }}
+  {{ if .hipaa }}{{ $complianceList = $complianceList | append "hipaa" }}{{ end }}
+  {{ if .cra }}{{ $complianceList = $complianceList | append "cra" }}{{ end }}
+  {{ if .fedramp }}{{ $complianceList = $complianceList | append "fedramp" }}{{ end }}
+{{ end }}
+
+{{ $authList := slice }}
+{{ if $p.has_sso }}{{ $authList = $authList | append "sso" }}{{ end }}
+{{ if $p.has_saml }}{{ $authList = $authList | append "saml" }}{{ end }}
+
+<a href="{{ .RelPermalink }}"
+   class="product-row flex items-center gap-4 px-5 py-4 border-b border-neutral-100 last:border-0 hover:bg-neutral-50 transition-[background-color] duration-100 group"
+   data-name="{{ $p.name | lower }}"
+   data-description="{{ $p.description | lower }}"
+   data-categories="{{ delimit $p.categories "," }}"
+   data-platforms="{{ delimit $p.platforms "," }}"
+   data-hq="{{ $hqRaw }}"
+   data-website="{{ $p.website | lower }}"
+   data-open-source="{{ $p.open_source }}"
+   data-discontinued="{{ $p.discontinued }}"
+   data-free-trial="{{ $hasFreeTrialModel }}"
+   data-freemium="{{ $hasFreemiumModel }}"
+   data-has-pricing="{{ $hasPricingModel }}"
+   data-self-signup="{{ $p.self_signup }}"
+   data-pricing-sort="{{ partial "pricing-sort-value.html" . }}"
+   data-screens-sort="{{ $screensTotal }}"
+   data-compliance="{{ delimit $complianceList "," }}"
+   data-authentication="{{ delimit $authList "," }}"
+   data-year-founded="{{ $p.year_founded }}"
+>
+  {{ partial "product-logo.html" (dict "Params" .Params "size" "sq") }}
+
+  <div class="flex-1 min-w-0">
+    <div class="flex items-center gap-2 mb-0.5">
+      <span class="text-base font-semibold text-neutral-900 transition-colors">{{ $p.name }}</span>
+    </div>
+
+    {{ with $p.description }}
+      <p class="text-sm text-neutral-500 truncate">{{ . }}</p>
+    {{ end }}
+
+    {{ $hasTags := or $p.open_source $p.discontinued $p.self_signup $hasFreeTrialModel $hasFreemiumModel }}
+    {{ if $hasTags }}
+      <div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+        {{ if $p.open_source }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Open Source</span>{{ end }}
+        {{ if $p.self_signup }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Self Signup</span>{{ end }}
+        {{ if $hasFreemiumModel }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Freemium</span>{{ end }}
+        {{ if $hasFreeTrialModel }}<span class="text-xs text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">Free Trial</span>{{ end }}
+        {{ if $p.discontinued }}<span class="text-xs text-amber-700 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-md">Discontinued</span>{{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <svg class="w-4 h-4 text-neutral-300 group-hover:text-neutral-400 flex-shrink-0 transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+  </svg>
+</a>

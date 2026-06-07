@@ -1,7 +1,7 @@
 {{/*
 	Product logo with Hugo image processing and first-letter fallback.
 	Always call with a dict: (dict "Params" .Params "size" "sm")
-	Sizes: "sm" (table row), "md" (taxonomy card), "lg" (detail page)
+	Sizes: "sm" (table row), "sq" (homepage list), "md" (taxonomy card), "lg" (detail page)
   */}}
   {{ $name := .Params.name | default "?" }}
   {{ $slug := .Params.slug | default "" }}
@@ -9,15 +9,18 @@
   {{ $size := "sm" }}
   {{ with index . "size" }}{{ $size = . }}{{ end }}
 
-  {{/* Size classes */}}
-  {{ $containerClass := "w-20 h-10" }}
+  {{/* All sizes are square */}}
+  {{ $containerClass := "w-10 h-10" }}
   {{ $textClass := "text-sm" }}
-  {{ if eq $size "md" }}
-	  {{ $containerClass = "w-16 h-8" }}
+  {{ if eq $size "sq" }}
+	  {{ $containerClass = "w-10 h-10 md:w-14 md:h-14" }}
+	  {{ $textClass = "text-sm" }}
+  {{ else if eq $size "md" }}
+	  {{ $containerClass = "w-10 h-10" }}
 	  {{ $textClass = "text-xs" }}
   {{ else if eq $size "lg" }}
-	  {{ $containerClass = "w-28 h-14" }}
-	  {{ $textClass = "text-lg" }}
+	  {{ $containerClass = "w-16 h-16" }}
+	  {{ $textClass = "text-xl" }}
   {{ end }}
 
   {{/* Check if logo exists in the light folder */}}
@@ -35,10 +38,9 @@
 	{{ $mediaSubType := $logo.MediaType.SubType }}
 	{{ $isProcessable := or (eq $mediaSubType "png") (eq $mediaSubType "jpeg") (eq $mediaSubType "webp") (eq $mediaSubType "gif") }}
 
-	<div class="{{ $containerClass }} shrink-0 rounded-lg overflow-hidden {{ if $isLightLogo }}bg-neutral-800{{ else }}bg-white{{ end }} p-1">
+	<div class="{{ $containerClass }} shrink-0 rounded-lg overflow-hidden {{ if $isLightLogo }}bg-black{{ else }}bg-white{{ end }} p-1.5">
 	  {{ if $isProcessable }}
-		{{/* Process image if it is valid and processable */}}
-		{{ $processed := $logo.Process "fit 400x200 webp" }}
+		{{ $processed := $logo.Process "fit 400x400 webp" }}
 		<img src="{{ $processed.RelPermalink }}" alt="{{ $name }}" width="{{ $processed.Width }}" height="{{ $processed.Height }}" class="w-full h-full object-contain" loading="lazy">
 	  {{ else }}
 		<img src="{{ $logo.RelPermalink }}" alt="{{ $name }}" class="w-full h-full object-contain" loading="lazy">

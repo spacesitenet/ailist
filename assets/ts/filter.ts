@@ -3,6 +3,10 @@ export interface FilterState {
 	searchTerm: string
 	showOpenSource: boolean
 	showProprietary: boolean
+	showDiscontinuedOnly: boolean
+	showFreeTrialOnly: boolean
+	showFreemiumOnly: boolean
+	showFreeOnly: boolean
 	selectedPlatforms: string[]
 	selectedCompliance: string[]
 	selectedAuthentication: string[]
@@ -15,27 +19,33 @@ export class FilterEngine {
 		searchTerm: '',
 		showOpenSource: true,
 		showProprietary: true,
+		showDiscontinuedOnly: false,
+		showFreeTrialOnly: false,
+		showFreemiumOnly: false,
+		showFreeOnly: false,
 		selectedPlatforms: [],
 		selectedCompliance: [],
 		selectedAuthentication: [],
 		signupIsOpenOnly: false,
 	}
-	private rows: HTMLTableRowElement[]
-	private matchingRows: HTMLTableRowElement[] = []
+	private rows: HTMLElement[]
+	private matchingRows: HTMLElement[] = []
 	private currentPage = 1
 	private pageSize = 50
 	private listeners: Array<() => void> = []
 
-	constructor(table: HTMLTableElement) {
-		this.rows = Array.from(table.querySelectorAll<HTMLTableRowElement>('tbody .product-row'))
+	constructor(container: HTMLElement) {
+		// Works for both <table> (tbody .product-row) and <div> (.product-row) containers
+		const scopeEl = container.querySelector('tbody') ?? container
+		this.rows = Array.from(scopeEl.querySelectorAll<HTMLElement>('.product-row'))
 	}
 
-	sortRows(compareFn: (a: HTMLTableRowElement, b: HTMLTableRowElement) => number): void {
-		const tbody = this.rows[0]?.parentElement
-		if (!tbody) return
+	sortRows(compareFn: (a: HTMLElement, b: HTMLElement) => number): void {
+		const parent = this.rows[0]?.parentElement
+		if (!parent) return
 		this.rows.sort(compareFn)
 		for (const row of this.rows) {
-			tbody.appendChild(row)
+			parent.appendChild(row)
 		}
 		this.applyFilters()
 	}
@@ -57,6 +67,10 @@ export class FilterEngine {
 		this.dispatchChange()
 	}
 
+	getMatchingRows(): HTMLElement[] {
+		return [...this.matchingRows]
+	}
+
 	getPageInfo(): { current: number; total: number; matchCount: number } {
 		const total = Math.max(1, Math.ceil(this.matchingRows.length / this.pageSize))
 		return {
@@ -71,13 +85,16 @@ export class FilterEngine {
 	}
 
 	applyFilters(): void {
-		// Pass 1: determine which rows match all filter predicates
 		this.matchingRows = []
 		for (const row of this.rows) {
 			const matches =
 				this.matchesCategory(row) &&
 				this.matchesSearch(row) &&
 				this.matchesOpenSource(row) &&
+				this.matchesDiscontinued(row) &&
+				this.matchesFreeTrial(row) &&
+				this.matchesFreemium(row) &&
+				this.matchesFree(row) &&
 				this.matchesPlatforms(row) &&
 				this.matchesCompliance(row) &&
 				this.matchesAuthentication(row) &&
@@ -87,13 +104,11 @@ export class FilterEngine {
 			}
 		}
 
-		// Clamp page to valid range
 		const totalPages = Math.max(1, Math.ceil(this.matchingRows.length / this.pageSize))
 		if (this.currentPage > totalPages) {
 			this.currentPage = totalPages
 		}
 
-		// Pass 2: show/hide rows based on match + pagination
 		this.applyPagination()
 		this.updateCounts()
 		this.toggleEmptyState(this.matchingRows.length)
@@ -115,65 +130,92 @@ export class FilterEngine {
 		}
 	}
 
-	private matchesCategory(row: HTMLTableRowElement): boolean {
+	private matchesCategory(row: HTMLElement): boolean {
+		if (!this.state.category) return true
 		const cats = (row.dataset.categories || '').split(',')
 		return cats.includes(this.state.category)
 	}
 
-	private matchesSearch(row: HTMLTableRowElement): boolean {
+	private matchesSearch(row: HTMLElement): boolean {
 		const term = this.state.searchTerm.toLowerCase()
 		if (!term) return true
 		return (
 			(row.dataset.name || '').includes(term) ||
-			(row.dataset.description || '').includes(term) ||
-			(row.dataset.hq || '').includes(term) ||
 			(row.dataset.website || '').includes(term)
 		)
 	}
 
-	private matchesOpenSource(row: HTMLTableRowElement): boolean {
+	private matchesOpenSource(row: HTMLElement): boolean {
+		const { showOpenSource, showProprietary } = this.state
+		if (!showOpenSource && !showProprietary) return true // no filter active
 		const isOpen = row.dataset.openSource === 'true'
-		if (this.state.showOpenSource && isOpen) return true
-		if (this.state.showProprietary && !isOpen) return true
+		if (showOpenSource && isOpen) return true
+		if (showProprietary && !isOpen) return true
 		return false
 	}
 
-	private matchesPlatforms(row: HTMLTableRowElement): boolean {
+	private matchesDiscontinued(row: HTMLElement): boolean {
+		if (!this.state.showDiscontinuedOnly) return true
+		return row.dataset.discontinued === 'true'
+	}
+
+	private matchesFreeTrial(row: HTMLElement): boolean {
+		if (!this.state.showFreeTrialOnly) return true
+		return row.dataset.freeTrial === 'true'
+	}
+
+	private matchesFreemium(row: HTMLElement): boolean {
+		if (!this.state.showFreemiumOnly) return true
+		return row.dataset.freemium === 'true'
+	}
+
+	private matchesFree(row: HTMLElement): boolean {
+		if (!this.state.showFreeOnly) return true
+		if (row.dataset.openSource === 'true') return true
+		// Freemium only counts when there is actual pricing data
+		if (row.dataset.hasPricing !== 'true') return false
+		return row.dataset.freemium === 'true'
+	}
+
+	private matchesPlatforms(row: HTMLElement): boolean {
 		if (this.state.selectedPlatforms.length === 0) return true
 		const platforms = (row.dataset.platforms || '').split(',').filter(Boolean)
 		return this.state.selectedPlatforms.every((p) => platforms.includes(p))
 	}
 
-	private matchesCompliance(row: HTMLTableRowElement): boolean {
+	private matchesCompliance(row: HTMLElement): boolean {
 		if (this.state.selectedCompliance.length === 0) return true
 		const compliance = (row.dataset.compliance || '').split(',').filter(Boolean)
 		return this.state.selectedCompliance.every((c) => compliance.includes(c))
 	}
 
-	private matchesAuthentication(row: HTMLTableRowElement): boolean {
+	private matchesAuthentication(row: HTMLElement): boolean {
 		if (this.state.selectedAuthentication.length === 0) return true
 		const authentication = (row.dataset.authentication || '').split(',').filter(Boolean)
 		return this.state.selectedAuthentication.every((a) => authentication.includes(a))
 	}
 
-	private matchesSignup(row: HTMLTableRowElement): boolean {
+	private matchesSignup(row: HTMLElement): boolean {
 		if (!this.state.signupIsOpenOnly) return true
 		return row.dataset.selfSignup === 'true'
 	}
 
 	private toggleEmptyState(visibleCount: number): void {
 		const emptyState = document.querySelector('#empty-state')
-		const tableWrapper = document.querySelector('.table-wrapper')
+		const tableWrapper = document.querySelector<HTMLElement>('.table-wrapper')
+		const listWrapper = document.querySelector<HTMLElement>('#product-list-wrapper')
 		if (emptyState) {
 			emptyState.classList.toggle('hidden', visibleCount > 0)
 		}
 		if (tableWrapper) {
-			;(tableWrapper as HTMLElement).style.display = visibleCount === 0 ? 'none' : ''
+			tableWrapper.style.display = visibleCount === 0 ? 'none' : ''
+		}
+		if (listWrapper) {
+			listWrapper.style.display = visibleCount === 0 ? 'none' : ''
 		}
 	}
 
 	private updateCounts(): void {
-		// Update category counts using matchingRows-style logic (not .hidden which includes pagination)
 		const categories = ['CMS', 'Content provider', 'Computer vision']
 		for (const cat of categories) {
 			const countEl = document.querySelector(`[data-category-count="${cat}"]`)
@@ -182,14 +224,14 @@ export class FilterEngine {
 				for (const row of this.rows) {
 					const cats = (row.dataset.categories || '').split(',')
 					if (!cats.includes(cat)) continue
-					// Apply all filters except category
-					const matchesSearch = this.matchesSearch(row)
-					const matchesOS = this.matchesOpenSource(row)
-					const matchesPlatform = this.matchesPlatforms(row)
-					const matchesCompliance = this.matchesCompliance(row)
-					const matchesAuth = this.matchesAuthentication(row)
-					const matchesSignup = this.matchesSignup(row)
-					if (matchesSearch && matchesOS && matchesPlatform && matchesCompliance && matchesAuth && matchesSignup)
+					if (
+						this.matchesSearch(row) &&
+						this.matchesOpenSource(row) &&
+						this.matchesPlatforms(row) &&
+						this.matchesCompliance(row) &&
+						this.matchesAuthentication(row) &&
+						this.matchesSignup(row)
+					)
 						count++
 				}
 				countEl.textContent = String(count)
@@ -198,7 +240,6 @@ export class FilterEngine {
 
 		this.updateVisibleCount()
 
-		// Update platform counts based on matching rows (not pagination)
 		const matchingSet = new Set(this.matchingRows)
 		const platformCheckboxes = document.querySelectorAll<HTMLElement>('[data-platform-count]')
 		for (const el of platformCheckboxes) {
@@ -214,16 +255,12 @@ export class FilterEngine {
 	}
 
 	private updateVisibleCount(): void {
-		const totalEl = document.querySelector('#visible-count')
-		if (totalEl) {
-			const { current, total, matchCount } = this.getPageInfo()
-			if (total <= 1) {
-				totalEl.textContent = String(matchCount)
-			} else {
-				const start = (current - 1) * this.pageSize + 1
-				const end = Math.min(current * this.pageSize, matchCount)
-				totalEl.textContent = `${start}\u2013${end} of ${matchCount}`
-			}
+		const { current, total, matchCount } = this.getPageInfo()
+		const text = total <= 1
+			? String(matchCount)
+			: `${(current - 1) * this.pageSize + 1}–${Math.min(current * this.pageSize, matchCount)} of ${matchCount}`
+		for (const el of document.querySelectorAll('.visible-count')) {
+			el.textContent = text
 		}
 	}
 
