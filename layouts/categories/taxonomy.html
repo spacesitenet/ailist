@@ -1,19 +1,42 @@
 {{ define "main" }}
-<div class="max-w-screen-xl w-full mx-auto px-4 py-8 animate-fade-in-up">
-	<h1 class="text-2xl font-bold text-neutral-900 mb-2">Categories</h1>
-	<p class="text-neutral-500 mb-6">Browse digital signage products by category</p>
-	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-		{{ range .Data.Terms.Alphabetical }}
-		<a href="{{ .Page.RelPermalink }}" class="block p-6 bg-white border border-neutral-200 rounded-lg hover:border-primary-300 hover-lift transition-colors">
-			<div class="flex items-center gap-3 mb-2">
-				<div class="w-10 h-10 rounded-lg bg-primary-50 flex items-center justify-center">
-					<svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
-				</div>
-				<h2 class="font-semibold text-neutral-900">{{ .Page.Title }}</h2>
-			</div>
-			<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-neutral-100 text-neutral-600">{{ .Count }} products</span>
-		</a>
-		{{ end }}
-	</div>
+<div class="max-w-5xl mx-auto px-6 py-8">
+
+  <div class="mb-6">
+    <h1 class="text-xl font-semibold text-neutral-900">Categories</h1>
+    <p class="text-sm text-neutral-500 mt-1">Browse {{ len .Data.Terms }} categories of digital signage software products.</p>
+  </div>
+
+  {{ $freeCount := 0 }}
+  {{ range where site.RegularPages "Section" "products" }}
+    {{ if or .Params.open_source .Params.has_freemium }}
+      {{ $freeCount = add $freeCount 1 }}
+    {{ end }}
+  {{ end }}
+
+  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+    <a href="/free/"
+       class="flex items-center justify-between px-5 py-3.5 border-b border-neutral-100 hover:bg-neutral-50 transition-[background-color] duration-100 group">
+      <span class="text-sm font-medium text-neutral-900">Free &amp; Freemium</span>
+      <div class="flex items-center gap-3">
+        <span class="text-xs text-neutral-400 tabular-nums">{{ $freeCount }} products</span>
+        <svg class="w-4 h-4 text-neutral-300 group-hover:text-neutral-400 transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </div>
+    </a>
+    {{ range .Data.Terms.ByCount }}
+    <a href="{{ .Page.RelPermalink }}"
+       class="flex items-center justify-between px-5 py-3.5 border-b border-neutral-100 last:border-0 hover:bg-neutral-50 transition-[background-color] duration-100 group">
+      <span class="text-sm font-medium text-neutral-900">{{ .Page.Title }}</span>
+      <div class="flex items-center gap-3">
+        <span class="text-xs text-neutral-400 tabular-nums">{{ .Count }} products</span>
+        <svg class="w-4 h-4 text-neutral-300 group-hover:text-neutral-400 transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
 </div>
 {{ end }}

@@ -12,7 +12,14 @@
   {{ with $product.platforms }}
     {{ $plats = . }}
   {{ end }}
-  {{ $params := merge $product (dict "categories" $cats "platforms" $plats) }}
+  {{ $hasFreemium := false }}
+  {{ range $product.models }}
+    {{ if .has_freemium }}{{ $hasFreemium = true }}{{ end }}
+    {{ range .pricing }}
+      {{ if eq .monthly 0.0 }}{{ $hasFreemium = true }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $params := merge $product (dict "categories" $cats "platforms" $plats "has_freemium" $hasFreemium) }}
   {{ $page := dict
     "content" $content
     "kind" "page"
