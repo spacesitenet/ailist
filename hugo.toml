@@ -10,7 +10,7 @@ capitalizeListTitles = false
 
 [params]
   description = "A curated directory of 548+ digital signage software products."
-  githubRepo = "https://github.com/Screenly/signagelist"
+  githubRepo = "https://github.com/SignageList/signagelist"
 
 # Custom output formats for LLM-friendly pages
 [mediaTypes]

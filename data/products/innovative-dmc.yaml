@@ -1,13 +1,13 @@
 name: Innovative DMC
 slug: innovative-dmc
 description: ""
-website: https://web.archive.org/web/20241007161659/https://idmc.com.ua/
+website: https://idmc.com.ua/
 year_founded: 2014
 headquarters:
   - Ukraine
 open_source: false
 self_signup: false
-discontinued: true
+discontinued: false
 categories:
   - CMS
 platforms: []
@@ -17,7 +17,11 @@ models:
     pricing_available: false
     has_freemium: false
     pricing: []
-stats: {}
+stats:
+  screens:
+    total: 10000
+    source: https://idmc.com.ua/
+    date: 2026-06
 notes: []
 features: []
 integrations: []

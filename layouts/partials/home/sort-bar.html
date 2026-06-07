@@ -1,0 +1,98 @@
+{{/*
+  Sort bar + mobile filter modal.
+  Input: the /products section page context.
+*/}}
+
+{{/* Compute platforms sorted by count desc */}}
+{{ $platformMap := dict }}
+{{ range .Pages }}
+  {{ range .Params.platforms }}
+    {{ $count := 1 }}
+    {{ if isset $platformMap . }}{{ $count = add (index $platformMap .) 1 }}{{ end }}
+    {{ $platformMap = merge $platformMap (dict . $count) }}
+  {{ end }}
+{{ end }}
+{{ $platforms := slice }}
+{{ range $name, $count := $platformMap }}
+  {{ $sortKey := printf "%010d|%s" (math.Sub 9999999999 $count) $name }}
+  {{ $platforms = $platforms | append (dict "name" $name "count" $count "sortKey" $sortKey) }}
+{{ end }}
+{{ $platforms = sort $platforms "sortKey" "asc" }}
+
+{{/* ── Mobile filter modal ──────────────────────────────────────── */}}
+<div id="mobile-filter-modal" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true">
+  <div id="mobile-filter-backdrop" class="absolute inset-0 bg-black/40"></div>
+  <div class="absolute bottom-0 inset-x-0 bg-white rounded-t-2xl shadow-2xl max-h-[85vh] flex flex-col">
+    <div class="flex items-center justify-between px-5 py-4 border-b border-neutral-100 flex-shrink-0">
+      <span class="text-sm font-semibold text-neutral-900">Filter</span>
+      <button id="mobile-filter-close" class="w-8 h-8 flex items-center justify-center rounded-lg text-neutral-400 hover:bg-neutral-100 transition-colors" aria-label="Close">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="flex-1 overflow-y-auto px-5 py-5">
+      <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-3">Type</p>
+      <div class="flex flex-wrap gap-2">
+        <button data-type-pill="open-source"  class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Open Source</button>
+        <button data-type-pill="free"         class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Free / Freemium</button>
+        <button data-type-pill="free-trial"   class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Free Trial</button>
+        <button data-type-pill="proprietary"  class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Proprietary</button>
+        <button data-type-pill="self-signup"  class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Self Signup</button>
+        <button data-type-pill="discontinued" class="type-pill text-sm px-3 py-1.5 rounded-full border border-neutral-200 bg-white text-neutral-600 data-[active]:bg-neutral-900 data-[active]:text-white data-[active]:border-neutral-900 transition-colors">Discontinued</button>
+      </div>
+      <p class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2 mt-6">Platform</p>
+      <div class="flex flex-col gap-0.5">
+        {{ range $platforms }}
+        <label class="flex items-center gap-2 px-3 py-2 text-sm text-neutral-600 cursor-pointer hover:bg-neutral-100 rounded-lg transition-colors">
+          <input type="checkbox" data-platform-checkbox="{{ .name }}" class="rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900/20 flex-shrink-0">
+          <span class="flex-1 truncate">{{ .name }}</span>
+          <span class="text-neutral-400 text-xs tabular-nums">{{ .count }}</span>
+        </label>
+        {{ end }}
+      </div>
+    </div>
+    <div class="px-5 pb-8 pt-4 border-t border-neutral-100 flex gap-3 flex-shrink-0">
+      <button id="mobile-filter-reset" class="flex-1 py-2.5 text-sm font-medium text-neutral-600 border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">Reset</button>
+      <button id="mobile-filter-done"  class="flex-1 py-2.5 text-sm font-medium text-white bg-neutral-900 rounded-lg hover:bg-neutral-700 transition-colors">Done</button>
+    </div>
+  </div>
+</div>
+
+{{/* ── Sort / search bar ─────────────────────────────────────────── */}}
+<div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-3 mb-3">
+
+  {{/* Search input */}}
+  <div class="relative flex-1">
+    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/>
+    </svg>
+    <input
+      id="search-input"
+      type="search"
+      placeholder="Search {{ len .Pages }} products…"
+      class="w-full pl-9 pr-4 py-2 bg-white border border-neutral-200 rounded-lg text-sm text-neutral-900 placeholder-neutral-400 outline-none focus:ring-2 focus:ring-neutral-900/10 focus:border-neutral-300 transition-all"
+    />
+  </div>
+
+  {{/* Mobile: filter button + count */}}
+  <div class="md:hidden flex items-center justify-between">
+    <button id="mobile-filter-btn" class="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 4h18M7 8h10M11 12h4"/></svg>
+      Filters
+      <span id="mobile-filter-badge" class="hidden min-w-[18px] h-[18px] px-1 text-xs font-bold text-white bg-neutral-900 rounded-full inline-flex items-center justify-center"></span>
+    </button>
+    <p class="text-sm text-neutral-400 tabular-nums">
+      <span class="visible-count font-medium text-neutral-600">{{ len .Pages }}</span> products
+    </p>
+  </div>
+
+  {{/* Desktop: count only */}}
+  <p class="hidden md:block text-sm text-neutral-400 tabular-nums flex-shrink-0">
+    <span class="visible-count font-medium text-neutral-600">{{ len .Pages }}</span> products
+  </p>
+
+</div>
+
+{{/* Active filter pills (populated by JS, desktop only) */}}
+<div class="hidden md:block">
+  <div id="active-filters" class="hidden flex-wrap gap-2 mb-3"></div>
+</div>

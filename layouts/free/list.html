@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{/* Build filtered slice: open-source OR has_freemium */}}
+{{ $allProducts := where site.RegularPages "Section" "products" }}
+{{ $freePages := slice }}
+{{ range $allProducts }}
+  {{ if or .Params.open_source .Params.has_freemium }}
+    {{ $freePages = $freePages | append . }}
+  {{ end }}
+{{ end }}
+{{ $sorted := sort $freePages "LinkTitle" }}
+{{ $paginator := .Paginate $sorted 50 }}
+
+<div class="max-w-5xl mx-auto px-6 py-8"
+     data-breadcrumb-context='{"indexUrl":"/free/","indexLabel":"Free &amp; Freemium","termUrl":"/free/","termTitle":"Free &amp; Freemium"}'>
+
+  {{/* Breadcrumb */}}
+  <nav class="flex items-center gap-1.5 text-sm text-neutral-400 mb-5">
+    <a href="/" class="hover:text-neutral-600 transition-colors">Home</a>
+    <svg class="w-3.5 h-3.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+    <span class="text-neutral-600 font-medium">Free &amp; Freemium</span>
+  </nav>
+
+  {{/* SEO header */}}
+  <div class="mb-6 flex items-end justify-between gap-4">
+    <div>
+      <h1 class="text-xl font-semibold text-neutral-900">
+        {{ with .Params.seo_title }}{{ . }}{{ else }}Free &amp; Freemium Digital Signage Software{{ end }}
+      </h1>
+      {{ with .Params.description }}
+      <p class="text-sm text-neutral-500 mt-1">{{ . }}</p>
+      {{ end }}
+    </div>
+    <span class="text-sm text-neutral-400 tabular-nums flex-shrink-0">{{ len $sorted }} products</span>
+  </div>
+
+  <div class="bg-white rounded-2xl border border-neutral-200/80 overflow-hidden shadow-sm">
+    {{ range $paginator.Pages }}
+      {{ partial "home/product-row.html" . }}
+    {{ end }}
+  </div>
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="flex items-center justify-center gap-2 mt-6" aria-label="Pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">&larr; Prev</a>
+    {{ else }}
+    <span class="px-3 py-1.5 text-sm font-medium text-neutral-300 bg-white border border-neutral-100 rounded-lg cursor-not-allowed">&larr; Prev</span>
+    {{ end }}
+    <span class="text-sm text-neutral-500 tabular-nums px-2">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">Next &rarr;</a>
+    {{ else }}
+    <span class="px-3 py-1.5 text-sm font-medium text-neutral-300 bg-white border border-neutral-100 rounded-lg cursor-not-allowed">Next &rarr;</span>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+</div>
+
+{{ end }}

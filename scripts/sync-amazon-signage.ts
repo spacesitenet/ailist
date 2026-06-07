@@ -52,6 +52,18 @@ function normalize(s: string): string {
 	return s.toLowerCase().replace(/[^a-z0-9]/g, '')
 }
 
+// Preserves word boundaries for word-sequence matching
+function normalizeSpaced(s: string): string {
+	return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim()
+}
+
+function containsWordSequence(haystack: string[], needle: string[]): boolean {
+	for (let i = 0; i <= haystack.length - needle.length; i++) {
+		if (needle.every((w, j) => w === haystack[i + j])) return true
+	}
+	return false
+}
+
 // ---------------------------------------------------------------------------
 // Load all product YAML files
 // ---------------------------------------------------------------------------
@@ -102,6 +114,7 @@ let matched = 0
 let updated = 0
 let alreadyHas = 0
 const errors: string[] = []
+const matchedPartnerNames = new Set<string>()
 
 for (const { filename, content, product } of products) {
 	const normProduct = normalize(product.name)
@@ -112,14 +125,22 @@ for (const { filename, content, product } of products) {
 		const np = normalize(p)
 		if (np.length < 3) return false
 		if (np === normProduct) return true
-		// Only allow substring matching when the shorter string covers most of the longer one
-		const shorter = np.length < normProduct.length ? np : normProduct
-		const longer = np.length < normProduct.length ? normProduct : np
-		return shorter.length >= 5 && shorter.length / longer.length >= 0.6 && longer.includes(shorter)
+		// Substring matching using word sequences to avoid false positives like
+		// "onsignage" being found inside "fusionsignage" at the character level
+		const spPartner = normalizeSpaced(p).split(' ')
+		const spProduct = normalizeSpaced(product.name).split(' ')
+		const shorter = spPartner.length <= spProduct.length ? spPartner : spProduct
+		const longer = spPartner.length <= spProduct.length ? spProduct : spPartner
+		return (
+			shorter.length >= 1 &&
+			shorter.length / longer.length >= 0.5 &&
+			containsWordSequence(longer, shorter)
+		)
 	})
 
 	if (!matchedPartner) continue
 	matched++
+	matchedPartnerNames.add(matchedPartner)
 
 	const platforms: string[] = product.platforms ?? []
 
@@ -156,6 +177,13 @@ console.log(`Errors                 : ${errors.length}`)
 
 if (errors.length > 0) {
 	for (const e of errors) console.error(`  ${e}`)
+}
+
+const unmatched = partnerNames.filter((p) => !matchedPartnerNames.has(p))
+const uniqueUnmatched = [...new Set(unmatched)].sort()
+if (uniqueUnmatched.length > 0) {
+	console.log(`\n--- Partners with no matching product (${uniqueUnmatched.length}) ---`)
+	for (const p of uniqueUnmatched) console.log(`  • ${p}`)
 }
 
 if (updated > 0) {

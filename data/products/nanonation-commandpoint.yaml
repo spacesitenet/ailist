@@ -11,12 +11,13 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Amazon Signage
   - BrightSign
-  - Tizen
-  - Windows
   - iOS
   - macOS
+  - Tizen
   - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: false
