@@ -12,12 +12,13 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Amazon Signage
   - Android
   - Fire OS
   - Linux
   - Tizen
-  - Windows
   - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: false

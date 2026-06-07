@@ -9,7 +9,7 @@ open_source: true
 license: GPL-3.0-only
 source_code_url: https://github.com/mennolui/wp-foyer
 self_signup: false
-discontinued: true
+discontinued: false
 categories:
   - CMS
 platforms: []

@@ -21,9 +21,9 @@ platforms:
   - Fire OS
   - Linux
   - Tizen
-  - Windows
-  - webOS
   - Web Browser
+  - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: true
