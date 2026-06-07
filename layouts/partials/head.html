@@ -13,6 +13,8 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ $ogImage := absURL "/og-image.png" }}
+{{ $ogImageAlt := "SignageList - Digital Signage Software Directory" }}
 {{ if and .IsPage (eq .Section "products") }}
 	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
 	{{ if $logo }}
@@ -20,28 +22,20 @@
 		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
 		{{ if $isProcessable }}
 			{{ $processed := $logo.Process "fit 400x200 webp" }}
-<meta property="og:image" content="{{ $processed.Permalink }}">
-<meta property="og:image:alt" content="{{ .Params.name }} logo">
+			{{ $ogImage = $processed.Permalink }}
+			{{ $ogImageAlt = printf "%s logo" .Params.name }}
 		{{ end }}
 	{{ end }}
 {{ end }}
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:image:alt" content="{{ $ogImageAlt }}">
 
 {{/* Twitter Card */}}
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}">
 <meta name="twitter:description" content="{{ partial "meta-description.html" . }}">
-{{ if and .IsPage (eq .Section "products") }}
-	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
-	{{ if $logo }}
-		{{ $subType := $logo.MediaType.SubType }}
-		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
-		{{ if $isProcessable }}
-			{{ $processed := $logo.Process "fit 400x200 webp" }}
-<meta name="twitter:image" content="{{ $processed.Permalink }}">
-<meta name="twitter:image:alt" content="{{ .Params.name }} logo">
-		{{ end }}
-	{{ end }}
-{{ end }}
+<meta name="twitter:image" content="{{ $ogImage }}">
+<meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
 
 {{/* Tailwind CSS */}}
 {{ with resources.Get "css/main.css" }}
