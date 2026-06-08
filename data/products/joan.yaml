@@ -11,7 +11,8 @@ self_signup: false
 discontinued: false
 categories:
   - CMS
-platforms: []
+platforms:
+  - Crestron AirMedia
 models:
   - delivery: cloud
     free_trial: true

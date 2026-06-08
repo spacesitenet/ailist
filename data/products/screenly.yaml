@@ -20,6 +20,7 @@ categories:
 platforms:
   - Android
   - ChromeOS
+  - Crestron AirMedia
   - Fire OS
   - Raspberry Pi
   - Tizen

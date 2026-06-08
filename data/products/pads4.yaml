@@ -12,6 +12,7 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Crestron AirMedia
   - Windows
 models:
   - delivery: cloud
