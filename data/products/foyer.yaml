@@ -8,6 +8,7 @@ headquarters:
 open_source: true
 license: GPL-3.0-only
 source_code_url: https://github.com/mennolui/wp-foyer
+rss_feed_url: https://foyer.tv/feed/
 self_signup: false
 discontinued: false
 categories:
