@@ -1,0 +1,47 @@
+name: DisplayNXT
+slug: displaynxt
+description: Cloud-based digital signage platform for managing displays across any industry.
+website: https://displaynxt.pro
+year_founded: null
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 19
+        yearly: null
+      - name: Business
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 49
+        yearly: null
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 99
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
