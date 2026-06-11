@@ -6,6 +6,10 @@ year_founded: 2000
 headquarters:
   - USA
 open_source: false
+has_api: true
+developer_portal_url: https://developer.reveldigital.com
+has_mcp: true
+has_sso: true
 self_signup: true
 discontinued: false
 categories:
@@ -21,7 +25,7 @@ platforms:
   - Windows
 models:
   - delivery: cloud
-    free_trial: false
+    free_trial: true
     pricing_available: false
     has_freemium: false
     pricing: []
