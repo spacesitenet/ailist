@@ -1,7 +1,13 @@
 {
   "source": "SignStix",
-  "fetched_at": "2026-06-10T08:56:37.865Z",
+  "fetched_at": "2026-06-11T09:19:39.385Z",
   "items": [
+    {
+      "title": "404 Page",
+      "link": "https://signstix.com/404-page/",
+      "date": "2024-06-12T13:34:40.000Z",
+      "description": ""
+    },
     {
       "title": "SignStix Interactive Features",
       "link": "https://signstix.com/digital-signage-solutions/signstix-interactive-features/",

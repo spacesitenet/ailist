@@ -1,7 +1,13 @@
 {
   "source": "Innovative DMC",
-  "fetched_at": "2026-06-10T08:56:37.865Z",
+  "fetched_at": "2026-06-11T09:19:39.385Z",
   "items": [
+    {
+      "title": "Протоколи реагування на інциденти безпеки в системах цифрових вивісок",
+      "link": "https://idmc.com.ua/protokoli-reaguvannya-na-intsidenti-bezpeki-v-sistemakh-tsifrovikh-vivisok/",
+      "date": "2026-06-10T22:09:26.000Z",
+      "description": "Розуміння інцидентів безпеки в системах цифрових вивісок Коли хтось зламує цифрову вивіску, це не просто технічна проблема. Це операційний кошмар, який миттєво перетворює ваш канал комунікації на дже…"
+    },
     {
       "title": "Як захистити мережеву інфраструктуру цифрових вивісок від кіберзагроз",
       "link": "https://idmc.com.ua/zakhist-merezhevoyi-infrastrukturi-tsifrovikh-vivisok-vid-kiberzagroz/",
