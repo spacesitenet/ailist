@@ -3,7 +3,7 @@ slug: "janitor-ai"
 description: "AI character chat platform for roleplay, personas, and community-created conversational agents."
 website: "https://janitorai.com/"
 year_founded: null
-headquarters:
+headquarters: []
 open_source: false
 license: null
 source_code_url: null
@@ -26,8 +26,8 @@ models:
     free_trial: false
     pricing_available: false
     has_freemium: true
-    pricing:
-stats:
+    pricing: []
+stats: {}
 compliance:
   soc2: false
   iso27001: false
@@ -36,12 +36,12 @@ compliance:
   fedramp: false
 notes:
   - "Traffic-aware seed rank #10. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
-features:
-integrations:
-target_audience:
+features: []
+integrations: []
+target_audience: []
 deployment_options:
   - "Cloud"
-support_channels:
-languages:
-screenshots:
+support_channels: []
+languages: []
+screenshots: []
 last_verified: "2026-06"

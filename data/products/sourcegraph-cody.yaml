@@ -30,8 +30,8 @@ models:
     free_trial: false
     pricing_available: false
     has_freemium: true
-    pricing:
-stats:
+    pricing: []
+stats: {}
 compliance:
   soc2: false
   iso27001: false
@@ -40,13 +40,13 @@ compliance:
   fedramp: false
 notes:
   - "Traffic-aware seed rank #75. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
-features:
-integrations:
-target_audience:
+features: []
+integrations: []
+target_audience: []
 deployment_options:
   - "Cloud"
   - "Self-hosted"
-support_channels:
-languages:
-screenshots:
+support_channels: []
+languages: []
+screenshots: []
 last_verified: "2026-06"

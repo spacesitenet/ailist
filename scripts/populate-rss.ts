@@ -58,7 +58,11 @@ async function checkFeedPaths(product: Product): Promise<RssResult | null> {
 	return null
 }
 
-function insertRssFeedUrl(fileContent: string, rssUrl: string): string {
+function upsertRssFeedUrl(fileContent: string, rssUrl: string): string {
+	if (/^rss_feed_url:\s*(null|""|'')\s*$/m.test(fileContent)) {
+		return fileContent.replace(/^rss_feed_url:\s*(null|""|'')\s*$/m, `rss_feed_url: ${rssUrl}`)
+	}
+
 	const lines = fileContent.split('\n')
 	const rssFeedLine = `rss_feed_url: ${rssUrl}`
 
@@ -166,13 +170,13 @@ async function main() {
 		try {
 			const content = readFileSync(filePath, 'utf-8')
 
-			// Double-check: skip if rss_feed_url already present in text
-			if (content.includes('rss_feed_url:')) {
+			// Double-check: skip only if a non-empty rss_feed_url is already present in text.
+			if (/^rss_feed_url:\s*(?!null\s*$|""\s*$|''\s*$).+/m.test(content)) {
 				console.log(`  [SKIP] ${result.slug} -- already has rss_feed_url in file`)
 				continue
 			}
 
-			const newContent = insertRssFeedUrl(content, result.rssUrl)
+			const newContent = upsertRssFeedUrl(content, result.rssUrl)
 			writeFileSync(filePath, newContent, 'utf-8')
 			console.log(`  [UPDATED] ${result.slug} -- ${result.rssUrl}`)
 			updated++
