@@ -16,10 +16,11 @@
 {{ $hasFreemiumModel := false }}
 {{ $hasPricingModel := false }}
 {{ range $p.models }}
+  {{ $pricing := .pricing | default (slice) }}
   {{ if .free_trial }}{{ $hasFreeTrialModel = true }}{{ end }}
   {{ if .has_freemium }}{{ $hasFreemiumModel = true }}{{ end }}
-  {{ if gt (len .pricing) 0 }}{{ $hasPricingModel = true }}{{ end }}
-  {{ range .pricing }}
+  {{ if gt (len $pricing) 0 }}{{ $hasPricingModel = true }}{{ end }}
+  {{ range $pricing }}
     {{ if eq .monthly 0.0 }}{{ $hasFreemiumModel = true }}{{ end }}
   {{ end }}
 {{ end }}
