@@ -1,9 +1,9 @@
 ---
-name: "Suggest a New Product"
-about: Suggest a new product
-title: "[Suggestion] Add <Product Name>"
+name: "Suggest a New AI Product"
+about: Suggest a new AI product, tool, model, or platform
+title: "[Suggestion] Add <AI Product Name>"
 labels: new product
-assignees: 514sid
+assignees: spacesitenet
 
 ---
 
@@ -12,16 +12,23 @@ assignees: 514sid
 ### Required
 
 - **Product Name:**
-  _What is the name of the product?_
+  _What is the name of the AI product, tool, model, or platform?_
 
 - **Product Website:**
   _Official homepage URL_
 
 - **Category:**
   _Check one or more:_
-  - [ ] CMS
-  - [ ] Content provider
+  - [ ] AI app
+  - [ ] Agent platform
+  - [ ] API / developer platform
+  - [ ] Model provider
+  - [ ] Open-source model
+  - [ ] Evaluation / observability
+  - [ ] Vector database / retrieval
+  - [ ] Workflow automation
   - [ ] Computer vision
+  - [ ] Other: ___
 
 - **Headquarters:**
   _Where is the company headquartered? (Country or multiple countries)_
@@ -37,11 +44,11 @@ assignees: 514sid
   - [ ] Web
   - [ ] iOS
   - [ ] Android
-  - [ ] Fire OS
-  - [ ] Chrome OS
-  - [ ] Tizen
-  - [ ] webOS
-  - [ ] Raspberry Pi
+  - [ ] API
+  - [ ] SDK
+  - [ ] Browser extension
+  - [ ] Self-hosted
+  - [ ] Cloud
   - [ ] Other: ___
 
 - **Open Source:**
@@ -95,10 +102,15 @@ assignees: 514sid
 - [ ] EU Cyber Resilience Act (CRA)
 - [ ] FedRAMP
 
-### Screen Statistics (Optional)
+### AI-Specific Details (Optional)
 
-If available, please provide information about the number of screens currently connected to the software:
+- [ ] Offers a public API
+- [ ] Offers SDKs
+- [ ] Supports MCP (Model Context Protocol)
+- [ ] Supports local/self-hosted deployment
+- [ ] Provides model weights
+- [ ] Provides benchmarks/evals
+- [ ] Has enterprise controls
 
-- **Total Screens:** _(e.g., 5,000)_
-- **Source:** _(URL to the source, e.g., press release, blog post)_
-- **Date of Data:** _(e.g., March 2025)_
+- **Primary model(s), if applicable:**
+- **Source:** _(URL to the official source, docs, repository, or announcement)_

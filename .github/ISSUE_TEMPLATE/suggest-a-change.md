@@ -1,9 +1,9 @@
 ---
 name: "Suggest a Change"
-about: Suggest a correction or update to an existing product
+about: Suggest a correction or update to an existing AI product
 title: "[Update] <Product Name>"
 labels: update
-assignees: 514sid
+assignees: spacesitenet
 
 ---
 

@@ -2,15 +2,18 @@
 {{ with .Site.GetPage "/products" }}
 
 {{/* Hero */}}
-<div class="max-w-5xl mx-auto px-6 pt-10 pb-8 border-b border-neutral-100">
-  <h1 class="text-2xl sm:text-3xl font-bold text-neutral-900 tracking-tight leading-snug mb-3">
-    The open directory of digital signage software
+<div class="max-w-5xl mx-auto px-6 pt-12 pb-9 border-b border-white/70">
+  <div class="inline-flex items-center gap-2 rounded-full border border-primary-100 bg-white/70 px-3 py-1 text-xs font-medium text-primary-700 shadow-sm mb-4">
+    Open source AI directory
+  </div>
+  <h1 class="text-3xl sm:text-5xl font-bold text-neutral-950 tracking-tight leading-tight mb-4 max-w-3xl">
+    Discover the AI stack, from apps to agents to infrastructure
   </h1>
-  <p class="text-neutral-600 text-sm sm:text-base max-w-2xl mb-6">
-    Browse and compare {{ len .Pages }}+ products across pricing, platform support, and licensing. Community-maintained, no vendor bias.
+  <p class="text-neutral-600 text-sm sm:text-lg max-w-3xl mb-6 leading-relaxed">
+    AI List is a community-built catalog for comparing AI products by category, platform support, pricing, open-source status, and developer readiness.
   </p>
   <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-neutral-600">
-    <span><span class="font-semibold text-neutral-900">{{ len .Pages }}</span> products</span>
+    <span><span class="font-semibold text-neutral-900">{{ len .Pages }}</span> AI products</span>
     <a href="/categories/" class="hover:text-neutral-900 transition-colors"><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.categories }}</span> categories</a>
     <a href="/platforms/" class="hover:text-neutral-900 transition-colors"><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.platforms }}</span> platforms</a>
     <span class="text-neutral-600 text-xs sm:ml-2">Updated {{ now.Format "Jan 2, 2006" }}</span>

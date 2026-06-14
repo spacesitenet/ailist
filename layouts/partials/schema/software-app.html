@@ -5,7 +5,7 @@
 	"@type": "SoftwareApplication",
 	"name": "{{ $p.name }}",
 	"description": "{{ $p.description }}",
-	"applicationCategory": "Digital Signage Software",
+	"applicationCategory": "AI Software",
 	{{ with $p.platforms }}"operatingSystem": "{{ delimit . ", " }}",{{ end }}
 	"url": "{{ .Permalink }}",
 	{{ $cloudModel := false }}

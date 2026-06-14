@@ -1,6 +1,6 @@
-baseURL = "https://signagelist.org/"
+baseURL = "https://spacesitenet.github.io/ailist/"
 languageCode = "en-us"
-title = "SignageList"
+title = "AI List"
 enableRobotsTXT = true
 capitalizeListTitles = false
 
@@ -9,8 +9,8 @@ capitalizeListTitles = false
   platform = "platforms"
 
 [params]
-  description = "A curated directory of 548+ digital signage software products."
-  githubRepo = "https://github.com/SignageList/signagelist"
+  description = "A massive open source directory of AI tools, products, platforms, models, and infrastructure."
+  githubRepo = "https://github.com/spacesitenet/ailist"
 
 # Custom output formats for LLM-friendly pages
 [mediaTypes]

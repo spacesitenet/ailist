@@ -1,4 +1,4 @@
 ---
 title: "Industry News"
-description: "Latest updates from digital signage companies and industry publications."
+description: "Latest updates from AI companies, product teams, research labs, and industry publications."
 ---

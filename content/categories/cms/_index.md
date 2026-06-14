@@ -1,5 +1,5 @@
 ---
 title: "CMS"
-seo_title: "Best Digital Signage CMS Software"
-description: "Browse 500+ digital signage CMS platforms. Compare cloud-based and on-premise content management systems for scheduling, publishing, and managing displays remotely."
+seo_title: "AI Content Management And Workflow Tools"
+description: "Browse AI products for managing content, workflows, knowledge, publishing, and operational processes."
 ---

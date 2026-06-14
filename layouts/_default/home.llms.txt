@@ -2,12 +2,12 @@
 
 > {{ .Site.Params.description }}
 
-SignageList is a curated open dataset of digital signage software products. It provides structured data on 548+ products including pricing, supported platforms, headquarters, and more.
+AI List is a curated open dataset of AI products, tools, platforms, models, and infrastructure. It provides structured data including pricing, supported platforms, headquarters, open-source status, and more.
 
 ## Key Pages
 
 - [Product Directory]({{ .Site.BaseURL }}products/): Filterable table of all products
-- [Categories]({{ .Site.BaseURL }}categories/): Products grouped by type (CMS, Content provider, Computer vision)
+- [Categories]({{ .Site.BaseURL }}categories/): Products grouped by type and AI use case
 - [Platforms]({{ .Site.BaseURL }}platforms/): Products by supported platform
 - [Full LLM Context]({{ .Site.BaseURL }}llms-full.txt): Complete product data in text format
 
@@ -17,9 +17,9 @@ Each product includes: name, description, website, year_founded, headquarters, o
 
 ## Categories
 
-- CMS: Content Management Systems for digital signage
-- Content provider: Ready-made content for digital signage
-- Computer vision: Vision and analytics for digital signage
+- AI apps: End-user products powered by AI
+- Developer tools: APIs, SDKs, agents, and infrastructure for builders
+- Models and research: Model providers, labs, benchmarks, and model tooling
 
 ## Optional
 

@@ -1,4 +1,4 @@
 ---
-title: "Digital Signage Software Directory"
-description: "Browse and compare 548+ digital signage software products."
+title: "AI Tools Directory"
+description: "Browse and compare AI tools, products, platforms, models, and infrastructure."
 ---

@@ -1,72 +1,66 @@
-# SignageList
+# AI List
 
-A curated directory of 550+ digital signage software, CMS, platforms and tools.
+AI List is a massive open source directory for the AI industry: tools, products, platforms, models, agents, developer infrastructure, research labs, and the ecosystem around them.
 
-Perfect for managing, scheduling, and displaying content across screens, smart displays, kiosks, menuboards, dashboards and more!
+The project is forked from the SignageList Hugo system and is being reshaped into a neutral, structured, community-maintained catalog for discovering and comparing AI products.
 
-**[Browse the directory](https://signagelist.org)** | **[Submit a product](SUBMISSION_GUIDE.md)**
+**[Browse the directory](https://spacesitenet.github.io/ailist/)** | **[Submit an AI product](https://github.com/spacesitenet/ailist/issues/new?template=suggest-a-new-product.md)**
+
+## What This Is
+
+AI is moving too quickly for static blog lists and vendor-sponsored rankings. AI List aims to be a durable open dataset and fast static website that tracks practical product details such as:
+
+- Product category and use case
+- Website, description, founding year, and headquarters
+- Open-source status, license, and source URL
+- Pricing model, free trial, freemium, and self-signup support
+- Supported platforms, developer APIs, MCP support, SSO, and compliance signals
+- Notes and sources that make the data auditable
 
 ## Tech Stack
 
-- **[Hugo](https://gohugo.io/)** — Static site generator with Content Adapters
-- **[Bun](https://bun.sh/)** — Package manager and TypeScript runtime
-- **[Tailwind CSS v4](https://tailwindcss.com/)** — Utility-first CSS
-- **[Biome](https://biomejs.dev/)** — Linting and formatting
+- **[Hugo](https://gohugo.io/)** for static generation and Content Adapters
+- **[Bun](https://bun.sh/)** for package management and TypeScript scripts
+- **[Tailwind CSS v4](https://tailwindcss.com/)** for styling
+- **[Biome](https://biomejs.dev/)** for linting and formatting
+- **[Zod](https://zod.dev/)** for product data validation
 
 ## Getting Started
 
 ```bash
-# Install dependencies
 bun install
-
-# Start dev server
 bun run dev
-
-# Build for production
-hugo --minify
 ```
 
-## Data
-
-Product data lives as individual YAML files in `data/products/`. Each file is the single source of truth for one product. Hugo Content Adapters generate pages directly from these files — no preprocessing pipeline needed.
+Useful commands:
 
 ```bash
-# Validate all product data
-bun run check
-
-# Add a new product interactively
-bun run add
+bun run check      # validate product YAML files
+bun run add        # add a product interactively
+bun run lint       # check TypeScript and scripts
+bun run build      # production build
 ```
 
-## Add a Product
+## Data Model
 
-See our **[Submission Guide](SUBMISSION_GUIDE.md)** for detailed instructions on how to add new products or update existing ones.
+Product data lives in `data/products/`. Each YAML file is the source of truth for one product, and Hugo generates product pages directly from the dataset.
 
-We accept submissions through GitHub Issues to maintain a transparent curation process.
+The current schema is intentionally reusable for AI products. As the directory grows, the categories and fields can evolve toward AI-specific needs such as model provider, agent runtime, API availability, context protocol support, evals, safety posture, and deployment options.
 
-## Contributions
+## Contributing
 
-We welcome contributions from developers experienced with Hugo to help enhance this project.
+Contributions are welcome through issues and pull requests. Good contributions include:
 
-If you're not a programmer but have an idea or suggestion, feel free to create an issue and share your thoughts. We'd love to hear your feedback and consider it for future improvements!
+- Adding missing AI products
+- Correcting stale pricing, platform, or open-source data
+- Improving categories and taxonomies
+- Adding reliable sources for claims
+- Improving the Hugo UI, search, filtering, and product pages
 
-## Fire OS Notes
+Please include official sources where possible so the dataset stays useful and reviewable.
 
-For products supporting Android, we also include Fire OS compatibility. Since Fire OS is based on Android, most Android apps work seamlessly on Amazon Fire devices.
+## License And Attribution
 
-Learn more: [Fire OS Overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html)
+The product dataset in `data/products/` remains licensed under the [Open Data Commons Open Database License (ODbL) v1.0](LICENSE-DATA).
 
-## License
-
-The product dataset (`data/products/`) is licensed under the [Open Data Commons Open Database License (ODbL) v1.0](LICENSE-DATA).
-
-### Data Attribution
-
-"SignageList dataset © 514sid and contributors, licensed under ODbL"
-
-## Attribution
-
-© 2026 514sid
-
-SignageList dataset was initially created and is primarily maintained by 514sid.
-Most of the data collection, verification, and curation has been performed by the original author.
+This fork is maintained by [spacesitenet](https://github.com/spacesitenet). The original SignageList project and seed dataset were created by 514sid and contributors.

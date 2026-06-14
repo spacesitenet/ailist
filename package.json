@@ -1,13 +1,13 @@
 {
-  "name": "signagelist",
+  "name": "ailist",
   "type": "module",
   "version": "1.0.0",
-  "description": "A curated directory of digital signage software products.",
-  "homepage": "https://signagelist.org",
+  "description": "A massive open source directory of AI tools, products, platforms, models, and infrastructure.",
+  "homepage": "https://spacesitenet.github.io/ailist/",
   "bugs": {
-    "url": "https://github.com/514sid/digital-signage-list/issues"
+    "url": "https://github.com/spacesitenet/ailist/issues"
   },
-  "author": "514sid",
+  "author": "spacesitenet",
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "cd scripts/sync-platforms && go run . ../../data/products && cd ../.. && hugo --minify",

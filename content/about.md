@@ -1,4 +1,4 @@
 ---
-title: "About SignageList"
-description: "SignageList was created by 514sid, a digital signage industry professional who built the most comprehensive open directory of digital signage software."
+title: "About AI List"
+description: "AI List is an open source directory for mapping and comparing AI tools, products, platforms, models, and infrastructure."
 ---

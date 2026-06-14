@@ -1,8 +1,8 @@
 {{- if and .IsPage (eq .Section "products") -}}
 	{{- with .Params.description -}}
-		{{- printf "%s - %s digital signage software. Compare pricing, platforms, and features on SignageList." $.Params.name . -}}
+		{{- printf "%s - %s AI product. Compare pricing, platforms, open-source status, and features on AI List." $.Params.name . -}}
 	{{- else -}}
-		{{- printf "%s digital signage software - Compare pricing, platforms, and features on SignageList." .Params.name -}}
+		{{- printf "%s AI product - Compare pricing, platforms, open-source status, and features on AI List." .Params.name -}}
 	{{- end -}}
 {{- else if .Description -}}
 	{{- .Description -}}
