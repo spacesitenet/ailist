@@ -14,7 +14,7 @@
 
 {{ if and $cloudModel $cloudModel.pricing_available }}
   {{ range $cloudModel.pricing }}
-    {{ if and (eq .billing_basis "per_device") (or .monthly .yearly) }}
+    {{ if and (in (slice "per_user" "per_seat" "flat_rate") .billing_basis) (or .monthly .yearly) }}
       {{ if .monthly }}
         {{ $value = float .monthly }}
       {{ else if .yearly }}

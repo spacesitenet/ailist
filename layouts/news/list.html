@@ -58,7 +58,7 @@
         {{ if eq $item.sourceType "industry" }}
           <span class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">{{ $item.source }}</span>
         {{ else }}
-          <a href="/products/{{ $item.slug }}/" class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md hover:bg-neutral-200 transition-colors">{{ $item.source }}</a>
+          <a href="{{ printf "/products/%s/" $item.slug | relURL }}" class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md hover:bg-neutral-200 transition-colors">{{ $item.source }}</a>
         {{ end }}
         {{ with $item.date }}
         <span class="text-xs text-neutral-400">{{ time.AsTime . | time.Format "Jan 2, 2006" }}</span>

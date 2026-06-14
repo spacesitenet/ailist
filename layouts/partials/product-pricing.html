@@ -1,5 +1,5 @@
 {{/*
-  Replicates pricing logic from src/utils/cmsProductPricing.ts
+  Formats AI product pricing for list views.
   Input: a product page context (with .Params)
   Output: pricing string like "$13 / month", "Free/Open Source", "On request", or "-"
 */}}
@@ -19,7 +19,7 @@
 {{ else }}
   {{ $found := false }}
   {{ range $cloudModel.pricing }}
-    {{ if and (not $found) (eq .billing_basis "per_device") (or (and .monthly (ne (printf "%v" .monthly) "0")) (and .yearly (ne (printf "%v" .yearly) "0"))) }}
+    {{ if and (not $found) (in (slice "per_user" "per_seat" "flat_rate") .billing_basis) (or (and .monthly (ne (printf "%v" .monthly) "0")) (and .yearly (ne (printf "%v" .yearly) "0"))) }}
       {{ if .monthly }}
         {{ $result = printf "$%v / month" .monthly }}
         {{ $found = true }}

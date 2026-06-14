@@ -33,7 +33,7 @@ async function checkRss(product: Product): Promise<RssResult | null> {
 			signal: controller.signal,
 			redirect: 'follow',
 			headers: {
-				'User-Agent': 'Mozilla/5.0 (compatible; SignageList RSS checker)',
+				'User-Agent': 'Mozilla/5.0 (compatible; AIList RSS checker)',
 			},
 		})
 

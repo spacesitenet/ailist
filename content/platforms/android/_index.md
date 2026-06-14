@@ -1,5 +1,5 @@
 ---
 title: "Android"
-seo_title: "Android Digital Signage Software"
-description: "Browse digital signage software for Android, the most popular platform for commercial displays and media players, from budget sticks to enterprise-grade SoC screens."
+seo_title: "Android AI Products"
+description: "AI products with Android apps."
 ---

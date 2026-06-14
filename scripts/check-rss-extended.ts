@@ -6,25 +6,16 @@ const PRODUCTS_DIR = join(import.meta.dir, '..', 'data', 'products')
 const TIMEOUT_MS = 5000
 const CONCURRENCY = 20
 
-// Slugs already found by the first /rss.xml scan — skip them
+// Slugs already checked by the first /rss.xml scan — skip them
 const SKIP_SLUGS = new Set([
-	'screenly',
-	'broadsign',
-	'digitalsignage-net',
-	'embed-signage',
-	'nixplay',
-	'alpha-digital',
-	'studiopro',
-	'studioweb',
-	'professional-signs',
-	'smartplayer',
-	'signstix',
-	'addreality',
-	'eggs-tv',
-	'prtv',
-	'idesk',
-	'adfloow',
-	'buzzblender',
+	'chatgpt',
+	'claude',
+	'gemini',
+	'perplexity',
+	'openai-platform',
+	'anthropic-console',
+	'hugging-face',
+	'langchain',
 ])
 
 const FEED_PATHS = ['/feed/', '/feed.xml', '/atom.xml', '/blog/rss.xml', '/blog/feed/', '/rss']
@@ -58,7 +49,7 @@ async function checkFeed(product: Product): Promise<RssResult | null> {
 				signal: controller.signal,
 				redirect: 'follow',
 				headers: {
-					'User-Agent': 'Mozilla/5.0 (compatible; SignageList RSS checker)',
+					'User-Agent': 'Mozilla/5.0 (compatible; AIList RSS checker)',
 				},
 			})
 

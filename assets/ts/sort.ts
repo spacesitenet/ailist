@@ -31,9 +31,9 @@ export function initSort(engine: FilterEngine): void {
 			if (column === 'pricing') {
 				valA = parseFloat(a.dataset.pricingSort || '999999')
 				valB = parseFloat(b.dataset.pricingSort || '999999')
-			} else if (column === 'screens') {
-				valA = parseInt(a.dataset.screensSort || '0', 10)
-				valB = parseInt(b.dataset.screensSort || '0', 10)
+			} else if (column === 'traffic') {
+				valA = parseInt(a.dataset.trafficSort || '0', 10)
+				valB = parseInt(b.dataset.trafficSort || '0', 10)
 			} else {
 				valA = (a.dataset[column] || '').toLowerCase()
 				valB = (b.dataset[column] || '').toLowerCase()

@@ -1,12 +1,33 @@
 import { z } from 'zod'
 
-const ProductCategorySchema = z.enum(['CMS', 'Content provider', 'Computer vision'])
+const ProductCategorySchema = z.enum([
+	'AI Assistant',
+	'AI Companion',
+	'Audio',
+	'Automation',
+	'Coding',
+	'Customer Support',
+	'Data Infrastructure',
+	'Design',
+	'Developer Platform',
+	'Education',
+	'Image',
+	'Marketing',
+	'Meeting Assistant',
+	'Model Provider',
+	'Productivity',
+	'Research',
+	'Search',
+	'Translation',
+	'Video',
+	'Writing',
+])
 
 const DeliverySchema = z.enum(['cloud', 'on-premise', 'hybrid', 'self-hosted'])
 
 const PaymentModelSchema = z.enum(['subscription', 'one-time', 'pay-as-you-go', 'free'])
 
-const BillingBasisSchema = z.enum(['per_device', 'per_user', 'per_location', 'flat_rate'])
+const BillingBasisSchema = z.enum(['per_user', 'per_seat', 'per_token', 'usage_based', 'flat_rate'])
 
 const PricingSchema = z.object({
 	name: z.string(),
@@ -15,9 +36,9 @@ const PricingSchema = z.object({
 	monthly: z.number().nullable(),
 	yearly: z.number().nullable(),
 	price: z.number().nullable().optional(),
-	included_screens: z.number().int().nullable().default(null),
-	overage_per_screen: z.number().nullable().default(null),
-	max_screens: z.number().int().nullable().default(null),
+	included_units: z.number().int().nullable().default(null),
+	overage_per_unit: z.number().nullable().default(null),
+	max_units: z.number().int().nullable().default(null),
 })
 
 const ModelSchema = z.object({
@@ -28,7 +49,7 @@ const ModelSchema = z.object({
 	pricing: z.array(PricingSchema),
 })
 
-const ScreensStatSchema = z.object({
+const TrafficStatSchema = z.object({
 	total: z.number(),
 	source: z.string(),
 	date: z.string(),
@@ -36,7 +57,7 @@ const ScreensStatSchema = z.object({
 
 const StatsSchema = z
 	.object({
-		screens: ScreensStatSchema.optional(),
+		traffic: TrafficStatSchema.optional(),
 	})
 	.default({})
 

@@ -1,0 +1,50 @@
+name: "Ideogram"
+slug: "ideogram"
+description: "AI image generation product with strong prompt adherence, typography, logos, and creative design output."
+website: "https://ideogram.ai/"
+year_founded: 2022
+headquarters:
+  - "Canada"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Image"
+platforms:
+  - "Web"
+  - "iOS"
+  - "Android"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing:
+stats:
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Traffic-aware seed rank #35. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
+features:
+integrations:
+target_audience:
+deployment_options:
+  - "Cloud"
+support_channels:
+languages:
+screenshots:
+last_verified: "2026-06"

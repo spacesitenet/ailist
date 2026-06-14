@@ -16,12 +16,12 @@
   {{ end }}
 {{ end }}
 
-{{/* Screens display */}}
-{{ $screensTotal := 0 }}
+{{/* Traffic display */}}
+{{ $trafficTotal := 0 }}
 {{ with $p.stats }}
-  {{ with .screens }}
+  {{ with .traffic }}
     {{ with .total }}
-      {{ $screensTotal = . }}
+      {{ $trafficTotal = . }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -49,7 +49,7 @@
     data-open-source="{{ $p.open_source }}"
     data-self-signup="{{ $p.self_signup }}"
     data-pricing-sort="{{ partial "pricing-sort-value.html" . }}"
-    data-screens-sort="{{ $screensTotal }}"
+    data-traffic-sort="{{ $trafficTotal }}"
     data-compliance="{{ delimit $complianceList "," }}"
     data-authentication="{{ delimit $authList "," }}"
 >
@@ -92,10 +92,10 @@
 		{{ $hqDisplay }}
 	</td>
 
-	{{/* Screens column */}}
-	<td class="py-3 px-4 text-sm text-neutral-600 text-right tabular-nums" data-label="Screens" style="min-width:120px">
-		{{ if gt $screensTotal 0 }}
-			{{ lang.FormatNumber 0 $screensTotal }}+
+	{{/* Traffic column */}}
+	<td class="py-3 px-4 text-sm text-neutral-600 text-right tabular-nums" data-label="Traffic" style="min-width:120px">
+		{{ if gt $trafficTotal 0 }}
+			{{ lang.FormatNumber 0 $trafficTotal }}+
 		{{ else }}
 			-
 		{{ end }}

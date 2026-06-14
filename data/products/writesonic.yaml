@@ -1,0 +1,49 @@
+name: "Writesonic"
+slug: "writesonic"
+description: "AI writing and marketing platform for articles, SEO, chat, bots, and content generation."
+website: "https://writesonic.com/"
+year_founded: 2020
+headquarters:
+  - "United States"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: true
+developer_portal_url: "https://docs.writesonic.com/"
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Writing"
+platforms:
+  - "Web"
+  - "API"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing:
+stats:
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Traffic-aware seed rank #47. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
+features:
+integrations:
+target_audience:
+deployment_options:
+  - "Cloud"
+support_channels:
+languages:
+screenshots:
+last_verified: "2026-06"

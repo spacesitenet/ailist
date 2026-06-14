@@ -4,7 +4,7 @@
 {{ with .Params.seo_title }}{{ $pageTitle = . }}{{ end }}
 <title>{{ if .IsHome }}{{ .Site.Title }} - Open AI Tools Directory{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ partial "meta-description.html" . }}">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}">
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* Open Graph - Rich data cards */}}

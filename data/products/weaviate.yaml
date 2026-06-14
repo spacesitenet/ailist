@@ -1,0 +1,51 @@
+name: "Weaviate"
+slug: "weaviate"
+description: "Open-source vector database for semantic search, RAG, hybrid search, and AI-native applications."
+website: "https://weaviate.io/"
+year_founded: 2019
+headquarters:
+  - "Netherlands"
+open_source: true
+license: "Open source / mixed"
+source_code_url: "https://github.com/weaviate"
+rss_feed_url: null
+has_api: true
+developer_portal_url: "https://weaviate.io/developers/weaviate"
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Data Infrastructure"
+platforms:
+  - "Web"
+  - "API"
+  - "Self-hosted"
+models:
+  -
+    delivery: "hybrid"
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing:
+stats:
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Traffic-aware seed rank #99. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
+features:
+integrations:
+target_audience:
+deployment_options:
+  - "Cloud"
+  - "Self-hosted"
+support_channels:
+languages:
+screenshots:
+last_verified: "2026-06"

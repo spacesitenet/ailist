@@ -13,7 +13,7 @@ AI List is a curated open dataset of AI products, tools, platforms, models, and 
 
 ## Product Data Schema
 
-Each product includes: name, description, website, year_founded, headquarters, open_source (boolean), self_signup (boolean), discontinued (boolean), categories, platforms, pricing models (delivery type, plans with monthly/yearly pricing), screen statistics, and more.
+Each product includes: name, description, website, year_founded, headquarters, open_source (boolean), self_signup (boolean), discontinued (boolean), categories, platforms, pricing models, traffic notes, developer metadata, and more.
 
 ## Categories
 

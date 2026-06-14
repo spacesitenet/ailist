@@ -18,7 +18,6 @@
     "gen:terms": "bun run scripts/gen-terms.ts",
     "check:urls": "bun run scripts/check-urls.ts",
     "gen:og": "bun run scripts/gen-og.ts",
-    "sync:amazon": "bun run scripts/sync-amazon-signage.ts",
     "fetch-feeds": "bun run scripts/fetch-feeds.ts",
     "lint": "bunx biome check assets/ts/ scripts/ cli.ts",
     "lint:fix": "bunx biome check --write assets/ts/ scripts/ cli.ts"

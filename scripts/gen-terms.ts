@@ -23,8 +23,8 @@ function slugify(str: string): string {
 
 function buildFrontmatter(title: string, type: 'category' | 'platform'): string {
 	const noun = type === 'category' ? 'category' : 'platform'
-	const seoTitle = `Best ${title} Digital Signage Software`
-	const description = `Compare and explore digital signage products in the ${title} ${noun}. Find the right solution for your needs.`
+	const seoTitle = `${title} AI Products`
+	const description = `Compare and explore AI products in the ${title} ${noun}. Find the right tool, model, or platform for your workflow.`
 	return `---
 title: "${title}"
 seo_title: "${seoTitle}"

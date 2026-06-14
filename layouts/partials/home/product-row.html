@@ -9,8 +9,8 @@
   {{ $hqRaw = delimit . "," | lower }}
 {{ end }}
 
-{{ $screensTotal := 0 }}
-{{ with $p.stats }}{{ with .screens }}{{ with .total }}{{ $screensTotal = . }}{{ end }}{{ end }}{{ end }}
+{{ $trafficTotal := 0 }}
+{{ with $p.stats }}{{ with .traffic }}{{ with .total }}{{ $trafficTotal = . }}{{ end }}{{ end }}{{ end }}
 
 {{ $hasFreeTrialModel := false }}
 {{ $hasFreemiumModel := false }}
@@ -52,7 +52,7 @@
    data-has-pricing="{{ $hasPricingModel }}"
    data-self-signup="{{ $p.self_signup }}"
    data-pricing-sort="{{ partial "pricing-sort-value.html" . }}"
-   data-screens-sort="{{ $screensTotal }}"
+   data-traffic-sort="{{ $trafficTotal }}"
    data-compliance="{{ delimit $complianceList "," }}"
    data-authentication="{{ delimit $authList "," }}"
    data-year-founded="{{ $p.year_founded }}"

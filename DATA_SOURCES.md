@@ -1,10 +1,10 @@
 # Data Sources
 
-Partner directories and product catalogues used to discover and verify products listed on SignageList.
+Sources used to discover, prioritize, and verify products listed on AI List.
 
-- https://www.brightsign.biz/partners/
-- https://signage.amazon.com/cms-partners
-- https://www.sharpdisplays.eu/p/retail/en/partner.xhtml
-- https://www.raspberrypi.com/for-industry/powered-by/product-catalogue/?industry=Digital+signage
+- https://explodingtopics.com/blog/most-popular-ai-tools
+- https://www.similarweb.com/blog/marketing/geo/gen-ai-stats/
+- https://app.aibase.com/best-ai-tools/
+- Official product websites, documentation, pricing pages, and GitHub repositories
 
 Know a good source? Open an issue or PR to add it.

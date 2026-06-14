@@ -32,8 +32,8 @@
 {{- else }}
 - Pricing: On request
 {{- end }}{{ end }}
-{{- with .Params.stats }}{{ with .screens }}{{ with .total }}
-- Active Screens: {{ . }}+
+{{- with .Params.stats }}{{ with .traffic }}{{ with .total }}
+- Traffic: {{ . }}+
 {{- end }}{{ end }}{{ end }}
 - Profile: {{ .Permalink }}
 

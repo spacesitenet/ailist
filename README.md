@@ -2,7 +2,7 @@
 
 AI List is a massive open source directory for the AI industry: tools, products, platforms, models, agents, developer infrastructure, research labs, and the ecosystem around them.
 
-The project is forked from the SignageList Hugo system and is being reshaped into a neutral, structured, community-maintained catalog for discovering and comparing AI products.
+The project uses a Hugo-powered open directory system and is being shaped into a neutral, structured, community-maintained catalog for discovering and comparing AI products.
 
 **[Browse the directory](https://spacesitenet.github.io/ailist/)** | **[Submit an AI product](https://github.com/spacesitenet/ailist/issues/new?template=suggest-a-new-product.md)**
 
@@ -63,4 +63,4 @@ Please include official sources where possible so the dataset stays useful and r
 
 The product dataset in `data/products/` remains licensed under the [Open Data Commons Open Database License (ODbL) v1.0](LICENSE-DATA).
 
-This fork is maintained by [spacesitenet](https://github.com/spacesitenet). The original SignageList project and seed dataset were created by 514sid and contributors.
+This project is maintained by [spacesitenet](https://github.com/spacesitenet).

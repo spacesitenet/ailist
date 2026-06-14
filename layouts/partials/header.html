@@ -2,7 +2,7 @@
   <div class="max-w-5xl w-full mx-auto px-6 h-14 flex items-center gap-6">
 
     {{/* Logo */}}
-    <a href="/" class="flex items-center gap-2 flex-shrink-0">
+    <a href="{{ "/" | relURL }}" class="flex items-center gap-2 flex-shrink-0">
       {{ partial "logo-svg.html" (dict "class" "w-7 h-7") }}
       <span class="font-semibold text-neutral-900 text-[15px] tracking-tight">AI List</span>
     </a>
@@ -12,10 +12,10 @@
     <div class="flex items-center gap-2 ml-auto flex-shrink-0">
 
       <nav class="hidden md:flex items-center gap-5 mr-2">
-        <a href="/categories/" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">Categories</a>
-        <a href="/platforms/" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">Platforms</a>
-        <a href="/news/" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">News</a>
-        <a href="/about/" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">About</a>
+        <a href="{{ "/categories/" | relURL }}" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">Categories</a>
+        <a href="{{ "/platforms/" | relURL }}" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">Platforms</a>
+        <a href="{{ "/news/" | relURL }}" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">News</a>
+        <a href="{{ "/about/" | relURL }}" class="text-sm text-neutral-500 hover:text-neutral-900 transition-colors">About</a>
       </nav>
 
       <a href="{{ site.Params.githubRepo }}" target="_blank" rel="noopener"
@@ -26,7 +26,7 @@
       </a>
 
       <a href="{{ site.Params.githubRepo }}/issues/new?template=suggest-a-new-product.md" target="_blank" rel="noopener"
-         class="hidden md:inline-flex text-sm font-medium bg-gradient-to-r from-primary-600 to-fuchsia-600 text-white px-4 py-2 rounded-lg shadow-sm shadow-primary-200 hover:from-primary-500 hover:to-fuchsia-500 transition-colors">
+         class="hidden md:inline-flex text-sm font-medium bg-primary-600 text-white px-4 py-2 rounded-lg shadow-sm shadow-primary-200 hover:bg-primary-700 transition-colors">
         Submit AI tool
       </a>
 
@@ -41,11 +41,11 @@
   {{/* Mobile menu */}}
   <div id="mobile-menu" class="hidden md:hidden border-t border-neutral-100 bg-white/95 backdrop-blur-xl">
     <nav class="max-w-5xl mx-auto px-6 py-3 flex flex-col gap-0.5">
-      <a href="/" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Directory</a>
-      <a href="/categories/" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Categories</a>
-      <a href="/platforms/" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Platforms</a>
-      <a href="/news/" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">News</a>
-      <a href="/about/" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">About</a>
+      <a href="{{ "/" | relURL }}" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Directory</a>
+      <a href="{{ "/categories/" | relURL }}" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Categories</a>
+      <a href="{{ "/platforms/" | relURL }}" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Platforms</a>
+      <a href="{{ "/news/" | relURL }}" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">News</a>
+      <a href="{{ "/about/" | relURL }}" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">About</a>
       <a href="{{ site.Params.githubRepo }}/issues/new?template=suggest-a-new-product.md" target="_blank" rel="noopener" class="px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 rounded-lg transition-colors">Submit AI tool</a>
     </nav>
   </div>

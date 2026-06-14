@@ -145,7 +145,7 @@ async function fetchFeed(url: string, maxItems: number): Promise<FeedItem[] | nu
 		const res = await fetch(url, {
 			signal: controller.signal,
 			redirect: 'follow',
-			headers: { 'User-Agent': 'Mozilla/5.0 (compatible; SignageList/1.0 feed fetcher)' },
+			headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AIList/1.0 feed fetcher)' },
 		})
 
 		clearTimeout(timer)

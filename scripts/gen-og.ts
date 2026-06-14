@@ -106,12 +106,12 @@ async function generateOg(
 	const urlSvg = `<text x="${lx}" y="${H - 85}" text-anchor="start"
 		font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
 		font-weight="400" font-size="26" fill="#a3a3a3"
-	>signagelist.org</text>`
+	>spacesitenet.github.io/ailist</text>`
 
 	const taglineSvg = `<text x="${W - lx}" y="85" text-anchor="end"
 		font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
 		font-weight="400" font-size="20" fill="#a3a3a3"
-	>Open directory of digital signage products</text>`
+	>Open directory of AI products</text>`
 
 	const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
 ${titleSvg}
@@ -170,7 +170,7 @@ for (const [name, count] of Object.entries(categoryCount)) {
 		DIRS.categories,
 		`category-${slugify(name)}`,
 		name,
-		`Browse and compare ${count}+ digital signage products in the ${name} category.`,
+		`Browse and compare ${count}+ AI products in the ${name} category.`,
 	)
 }
 
@@ -179,7 +179,7 @@ await run(
 	DIRS.pages,
 	'page-categories',
 	'Categories',
-	`Browse ${Object.keys(categoryCount).length} digital signage software categories — compare CMS, content providers, and more.`,
+	`Browse ${Object.keys(categoryCount).length} AI product categories — compare assistants, coding tools, model providers, creative tools, and more.`,
 )
 
 // ── Platforms ─────────────────────────────────────────────────────────────────
@@ -188,7 +188,7 @@ for (const [name, count] of Object.entries(platformCount)) {
 		DIRS.platforms,
 		`platform-${slugify(name)}`,
 		name,
-		`Browse ${count}+ digital signage products with native support for ${name}.`,
+		`Browse ${count}+ AI products with support for ${name}.`,
 	)
 }
 
@@ -197,29 +197,29 @@ await run(
 	DIRS.pages,
 	'page-platforms',
 	'Platforms',
-	`Browse digital signage software by supported platform — Android, Windows, ChromeOS, BrightSign, and more.`,
+	`Browse AI products by supported platform, runtime, and ecosystem.`,
 )
 
 // ── Static pages ──────────────────────────────────────────────────────────────
 await run(
 	DIRS.pages,
 	'page-about',
-	'About SignageList',
-	`The open, vendor-neutral directory of ${products.length}+ digital signage software products. No ads, no bias.`,
+	'About AI List',
+	`The open, vendor-neutral directory of ${products.length}+ AI products. No ads, no bias.`,
 )
 
 await run(
 	DIRS.pages,
 	'page-free',
-	'Free & Freemium Digital Signage',
-	'Browse digital signage software with no upfront cost — open source, freemium, and free-to-use products.',
+	'Free & Freemium AI Products',
+	'Browse AI products with no upfront cost — open source, freemium, and free-to-use products.',
 )
 
 await run(
 	DIRS.pages,
 	'page-news',
 	'Industry News',
-	'Latest updates from digital signage companies and industry publications.',
+	'Latest updates from AI companies, product teams, research labs, and industry publications.',
 )
 
 console.log(`\nDone — ${generated} generated, ${skipped} skipped`)

@@ -1,0 +1,52 @@
+name: "Microsoft Copilot"
+slug: "microsoft-copilot"
+description: "Microsoft AI assistant across web, Windows, Edge, Microsoft 365, and developer workflows."
+website: "https://copilot.microsoft.com/"
+year_founded: 2023
+headquarters:
+  - "United States"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: true
+developer_portal_url: "https://learn.microsoft.com/en-us/copilot/"
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "AI Assistant"
+platforms:
+  - "Web"
+  - "iOS"
+  - "Android"
+  - "Windows"
+  - "API"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing:
+stats:
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Traffic-aware seed rank #11. Based on public 2026 traffic-ranking references and editorial normalization; verify with Similarweb or first-party data before treating as audited."
+features:
+integrations:
+target_audience:
+deployment_options:
+  - "Cloud"
+support_channels:
+languages:
+screenshots:
+last_verified: "2026-06"

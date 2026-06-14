@@ -19,15 +19,26 @@ assignees: spacesitenet
 
 - **Category:**
   _Check one or more:_
-  - [ ] AI app
-  - [ ] Agent platform
-  - [ ] API / developer platform
-  - [ ] Model provider
-  - [ ] Open-source model
-  - [ ] Evaluation / observability
-  - [ ] Vector database / retrieval
-  - [ ] Workflow automation
-  - [ ] Computer vision
+  - [ ] AI Assistant
+  - [ ] AI Companion
+  - [ ] Audio
+  - [ ] Automation
+  - [ ] Coding
+  - [ ] Customer Support
+  - [ ] Data Infrastructure
+  - [ ] Design
+  - [ ] Developer Platform
+  - [ ] Education
+  - [ ] Image
+  - [ ] Marketing
+  - [ ] Meeting Assistant
+  - [ ] Model Provider
+  - [ ] Productivity
+  - [ ] Research
+  - [ ] Search
+  - [ ] Translation
+  - [ ] Video
+  - [ ] Writing
   - [ ] Other: ___
 
 - **Headquarters:**
@@ -80,7 +91,7 @@ assignees: spacesitenet
   _List each plan with the following details (if pricing is available):_
   - Name:
   - Payment model: (subscription / one-time / pay-as-you-go / free)
-  - Billing basis: (per_device / per_user / per_location / flat_rate)
+  - Billing basis: (per_user / per_seat / per_token / usage_based / flat_rate)
   - Monthly price per unit: (or skip)
   - Yearly price per unit: (or skip)
 

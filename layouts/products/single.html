@@ -11,7 +11,7 @@
 	</div>
 	{{/* Real breadcrumb (hidden until JS runs) */}}
 	<nav id="product-breadcrumb" class="text-sm text-neutral-400 mb-6 flex items-center gap-1.5 hidden">
-		<a href="/" class="hover:text-neutral-600 transition-colors">Home</a>
+		<a href="{{ "/" | relURL }}" class="hover:text-neutral-600 transition-colors">Home</a>
 		<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
 		<span class="text-neutral-900 font-medium truncate">{{ $p.name }}</span>
 	</nav>
@@ -86,7 +86,7 @@
 				<h2 class="text-sm font-semibold text-neutral-900 mb-3">Supported Platforms</h2>
 				<div class="flex flex-wrap gap-2">
 					{{ range . }}
-					<a href="/platforms/{{ . | urlize }}/" class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm hover:bg-neutral-200 transition-colors">{{ . }}</a>
+					<a href="{{ printf "/platforms/%s/" (. | urlize) | relURL }}" class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm hover:bg-neutral-200 transition-colors">{{ . }}</a>
 					{{ end }}
 				</div>
 			</div>
@@ -254,9 +254,9 @@
 					</div>
 					{{ end }}
 
-					{{ with $p.stats }}{{ with .screens }}{{ if .total }}
+					{{ with $p.stats }}{{ with .traffic }}{{ if .total }}
 					<div class="px-4 py-3 flex justify-between items-center gap-3">
-						<dt class="text-neutral-400 shrink-0">Active Screens</dt>
+						<dt class="text-neutral-400 shrink-0">Traffic</dt>
 						<dd class="text-neutral-900 tabular-nums">{{ lang.FormatNumber 0 .total }}+</dd>
 					</div>
 					{{ end }}{{ end }}{{ end }}

@@ -65,7 +65,7 @@ async function main(): Promise<void> {
 					{
 						name: '',
 						payment_model: 'subscription',
-						billing_basis: 'per_device',
+						billing_basis: 'per_user',
 						monthly: null,
 						yearly: null,
 					},
