@@ -1,0 +1,66 @@
+{
+  "source": "Mistral AI",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "AI Now Summit 2026",
+      "link": "https://mistral.ai/news/ai-now-summit-2026/",
+      "date": "2026-05-28T12:00:20.000Z",
+      "description": "Innovations for global enterprises solving the world’s hardest problems."
+    },
+    {
+      "title": "Vibe gets to work.",
+      "link": "https://mistral.ai/news/vibe-agent/",
+      "date": "2026-05-28T12:00:09.000Z",
+      "description": "The unified agent for long-horizon productivity and coding, launching with Work and Code modes. Plus, a new Vibe VS Code extension."
+    },
+    {
+      "title": "Introducing Search Toolkit",
+      "link": "https://mistral.ai/news/search-toolkit/",
+      "date": "2026-05-28T11:42:21.000Z",
+      "description": "Search Toolkit is a composable framework for building production search pipelines for AI applications."
+    },
+    {
+      "title": "Introducing physics AI at Mistral: the foundation for engineering acceleration.",
+      "link": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
+      "date": "2026-05-27T12:00:55.000Z",
+      "description": "A new class of AI models that predict the behavior of physical systems, powering the engineers and hardware products of tomorrow."
+    },
+    {
+      "title": "Physics AI research that’s shaping the industry.",
+      "link": "https://mistral.ai/news/physics-ai-research/",
+      "date": "2026-05-27T12:00:05.000Z",
+      "description": "Published breakthroughs pushing the state of the art."
+    },
+    {
+      "title": "Emmi joins Mistral to accelerate the AI-native industry",
+      "link": "https://mistral.ai/news/accelerate-ai-native-industry/",
+      "date": "2026-05-23T12:00:26.000Z",
+      "description": ""
+    },
+    {
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5.",
+      "link": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+      "date": "2026-05-22T15:01:55.000Z",
+      "description": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks."
+    },
+    {
+      "title": "Connect the dots: Build with built-in and custom MCPs in Studio",
+      "link": "https://mistral.ai/news/connectors/",
+      "date": "2026-05-22T14:48:28.000Z",
+      "description": "Connect enterprise data to your AI applications with reusable connectors, direct tool calling, and human-in-the-loop approval controls."
+    },
+    {
+      "title": "Workflows for work that runs the business",
+      "link": "https://mistral.ai/news/workflows/",
+      "date": "2026-04-27T12:00:23.000Z",
+      "description": "Workflows is now in public preview."
+    },
+    {
+      "title": "Speaking of Voxtral",
+      "link": "https://mistral.ai/news/voxtral-tts/",
+      "date": "2026-03-23T16:00:00.000Z",
+      "description": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents."
+    }
+  ]
+}

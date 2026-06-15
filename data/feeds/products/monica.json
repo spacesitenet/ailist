@@ -1,0 +1,66 @@
+{
+  "source": "Monica",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "Gemini 2.5 Pro: la rivoluzione dell’IA di Google",
+      "link": "https://monica.im/blog/google-gemini-2-5-pro-nuovo-modello/",
+      "date": "2025-05-26T09:27:44.000Z",
+      "description": "Scopri come Gemini 2.5 Pro Experimental di Google sta ridefinendo gli standard dell’intelligenza artificiale grazie a capacità avanzate di ragionamento, elaborazione di contesti lunghi, funzionalità …"
+    },
+    {
+      "title": "Lanzamiento de GPT-4.1: ¿Qué hay de nuevo y emocionante?",
+      "link": "https://monica.im/blog/nuevo-de-gpt-4-1/",
+      "date": "2025-05-20T08:22:25.000Z",
+      "description": "GPT-4.1 revoluciona la IA con un contexto de 1 millón de tokens y capacidades de codificación superiores. Descubre cómo esta tecnología transforma el panorama digital."
+    },
+    {
+      "title": "DeepSeek Prover V2 671B 發布速報",
+      "link": "https://monica.im/blog/deepseek-prover-v2-tw/",
+      "date": "2025-05-20T08:16:04.000Z",
+      "description": "DeepSeek 團隊推出超大型 AI 模型 DeepSeek-Prover-V2-671B，具備 6710 億參數並聚焦自動定理證明與複雜邏輯推理。本文整理目前公開的技術特點與社群討論，帶你搶先掌握這款潛力模型的最新動態與應用前景。"
+    },
+    {
+      "title": "Google Gemini 2.5 Pro 值得期待嗎？AI 能力再創新高！",
+      "link": "https://monica.im/blog/gemini-2-5-pro-tw/",
+      "date": "2025-05-20T02:47:19.000Z",
+      "description": "Google 推出 Gemini 2.5 Pro 實驗版，具備更進階的推理能力、多模態處理與程式編碼功能。"
+    },
+    {
+      "title": "Gemini 2.5 Flash: La Nuova Frontiera dell’Intelligenza Artificiale di Google",
+      "link": "https://monica.im/blog/gemini-2-5-flash-la-nuova-frontiera-dellintelligenza-artificiale-di-google/",
+      "date": "2025-05-15T08:34:48.000Z",
+      "description": "Scopri Gemini 2.5 Flash, il più recente modello di intelligenza artificiale di Google progettato per multimedia avanzati, contesto esteso e prestazioni flessibili."
+    },
+    {
+      "title": "Gemini 2.5 Flash: Análisis del Modelo de Razonamiento Rentable",
+      "link": "https://monica.im/blog/analisis-de-gemini-2-5-flash/",
+      "date": "2025-05-15T07:35:00.000Z",
+      "description": "Gemini 2.5 Flash, el modelo de IA de Google, combina rendimiento, bajo costo y capacidades multimodales."
+    },
+    {
+      "title": "Revisión Detallada de OpenAI O3: Un Paso Enfocado Hacia la Inteligencia General",
+      "link": "https://monica.im/blog/revision-de-openai-o3-es/",
+      "date": "2025-05-12T08:12:11.000Z",
+      "description": "El modelo O3 de OpenAI, lanzado en abril de 2025, demuestra un progreso significativo en razonamiento, uso autónomo de herramientas y comprensión visual—posicionándose como un paso práctico hacia la …"
+    },
+    {
+      "title": "GPT-4.1 è stato rilasciato! Quali sono le novità?",
+      "link": "https://monica.im/blog/gpt-4-1-e-stato-rilasciato/",
+      "date": "2025-05-09T09:33:52.000Z",
+      "description": "Scopri i nuovi modelli GPT-4.1, mini e nano di OpenAI: miglioramenti in programmazione, contesto ampliato a 1M token, e nuovi benchmark. Leggi le novità!"
+    },
+    {
+      "title": "Gemini 2.5 Flash 登場：平價又聰明，這款推理模型到底多厲害？",
+      "link": "https://monica.im/blog/gemini-2-5-tw/",
+      "date": "2025-05-07T09:19:30.000Z",
+      "description": "深入解析 Google 全新推出的 Gemini 2.5 Flash AI 模型，具備多模態處理、百萬詞元上下文與可調整的推理預算，為開發者與企業帶來高效且具成本效益的解決方案。"
+    },
+    {
+      "title": "DeepSeek Prover V2 671B Release — Quick Report",
+      "link": "https://monica.im/blog/deepseek-prover-v2/",
+      "date": "2025-04-30T10:56:30.000Z",
+      "description": "DeepSeek Prover V2 671B Launched: A Quick Report on Industry Reaction and Preliminary Speculation."
+    }
+  ]
+}

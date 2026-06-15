@@ -1,0 +1,66 @@
+{
+  "source": "Writesonic",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "What are Large Language Models (LLMs)?",
+      "link": "https://writesonic.com/blog/what-are-large-language-models-llms",
+      "date": "2026-06-09T17:10:01.000Z",
+      "description": "Large language models (LLMs) are AI systems trained on massive text data to understand and generate human language. Here's how they work, what they're used for, and where they fall short."
+    },
+    {
+      "title": "What are AI Search Engines?",
+      "link": "https://writesonic.com/blog/what-are-ai-search-engines",
+      "date": "2026-06-05T12:38:10.000Z",
+      "description": "AI search engines use LLMs and RAG to return sourced answers instead of link lists. Learn how they work, the top platforms, and how to earn citations."
+    },
+    {
+      "title": "Google I/O 2026 Through an SEO and AEO Lens: What Actually Changed",
+      "link": "https://writesonic.com/blog/google-io-2026",
+      "date": "2026-06-05T07:05:50.000Z",
+      "description": "Google I/O 2026 just rewired how content gets discovered. Here's what changed for SEO and AEO teams, and what to do this quarter."
+    },
+    {
+      "title": "Introducing Project hub in Writesonic for multi-brand teams",
+      "link": "https://writesonic.com/blog/project-hub",
+      "date": "2026-06-04T05:16:06.000Z",
+      "description": "Project Hub gives you a single view of every brand-monitoring project in your workspace. AI Visibility, Citation Share, and trends in one place."
+    },
+    {
+      "title": "What are AI Overviews and How to Optimize for Them (2026 Guide)",
+      "link": "https://writesonic.com/blog/ai-overviews",
+      "date": "2026-06-04T04:45:04.000Z",
+      "description": "AI Overviews are Google's AI-generated summaries that answer search queries at the top of results. Learn how they work and how to optimize your content to appear in them."
+    },
+    {
+      "title": "Writesonic MCP: Query Your AI Visibility Data From Any AI Client",
+      "link": "https://writesonic.com/blog/writesonic-mcp-ai-visibility-data-in-every-ai-tool",
+      "date": "2026-06-03T05:04:02.000Z",
+      "description": "Connect Writesonic to Claude, ChatGPT, Cursor, or n8n. Ask one question, get live GEO data back in the conversation you're already having."
+    },
+    {
+      "title": "Site Architecture for AI Visibility: How to Build a Website LLMs Can Read",
+      "link": "https://writesonic.com/blog/how-to-structure-website-for-ai-search-engines",
+      "date": "2026-05-31T03:08:29.000Z",
+      "description": "Learn how to optimize site architecture for AI visibility with AI crawlers, schema markup, llms.txt, SSR, and Bing indexing."
+    },
+    {
+      "title": "GEO KPIs Every Brand Should Track in 2026",
+      "link": "https://writesonic.com/blog/geo-kpis-every-brand-should-track",
+      "date": "2026-05-31T02:15:03.000Z",
+      "description": "Track the 7 GEO KPIs that matter most in AI search, including brand visibility, citation share, sentiment, share of voice, and AI conversions."
+    },
+    {
+      "title": "My Take on Google's May 2026 Core Update: The Shift From Ranking Content to Trusting Sources",
+      "link": "https://writesonic.com/blog/google-may-2026-core-update-pov",
+      "date": "2026-05-29T06:45:11.000Z",
+      "description": "Google's May 2026 Core Update may appear to be another routine algorithm update, but I believe it reveals something much bigger about the future of search."
+    },
+    {
+      "title": "How Semantic Search Powers AI Retrieval Systems",
+      "link": "https://writesonic.com/blog/role-of-semantic-search-in-ai-retrieval",
+      "date": "2026-05-28T11:32:07.000Z",
+      "description": "Learn how semantic search powers AI retrieval, RAG systems, vector embeddings, and AI search engines like ChatGPT and Google AI Overviews."
+    }
+  ]
+}

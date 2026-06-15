@@ -1,0 +1,66 @@
+{
+  "source": "Tabnine",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "Tabnine Named a Visionary in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents",
+      "link": "https://www.tabnine.com/blog/tabnine-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-enterprise-coding-agents/",
+      "date": "2026-05-22T15:22:49.000Z",
+      "description": "We are excited to share that Tabnine has been named a Visionary in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents. For us, this recognition reflects an important shift happening ac…"
+    },
+    {
+      "title": "April Recap: Agents you can trust",
+      "link": "https://www.tabnine.com/blog/april-recap-agents-you-can-trust/",
+      "date": "2026-05-06T19:59:15.000Z",
+      "description": "This month’s release is one of those that looks quiet at first glance… until you realize a lot of the hard problems just got handled. Less friction. More control. Smarter agents. And fewer “why is th…"
+    },
+    {
+      "title": "May 2026 Product Update: Improving Core Workflows",
+      "link": "https://www.tabnine.com/blog/may-2026-product-update-improving-core-workflows/",
+      "date": "2026-04-29T14:34:18.000Z",
+      "description": "A simpler, more powerful experience We’re making a set of focused improvements to streamline the product and deliver a faster, more intuitive experience. In some cases, this means evolving how certai…"
+    },
+    {
+      "title": "Governance You Can Trust: What’s New in Tabnine 6.1",
+      "link": "https://www.tabnine.com/blog/governance-you-can-trust-whats-new-in-tabnine-6-1/",
+      "date": "2026-04-09T16:39:43.000Z",
+      "description": "As AI agents move from experimentation into real production environments, one thing becomes clear very quickly: this is no longer just a productivity conversation. It is a governance conversation. En…"
+    },
+    {
+      "title": "March Recap: Agents, Context &#038; Governance",
+      "link": "https://www.tabnine.com/blog/march-recap-agents-context-governance/",
+      "date": "2026-04-06T15:58:09.000Z",
+      "description": "Tabnine Monthly Product Update — March 2026 March was a foundational month for Tabnine. With the release of v6.0, we didn’t just add features: we strengthened the core pillars of agentic workflows, e…"
+    },
+    {
+      "title": "Introducing the Tabnine Enterprise Context Engine",
+      "link": "https://www.tabnine.com/blog/introducing-the-tabnine-enterprise-context-engine/",
+      "date": "2026-03-05T20:21:57.000Z",
+      "description": "Giving AI the understanding required to operate safely in real production environments Over the past two years, AI models have advanced at an extraordinary pace. Larger models, faster inference, and …"
+    },
+    {
+      "title": "February Recap: Trusted AI now generally available!",
+      "link": "https://www.tabnine.com/blog/february-recap-trusted-ai-now-generally-available/",
+      "date": "2026-02-26T16:14:14.000Z",
+      "description": "February Product Update: Trusted AI, Now Generally Available February was a meaningful step forward for teams moving from AI experimentation to production deployment. We advanced the Enterprise Conte…"
+    },
+    {
+      "title": "From Suggestion to Source: Why Provenance and Attribution Belong in Your CI/CD Pipeline",
+      "link": "https://www.tabnine.com/blog/from-suggestion-to-source-why-provenance-and-attribution-belong-in-your-ci-cd-pipeline/",
+      "date": "2026-02-19T16:46:06.000Z",
+      "description": "AI coding assistants have changed the speed of software development. Engineers can move faster, prototype faster, and ship faster. But speed introduces a new risk surface. When AI generates code, whe…"
+    },
+    {
+      "title": "Introducing the Tabnine CLI",
+      "link": "https://www.tabnine.com/blog/introducing-the-tabnine-cli/",
+      "date": "2026-01-26T14:52:43.000Z",
+      "description": "Introducing the Tabnine CLI: Bringing Agentic AI to the Terminal For years, AI coding assistance has been tightly coupled to the IDE. Autocomplete, inline suggestions, and chat panels have become fam…"
+    },
+    {
+      "title": "How Tabnine delivers faster, safer AI-generated code at scale",
+      "link": "https://www.tabnine.com/blog/how-tabnine-delivers-faster-safer-ai-generated-code-at-scale/",
+      "date": "2026-01-14T18:37:52.000Z",
+      "description": "&#160; Overview As enterprises race to adopt AI-powered development tools, many CIOs face a familiar tension: how to move faster without introducing new security risks, compliance issues, or technica…"
+    }
+  ]
+}

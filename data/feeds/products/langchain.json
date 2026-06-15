@@ -1,0 +1,66 @@
+{
+  "source": "LangChain",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "How Box AI built enterprise content agents with Deep Agents",
+      "link": "https://www.langchain.com/blog/building-box-ai-how-an-enterprise-content-platform-went-ai-native-with-deep-agents",
+      "date": "2026-06-12T16:59:08.000Z",
+      "description": "See how Box built Box Agent on Deep Agents to search, analyze, and synthesize enterprise content while preserving security, permissions, and model flexibility."
+    },
+    {
+      "title": "How to Choose the Right Sandbox for AI Agents",
+      "link": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+      "date": "2026-06-12T15:00:16.000Z",
+      "description": "Learn how to choose a secure sandbox for AI agents, with guidance on filesystem isolation, network access, resource limits, and microVMs."
+    },
+    {
+      "title": "How Benchling builds agents when the smartest AI isn&#39;t smart enough",
+      "link": "https://www.langchain.com/blog/benchling-max-agency-podcast",
+      "date": "2026-06-11T20:49:21.000Z",
+      "description": "Discover how Benchling, the R&D data platform, leverages AI agents to accelerate scientific discovery. In this episode of Max Agency, Head of AI Nicholas Larus-Stone and host Harrison Chase discuss t…"
+    },
+    {
+      "title": "The Missing Link Between Agents and Applications",
+      "link": "https://www.langchain.com/blog/agents-and-applications",
+      "date": "2026-06-11T08:21:07.000Z",
+      "description": "Most AI agent tools run on servers, limiting access to browser APIs, device capabilities, and frontend state. Discover how LangChain headless tools enable secure client-side tool execution for modern…"
+    },
+    {
+      "title": "Full Text Search in SmithDB: Designing an Inverted Index for Object Storage",
+      "link": "https://www.langchain.com/blog/full-text-search-in-smithdb-designing-an-inverted-index-for-object-storage",
+      "date": "2026-06-11T08:21:07.000Z",
+      "description": "SmithDB supports full-text search and JSON filtering over agent traces with a median (P50) latency of 400 ms, even though the underlying data consists of large, deeply nested JSON documents stored in…"
+    },
+    {
+      "title": "Designing Efficient Verifiers for Legal Agents",
+      "link": "https://www.langchain.com/blog/designing-efficient-verifiers-for-legal-agents",
+      "date": "2026-06-10T17:06:41.000Z",
+      "description": "A Harvey and LangChain Labs study on making LLM verifiers cheaper and more reliable for legal-agent evaluation and post-training."
+    },
+    {
+      "title": "Introducing LangChain Labs",
+      "link": "https://www.langchain.com/blog/introducing-langchain-labs",
+      "date": "2026-06-10T17:06:41.000Z",
+      "description": "LangChain Labs is a new applied research effort focused on continual learning for agents, with partners advancing open research on self-improving AI systems."
+    },
+    {
+      "title": "Give your agent its own computer",
+      "link": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer",
+      "date": "2026-06-05T17:33:10.000Z",
+      "description": "Running code execution in an AI agent is harder than it looks. Your agent needs a real computer (filesystem, shell, package manager, persistent state) but handing it access to your infrastructure is …"
+    },
+    {
+      "title": "Everything we shipped at Interrupt",
+      "link": "https://www.langchain.com/blog/interrupt-2026-overview",
+      "date": "2026-06-05T17:33:10.000Z",
+      "description": "From autonomous debugging to one-line deploys, here's every product LangChain launched at Interrupt 2026 to help teams build, test, and ship agents in production."
+    },
+    {
+      "title": "Model Neutrality: Why Avoiding AI Vendor Lock-In Matters",
+      "link": "https://www.langchain.com/blog/model-neutrality",
+      "date": "2026-06-05T08:51:07.000Z",
+      "description": "Explore why model neutrality is critical for AI agents. Learn how labs lock you in at the harness layer—and why a neutral, open-source framework is the answer."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "source": "Cursor",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "Supermaven Joins Cursor",
+      "link": "https://cursor.com/blog/supermaven",
+      "date": "2024-11-11T00:00:00.000Z",
+      "description": "The two team up to build the next phase of AI coding"
+    },
+    {
+      "title": "We Raised $60M",
+      "link": "https://cursor.com/blog/series-a",
+      "date": "2024-08-22T00:00:00.000Z",
+      "description": "Our goal is to create a magical tool with the aim of writing the world's software."
+    },
+    {
+      "title": "Shadow Workspace: Iterating on Code in the Background",
+      "link": "https://cursor.com/blog/shadow-workspace",
+      "date": "2024-06-08T00:00:00.000Z",
+      "description": "Hidden Electron windows and kernel-level folder proxies to let AIs iterate on code without affecting the user."
+    },
+    {
+      "title": "Our Problems (cont.)",
+      "link": "https://cursor.com/blog/problems-2024",
+      "date": "2024-05-25T00:00:00.000Z",
+      "description": "Here are some more problems we are excited to solve for Cursor."
+    },
+    {
+      "title": "Our Problems",
+      "link": "https://cursor.com/blog/problems-2023",
+      "date": "2023-10-12T00:00:00.000Z",
+      "description": "A list of problems we are excited to solve for Cursor in 2023-2024."
+    },
+    {
+      "title": "We Raised $8M From OpenAI",
+      "link": "https://cursor.com/blog/openai-fund",
+      "date": "2023-09-01T00:00:00.000Z",
+      "description": "Join us to create a magical tool with the aim of writing the world’s software."
+    },
+    {
+      "title": "Inference Characteristics of Llama-2",
+      "link": "https://cursor.com/blog/llama-inference",
+      "date": "2023-07-20T00:00:00.000Z",
+      "description": "Llama-2 is more expensive than you'd think. In this post, we explore why it's often more expensive than gpt-3.5-turbo."
+    },
+    {
+      "title": "Prompt Design",
+      "link": "https://cursor.com/blog/prompt-design",
+      "date": "2023-06-11T00:00:00.000Z",
+      "description": "Prompting is like web design. Let's call it prompt design, and build better tools for it."
+    }
+  ]
+}

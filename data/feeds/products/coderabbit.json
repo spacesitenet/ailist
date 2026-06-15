@@ -1,0 +1,66 @@
+{
+  "source": "CodeRabbit",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "We watched developers approve bugs in 30 seconds",
+      "link": "https://coderabbit.ai/blog/we-watched-developers-approve-bugs-in-30-seconds",
+      "date": "2026-06-12T00:00:00.000Z",
+      "description": "Hundreds of conference conversations, one pattern: teams know review is their bottleneck, but they're still using whatever came pre-installed."
+    },
+    {
+      "title": "開発者が30秒でバグを承認する瞬間を目撃しました",
+      "link": "https://coderabbit.ai/ja/blog/we-watched-developers-approve-bugs-in-30-seconds",
+      "date": "2026-06-12T00:00:00.000Z",
+      "description": "カンファレンスで何百人もの開発者と話して見えてきたのは、1つの共通点でした。チームはレビューがボトルネックだとわかっているのに、最初から用意されていたものをそのまま使い続けているのです。"
+    },
+    {
+      "title": "Automatic Repository Linking: Cross-repo context without manual setup",
+      "link": "https://coderabbit.ai/blog/automatic-repository-linking-cross-repo-context",
+      "date": "2026-06-11T00:00:00.000Z",
+      "description": "CodeRabbit can detect related repositories across your organization and use them as review context, so cross-repo impact is easier to catch before you merge."
+    },
+    {
+      "title": "Automatic Repository Linking: 手動設定なしでクロスリポジトリのコンテキストを利用",
+      "link": "https://coderabbit.ai/ja/blog/automatic-repository-linking-cross-repo-context",
+      "date": "2026-06-11T00:00:00.000Z",
+      "description": "CodeRabbitは、組織内の関連リポジトリを検出し、それらをレビューのコンテキストとして利用できます。これにより、マージ前にクロスリポジトリの影響を見つけやすくなります。"
+    },
+    {
+      "title": "Humans don’t have an API",
+      "link": "https://coderabbit.ai/blog/humans-dont-have-an-api",
+      "date": "2026-06-10T00:00:00.000Z",
+      "description": "As generative AI becomes embedded in daily work, the line between how we communicate with software and how we communicate with one another can feel less distinct than it once did."
+    },
+    {
+      "title": "人間にはAPIはありません",
+      "link": "https://coderabbit.ai/ja/blog/humans-dont-have-an-api",
+      "date": "2026-06-10T00:00:00.000Z",
+      "description": "生成AIが日々の仕事に組み込まれるにつれて、ソフトウェアとのコミュニケーションと、人間同士のコミュニケーションの境界は、以前ほどはっきりしなくなってきています。"
+    },
+    {
+      "title": "個人OSS開発に複数のレビューレイヤーを。Open WebUI ExtensionsがCodeRabbitを選んだ理由",
+      "link": "https://coderabbit.ai/ja/blog/how-open-webui-extensions-uses-coderabbit",
+      "date": "2026-06-10T00:00:00.000Z",
+      "description": "Open WebUI Extensionsは、Open WebUIをより便利に使うためのOSSプラグイン集です。開発者Skyzi000さんに、個人開発OSSにおけるAIコードレビュー活用とCodeRabbit導入の効果を伺いました。"
+    },
+    {
+      "title": " How CodeRabbit Review reads a PR the way its author would explain it",
+      "link": "https://coderabbit.ai/blog/coderabbit-review-reads-a-pr-how-author-would-explain-it",
+      "date": "2026-06-09T00:00:00.000Z",
+      "description": "In the agentic SDLC, code generation is becoming commoditized. Trusted verification is becoming the moat."
+    },
+    {
+      "title": "Fable 5 model review: Early signals from code review and coding tasks",
+      "link": "https://coderabbit.ai/blog/fable-5-model-review",
+      "date": "2026-06-09T00:00:00.000Z",
+      "description": "Fable 5 is worth testing for autonomous coding work, especially when the prompt is incomplete and the agent has to discover the environment before it can build. For production code review, the curren…"
+    },
+    {
+      "title": "CodeRabbit Reviewは、PRを「作成者が説明する順番」で読み解く",
+      "link": "https://coderabbit.ai/ja/blog/coderabbit-review-reads-a-pr-how-author-would-explain-it",
+      "date": "2026-06-09T00:00:00.000Z",
+      "description": "エージェント型SDLCでは、コード生成はコモディティ化しつつあります。信頼できる検証こそが肝になりつつあります。"
+    }
+  ]
+}

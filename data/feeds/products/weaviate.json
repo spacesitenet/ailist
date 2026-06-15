@@ -1,0 +1,66 @@
+{
+  "source": "Weaviate",
+  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "items": [
+    {
+      "title": "Engram is now Generally Available",
+      "link": "https://weaviate.io/blog/engram-generally-available",
+      "date": "2026-06-03T00:00:00.000Z",
+      "description": "Engram, Weaviate's managed memory and context service for agentic applications, is now generally available."
+    },
+    {
+      "title": "Leveling up Weaviate Cloud security: Expanding role-based access control for Cloud console",
+      "link": "https://weaviate.io/blog/rbac-overview",
+      "date": "2026-05-28T00:00:00.000Z",
+      "description": "Weaviate Cloud now supports more granular role-based access control with new Editor and Viewer roles for improved security and organizational management."
+    },
+    {
+      "title": "Build a Coding Assistant with Weaviate MCP: RAG over Code & Docs",
+      "link": "https://weaviate.io/blog/coding-assistant-weaviate-mcp",
+      "date": "2026-05-21T00:00:00.000Z",
+      "description": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
+    },
+    {
+      "title": "Text Analysis for Hybrid Search: Tokenization, Stopwords & Accent Folding",
+      "link": "https://weaviate.io/blog/tokenization-text-analysis-weaviate",
+      "date": "2026-05-14T00:00:00.000Z",
+      "description": "Tokenization makes or breaks hybrid search. See how Weaviate's accent folding, custom stopwords, and /v1/tokenize endpoint power multilingual BM25."
+    },
+    {
+      "title": "Your LLM Is Only as Good as What It Retrieves",
+      "link": "https://weaviate.io/blog/retrieval-quality-rag-overview",
+      "date": "2026-05-06T00:00:00.000Z",
+      "description": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
+    },
+    {
+      "title": "Weaviate 1.37 Release",
+      "link": "https://weaviate.io/blog/weaviate-1-37-release",
+      "date": "2026-04-23T00:00:00.000Z",
+      "description": "This release introduces the built-in MCP Server, Extensible Tokenizers, Diversity Search (MMR), and Query Profiling as previews, along with Incremental Backups, Gemini audio support for multi2vec-goo…"
+    },
+    {
+      "title": "Engram: Memory by Weaviate",
+      "link": "https://weaviate.io/blog/engram-deep-dive",
+      "date": "2026-04-21T00:00:00.000Z",
+      "description": "A deep dive into Engram, our managed memory service for agents which is simple to get started but adaptable to any use case."
+    },
+    {
+      "title": "Weaviate Shared Cloud now generally available on AWS",
+      "link": "https://weaviate.io/blog/aws-shared-cloud-launch",
+      "date": "2026-04-15T00:00:00.000Z",
+      "description": "Weaviate Shared Cloud is now generally available on AWS in US East and Europe, giving teams a fully managed, AI-native database on the provider and region that works best for them."
+    },
+    {
+      "title": "Oh Memories, Where'd You Go",
+      "link": "https://weaviate.io/blog/engram-internal-use-case",
+      "date": "2026-04-02T00:00:00.000Z",
+      "description": "Two weeks of dogfooding Engram, Weaviate's memory product, in daily Claude Code sessions. This surfaced where a dedicated memory product adds value, and the specific mechanics that prevent integratio…"
+    },
+    {
+      "title": "Multimodal Embeddings and RAG: A Practical Guide",
+      "link": "https://weaviate.io/blog/multimodal-guide",
+      "date": "2026-04-01T00:00:00.000Z",
+      "description": "Multimodal embeddings allow AI systems to search and reason across text, images, audio, and video in their native formats. This blog covers the key intuitions behind how this all works and walks thro…"
+    }
+  ]
+}
