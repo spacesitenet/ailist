@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "fetched_at": "2026-06-16T10:02:26.666Z",
   "items": [
+    {
+      "title": "Before, during, after: The three moments AI Agents earn your trust",
+      "link": "https://coderabbit.ai/blog/three-moments-agents-earn-your-trust",
+      "date": "2026-06-15T00:00:00.000Z",
+      "description": "As AI agents handle more code and longer tasks, \"trusting the outcome\" isn't enough. Learn why explainability at three critical moments is now the product itself."
+    },
+    {
+      "title": "作業前・作業中・作業後：AIエージェントが信頼を得る3つの瞬間",
+      "link": "https://coderabbit.ai/ja/blog/three-moments-agents-earn-your-trust",
+      "date": "2026-06-15T00:00:00.000Z",
+      "description": "AIエージェントがより多くのコードと長いタスクを扱うようになると、「結果を信頼する」だけでは足りません。重要な3つの瞬間における説明可能性が、なぜ今やプロダクトそのものになっているのかを見ていきます。"
+    },
     {
       "title": "We watched developers approve bugs in 30 seconds",
       "link": "https://coderabbit.ai/blog/we-watched-developers-approve-bugs-in-30-seconds",

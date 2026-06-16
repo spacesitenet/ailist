@@ -1,7 +1,67 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-15T10:50:48.435Z",
+  "fetched_at": "2026-06-16T10:02:26.666Z",
   "items": [
+    {
+      "title": "Building a 100x Cheaper Trace Judge with Fireworks",
+      "link": "https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks",
+      "date": "2026-06-15T17:48:22.000Z",
+      "description": "LangChain and Fireworks fine-tuned an open model to mine perceived error signals from production traces, matching frontier model performance at a fraction of the cost."
+    },
+    {
+      "title": "How LangChain Made Coding Agent Spend Predictable",
+      "link": "https://www.langchain.com/blog/how-we-made-coding-agent-spend-predictable",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Learn how LangChain uses LangSmith LLM Gateway to track coding agent spend in real time, set budgets by team and user, and prevent runaway AI costs."
+    },
+    {
+      "title": "Agent Observability: How to Monitor and Evaluate LLM Agents in Production",
+      "link": "https://www.langchain.com/blog/production-monitoring",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Production monitoring for LLM agents requires new observability tools. Learn how to trace, evaluate, and improve AI agents at scale."
+    },
+    {
+      "title": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering",
+      "link": "https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Multi-agent systems that mirror real engineering teams — not just code faster — can cut debug time by 93% and compress cross-team delivery. Here's the architecture built on LangGraph."
+    },
+    {
+      "title": "Build and deploy a RAG app with Pinecone Serverless",
+      "link": "https://www.langchain.com/blog/pinecone-serverless",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Build production-ready RAG apps with Pinecone Serverless, LangChain, and LangServe. Deploy scalable AI with usage-based pricing and observability."
+    },
+    {
+      "title": "Test Run Comparisons",
+      "link": "https://www.langchain.com/blog/test-run-comparisons",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Compare LLM test runs side-by-side with LangSmith's Test Run Comparisons. Manually inspect data, filter results, and gain insights faster."
+    },
+    {
+      "title": "Iterating Towards LLM Reliability with Evaluation Driven Development",
+      "link": "https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Dosu uses evaluation driven development and LangSmith to build reliable LLM products at scale, monitor production performance, and iterate with confidence."
+    },
+    {
+      "title": "Announcing LangSmith is now a transactable offering in the Azure Marketplace",
+      "link": "https://www.langchain.com/blog/announcing-langsmith-is-now-a-transactable-offering-in-the-azure-marketplace",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "LangSmith is now available in Azure Marketplace. Deploy the DevOps platform for LLM apps in your Azure VPC with full data control and MACC credit support."
+    },
+    {
+      "title": "Regression Testing with LangSmith",
+      "link": "https://www.langchain.com/blog/regression-testing",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Evaluate and iterate on LLM applications with confidence using LangSmith's regression testing. Compare experiments, track performance, and identify changes."
+    },
+    {
+      "title": "Pairwise Evaluations with LangSmith",
+      "link": "https://www.langchain.com/blog/pairwise-evaluations-with-langsmith",
+      "date": "2026-06-15T17:40:53.000Z",
+      "description": "Learn what pairwise evaluation is, why you might need it for LLM app development, and see an example of how to use it in LangSmith by LangChain."
+    },
     {
       "title": "How Box AI built enterprise content agents with Deep Agents",
       "link": "https://www.langchain.com/blog/building-box-ai-how-an-enterprise-content-platform-went-ai-native-with-deep-agents",
