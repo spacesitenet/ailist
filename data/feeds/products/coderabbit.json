@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-16T10:02:26.666Z",
+  "fetched_at": "2026-06-17T09:26:14.317Z",
   "items": [
+    {
+      "title": "Out with Tokenmaxxing. In with Mergemaxxing",
+      "link": "https://coderabbit.ai/blog/out-with-tokenmaxxing-in-with-mergemaxxing",
+      "date": "2026-06-16T00:00:00.000Z",
+      "description": "The point of AI code review is not to consume more tokens, but to help teams ship better code faster, with fewer production issues and less review bottleneck."
+    },
     {
       "title": "Before, during, after: The three moments AI Agents earn your trust",
       "link": "https://coderabbit.ai/blog/three-moments-agents-earn-your-trust",

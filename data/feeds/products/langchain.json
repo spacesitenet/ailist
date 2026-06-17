@@ -1,7 +1,61 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-16T10:02:26.666Z",
+  "fetched_at": "2026-06-17T09:26:14.317Z",
   "items": [
+    {
+      "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
+      "link": "https://www.langchain.com/blog/customers-factory",
+      "date": "2026-06-16T18:11:42.000Z",
+      "description": "How Factory AI uses LangSmith to debug issues and close the product feedback loop, resulting in a 2x improvement in iteration speed."
+    },
+    {
+      "title": "Introducing Open SWE: An Open-Source Asynchronous Coding Agent",
+      "link": "https://www.langchain.com/blog/introducing-open-swe-an-open-source-asynchronous-coding-agent",
+      "date": "2026-06-16T18:08:47.000Z",
+      "description": "Open SWE is an open-source, cloud-hosted coding agent that autonomously handles GitHub tasks—planning, coding, testing, and opening PRs."
+    },
+    {
+      "title": "Monte Carlo: Building Data + AI Observability Agents with LangGraph and LangSmith",
+      "link": "https://www.langchain.com/blog/customers-monte-carlo",
+      "date": "2026-06-16T18:08:16.000Z",
+      "description": "See how Monte Carlo built its AI Troubleshooting Agent on LangGraph and debugged with LangSmith to help data teams resolve issues faster"
+    },
+    {
+      "title": "Sharing LangSmith Benchmarks",
+      "link": "https://www.langchain.com/blog/public-langsmith-benchmarks",
+      "date": "2026-06-16T18:07:36.000Z",
+      "description": "Share and compare LLM evaluation results with public LangSmith benchmarks. Test RAG systems, agents, and architectures on community datasets."
+    },
+    {
+      "title": "LangSmith: Redesigned product homepage and Resource Tags for better organization",
+      "link": "https://www.langchain.com/blog/langsmith-homepage-redesign-and-resource-tags",
+      "date": "2026-06-16T18:07:09.000Z",
+      "description": "LangSmith's homepage is now organized into Observability, Evaluation, and Prompt Engineering. Learn why we organized the homepage like this. Plus, see our latest Resource Tags updates."
+    },
+    {
+      "title": "Agent Engineering: A New Discipline",
+      "link": "https://www.langchain.com/blog/agent-engineering-a-new-discipline",
+      "date": "2026-06-16T18:06:33.000Z",
+      "description": "Learn how agent engineering combines product thinking, engineering, and data science to build reliable LLM systems. Ship faster with iterative testing."
+    },
+    {
+      "title": "Testing Fine Tuned Open Source Models in LangSmith",
+      "link": "https://www.langchain.com/blog/testing-fine-tuned-open-source-models-in-langsmith",
+      "date": "2026-06-16T18:06:04.000Z",
+      "description": "Evaluate and compare fine-tuned open source LLMs using LangSmith. Test multiple models, automate evaluations, and choose the best performing AI."
+    },
+    {
+      "title": "Human judgment in the agent improvement loop",
+      "link": "https://www.langchain.com/blog/human-judgment-in-the-agent-improvement-loop",
+      "date": "2026-06-16T18:04:57.000Z",
+      "description": "AI agents work best when they reflect the knowledge and judgment your team has built over time. Some of that is institutional knowledge that’s already documented and easy for an agent to use as-is. B…"
+    },
+    {
+      "title": "Context Management for Deep Agents",
+      "link": "https://www.langchain.com/blog/context-management-for-deepagents",
+      "date": "2026-06-16T18:04:22.000Z",
+      "description": "Learn how Deep Agents SDK manages context for long-running AI tasks through offloading, summarization, and filesystem abstraction to prevent context rot."
+    },
     {
       "title": "Building a 100x Cheaper Trace Judge with Fireworks",
       "link": "https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks",
