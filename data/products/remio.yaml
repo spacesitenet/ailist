@@ -1,0 +1,59 @@
+name: "Remio"
+slug: "remio"
+description: "Local-first AI memory and knowledge base desktop app for retrieving personal context from files, webpages, recordings, emails, and notes."
+website: "https://remio.ai/"
+year_founded: null
+headquarters: []
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: true
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "AI Assistant"
+  - "Productivity"
+  - "Search"
+  - "Research"
+platforms:
+  - "macOS"
+models:
+  -
+    delivery: "hybrid"
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Remio's CLI and agent skill require the Remio desktop client; they are not standalone memory backends."
+  - "Positioned as local-first personal AI memory with broad file parsing, local indexes, vector retrieval, and focused context retrieval to reduce repeated folder scanning and token use."
+features:
+  - "Local-first knowledge base"
+  - "File, webpage, recording, email, and note parsing"
+  - "Local indexing"
+  - "Vector retrieval"
+  - "CLI for agent workflows"
+integrations: []
+target_audience:
+  - "Knowledge workers"
+  - "Researchers"
+  - "AI agent users"
+deployment_options:
+  - "Desktop"
+support_channels: []
+languages: []
+screenshots: []
+last_verified: "2026-06"
