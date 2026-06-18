@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-17T09:26:14.317Z",
+  "fetched_at": "2026-06-18T09:09:16.056Z",
   "items": [
+    {
+      "title": "The more AI writes the code, the more review needs independence",
+      "link": "https://coderabbit.ai/blog/code-review-needs-independence",
+      "date": "2026-06-17T00:00:00.000Z",
+      "description": "An independent reviewer becomes the safeguard that keeps teams moving fast without sacrificing quality because the system that writes code should not be the same one deciding whether it is safe to sh…"
+    },
     {
       "title": "Out with Tokenmaxxing. In with Mergemaxxing",
       "link": "https://coderabbit.ai/blog/out-with-tokenmaxxing-in-with-mergemaxxing",

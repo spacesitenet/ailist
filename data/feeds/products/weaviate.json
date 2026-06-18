@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-06-17T09:26:14.317Z",
+  "fetched_at": "2026-06-18T09:09:16.056Z",
   "items": [
+    {
+      "title": "Weaviate Cloud is now free to start",
+      "link": "https://weaviate.io/blog/weaviate-free-tier",
+      "date": "2026-06-17T00:00:00.000Z",
+      "description": "Weaviate Cloud is now free to start across the entire product suite."
+    },
     {
       "title": "Engram is now Generally Available",
       "link": "https://weaviate.io/blog/engram-generally-available",

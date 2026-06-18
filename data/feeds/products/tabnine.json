@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-06-17T09:26:14.317Z",
+  "fetched_at": "2026-06-18T09:09:16.056Z",
   "items": [
+    {
+      "title": "The Hidden Cost of Context-Blind AI Coding",
+      "link": "https://www.tabnine.com/blog/the-hidden-cost-of-context-blind-ai-coding/",
+      "date": "2026-06-17T12:23:14.000Z",
+      "description": "The Hidden Cost of Context-Blind AI Coding AI coding tools are often evaluated on visible productivity. How much code did they generate? How quickly did the developer complete the task? How often wer…"
+    },
     {
       "title": "Tabnine Named a Visionary in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents",
       "link": "https://www.tabnine.com/blog/tabnine-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-enterprise-coding-agents/",
