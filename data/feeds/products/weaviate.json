@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-06-18T09:09:16.056Z",
+  "fetched_at": "2026-06-19T09:25:07.556Z",
   "items": [
+    {
+      "title": "Import & Vectorize Data with Weaviate at Scale",
+      "link": "https://weaviate.io/blog/data-import-best-practices",
+      "date": "2026-06-18T00:00:00.000Z",
+      "description": "Server-side batching, retries, the blobHash data type, and multimodal ingestion — what to use when, with code."
+    },
     {
       "title": "Weaviate Cloud is now free to start",
       "link": "https://weaviate.io/blog/weaviate-free-tier",

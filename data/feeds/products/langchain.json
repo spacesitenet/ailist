@@ -1,7 +1,31 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-18T09:09:16.056Z",
+  "fetched_at": "2026-06-19T09:25:07.556Z",
   "items": [
+    {
+      "title": "Introducing LangSmith’s No Code Agent Builder",
+      "link": "https://www.langchain.com/blog/langsmith-agent-builder",
+      "date": "2026-06-18T17:32:35.000Z",
+      "description": "Build AI agents without code using LangSmith Agent Builder. Create agents with memory, guided prompts, and MCP tools—no technical expertise needed."
+    },
+    {
+      "title": "The Art of Loop Engineering",
+      "link": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+      "date": "2026-06-16T19:00:13.000Z",
+      "description": "Agents automate real-world work, but reliable performance requires more than a good model, it requires a carefully designed harness built for specific tasks. This post explores the core agent loop, h…"
+    },
+    {
+      "title": "Why Fleet Has General Purpose Chat and Specialized Agents",
+      "link": "https://www.langchain.com/blog/why-fleet-has-both-general-purpose-chat-and-specialized-agents",
+      "date": "2026-06-16T19:00:13.000Z",
+      "description": "Fleet supports both quick, ad hoc tasks and recurring responsibilities. See how General Purpose Chat and Specialized Agents help teams delegate work."
+    },
+    {
+      "title": "Reusable Evaluators and Evaluator Templates in LangSmith",
+      "link": "https://www.langchain.com/blog/reusable-langsmith-evaluator-templates",
+      "date": "2026-06-16T19:00:13.000Z",
+      "description": "LangSmith Evaluation now includes 30+ evaluator templates and a central hub to reuse evaluators across projects — so you can ship better evals faster without starting from scratch each time."
+    },
     {
       "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
       "link": "https://www.langchain.com/blog/customers-factory",

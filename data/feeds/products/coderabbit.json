@@ -1,7 +1,37 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-18T09:09:16.056Z",
+  "fetched_at": "2026-06-19T09:25:07.556Z",
   "items": [
+    {
+      "title": "人間では見抜けないバグをAIが検知。フォトクリエイトが語るCodeRabbit導入の真価",
+      "link": "https://coderabbit.ai/ja/blog/how-photocreate-uses-coderabbit",
+      "date": "2026-06-19T00:00:00.000Z",
+      "description": "フォトクリエイトがCodeRabbitを導入し、PRレビュー工数を半減。AIが人間では見抜きにくい文字コードレベルのバグも検知し、開発品質向上に貢献した事例を紹介します。"
+    },
+    {
+      "title": "Introducing Overview: Everything a reviewer needs, before the first line of code",
+      "link": "https://coderabbit.ai/blog/introducing-overview",
+      "date": "2026-06-18T00:00:00.000Z",
+      "description": "See everything a reviewer needs before the first line of code. Resolve blockers, view comments in context, and act on PRs without leaving CodeRabbit."
+    },
+    {
+      "title": "GitHub gives maintainers a throttle for the AI pull request surge",
+      "link": "https://coderabbit.ai/blog/github-gives-maintainers-a-throttle-for-the-ai-pull-request",
+      "date": "2026-06-18T00:00:00.000Z",
+      "description": "GitHub is giving open source maintainers new controls to limit concurrent PRs from outside contributors. Here's how the platform is addressing the maintainer burnout caused by AI-generated contributi…"
+    },
+    {
+      "title": "Overviewのご紹介：最初の1行を読む前に、レビュアーに必要なすべてを",
+      "link": "https://coderabbit.ai/ja/blog/introducing-overview",
+      "date": "2026-06-18T00:00:00.000Z",
+      "description": "最初の1行を読む前に、レビュアーに必要なすべてを確認できます。ブロッカーを解消し、コメントを文脈とともに表示し、CodeRabbitから離れることなくPRに対応できます。"
+    },
+    {
+      "title": "GitHub、AIによるプルリクエスト急増にメンテナーが歯止めをかけられる仕組みを提供",
+      "link": "https://coderabbit.ai/ja/blog/github-gives-maintainers-a-throttle-for-the-ai-pull-request",
+      "date": "2026-06-18T00:00:00.000Z",
+      "description": "GitHubが、外部からのプルリクエストの同時オープン数を制限できる新しい設定をオープンソースのメンテナー向けに追加しました。AIが量産する貢献によるメンテナーの疲弊に、GitHubはどう向き合おうとしているのでしょうか。"
+    },
     {
       "title": "The more AI writes the code, the more review needs independence",
       "link": "https://coderabbit.ai/blog/code-review-needs-independence",
@@ -9,10 +39,22 @@
       "description": "An independent reviewer becomes the safeguard that keeps teams moving fast without sacrificing quality because the system that writes code should not be the same one deciding whether it is safe to sh…"
     },
     {
+      "title": "AIがコードを書くほど、レビューには独立性が必要です",
+      "link": "https://coderabbit.ai/ja/blog/code-review-needs-independence",
+      "date": "2026-06-17T00:00:00.000Z",
+      "description": "コードを書くシステムと、それをリリースしてよいか判断するシステムは同じであるべきではありません。独立したレビュアーは、品質を犠牲にせずチームが高速に進み続けるための安全装置になります。"
+    },
+    {
       "title": "Out with Tokenmaxxing. In with Mergemaxxing",
       "link": "https://coderabbit.ai/blog/out-with-tokenmaxxing-in-with-mergemaxxing",
       "date": "2026-06-16T00:00:00.000Z",
       "description": "The point of AI code review is not to consume more tokens, but to help teams ship better code faster, with fewer production issues and less review bottleneck."
+    },
+    {
+      "title": "Tokenmaxxingは終わり、これからはMergemaxxing",
+      "link": "https://coderabbit.ai/ja/blog/out-with-tokenmaxxing-in-with-mergemaxxing",
+      "date": "2026-06-16T00:00:00.000Z",
+      "description": "AIコードレビューの目的は、より多くのトークンを消費することではありません。チームがより良いコードをより速くリリースし、本番環境での問題とレビューのボトルネックを減らすことです。"
     },
     {
       "title": "Before, during, after: The three moments AI Agents earn your trust",
