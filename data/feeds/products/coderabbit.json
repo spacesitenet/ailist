@@ -1,12 +1,18 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-19T09:25:07.556Z",
+  "fetched_at": "2026-06-20T08:17:43.279Z",
   "items": [
     {
       "title": "人間では見抜けないバグをAIが検知。フォトクリエイトが語るCodeRabbit導入の真価",
       "link": "https://coderabbit.ai/ja/blog/how-photocreate-uses-coderabbit",
       "date": "2026-06-19T00:00:00.000Z",
       "description": "フォトクリエイトがCodeRabbitを導入し、PRレビュー工数を半減。AIが人間では見抜きにくい文字コードレベルのバグも検知し、開発品質向上に貢献した事例を紹介します。"
+    },
+    {
+      "title": "The real bottleneck in code review isn't reviewing code, it is understanding it",
+      "link": "https://coderabbit.ai/blog/bottleneck-in-code-review-is-understanding-intent",
+      "date": "2026-06-19T00:00:00.000Z",
+      "description": "The bottleneck in code review has always been understanding intent well enough to judge whether a change is right, whether it is safe, and whether it actually does what the team intended"
     },
     {
       "title": "Introducing Overview: Everything a reviewer needs, before the first line of code",
