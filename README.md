@@ -63,4 +63,4 @@ Please include official sources where possible so the dataset stays useful and r
 
 The product dataset in `data/products/` remains licensed under the [Open Data Commons Open Database License (ODbL) v1.0](LICENSE-DATA).
 
-This project is maintained by [spacesitenet](https://github.com/spacesitenet).
+This project is maintained by [spacesitenet](https://github.com/spacesitenet). Initially forked from [514sid](https://github.com/514sid)
