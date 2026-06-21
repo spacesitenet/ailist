@@ -1,7 +1,13 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-06-20T08:17:43.279Z",
+  "fetched_at": "2026-06-21T08:54:04.883Z",
   "items": [
+    {
+      "title": "Introducing the AI Ads Index. The First Public Tracker for ChatGPT Ads.",
+      "link": "https://writesonic.com/blog/introducing-ai-ads-index",
+      "date": "2026-06-21T10:00:00.000Z",
+      "description": "The AI Ads Index is live. The first public daily index of sponsored ads inside ChatGPT answers, refreshed every morning."
+    },
     {
       "title": "What are Large Language Models (LLMs)?",
       "link": "https://writesonic.com/blog/what-are-large-language-models-llms",
