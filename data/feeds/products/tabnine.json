@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-06-22T10:32:44.941Z",
+  "fetched_at": "2026-06-23T08:24:21.291Z",
   "items": [
+    {
+      "title": "Bigger Context Windows Are Not Enterprise Context",
+      "link": "https://www.tabnine.com/blog/bigger-context-windows-are-not-enterprise-context/",
+      "date": "2026-06-22T13:01:47.000Z",
+      "description": "Bigger Context Windows Are Not Enterprise Context Every few months, the AI market gets a new headline about larger model context windows. The promise sounds simple. If a model can hold more tokens, i…"
+    },
     {
       "title": "Shared Memory for Multi-Agent Development",
       "link": "https://www.tabnine.com/blog/shared-memory-for-multi-agent-development/",

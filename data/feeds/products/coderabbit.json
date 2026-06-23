@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-22T10:32:44.941Z",
+  "fetched_at": "2026-06-23T08:24:21.291Z",
   "items": [
+    {
+      "title": "How a hackathon project turned into my work at CodeRabbit",
+      "link": "https://coderabbit.ai/blog/how-a-hackathon-project-turned-into-my-work-at-coderabbit",
+      "date": "2026-06-22T00:00:00.000Z",
+      "description": "How Ayush Sridhar CalHacks Hackathon project turned into an SWE internship with CodeRabbit"
+    },
     {
       "title": "人間では見抜けないバグをAIが検知。フォトクリエイトが語るCodeRabbit導入の真価",
       "link": "https://coderabbit.ai/ja/blog/how-photocreate-uses-coderabbit",
