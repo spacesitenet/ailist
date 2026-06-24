@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-06-23T08:24:21.291Z",
+  "fetched_at": "2026-06-24T08:18:24.277Z",
   "items": [
+    {
+      "title": "Introducing Mistral OCR 4",
+      "link": "https://mistral.ai/news/ocr-4/",
+      "date": "2026-06-23T12:00:48.000Z",
+      "description": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment."
+    },
     {
       "title": "AI Now Summit 2026",
       "link": "https://mistral.ai/news/ai-now-summit-2026/",

@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-06-23T08:24:21.291Z",
+  "fetched_at": "2026-06-24T08:18:24.277Z",
   "items": [
+    {
+      "title": "ParallelKernelBench: Frontier LLMs can&#39;t write fast multi-GPU kernels (yet)",
+      "link": "https://www.together.ai/blog/parallelkernelbench",
+      "date": "2026-06-23T00:00:00.000Z",
+      "description": "ParallelKernelBench tests whether LLMs can write fast multi-GPU CUDA kernels across 87 real workloads. The best model solves under a third, but a few generated kernels beat any public implementation."
+    },
     {
       "title": "Kimi K2.7 Code vs Claude Fable 5: Landing pages that cost 94% less",
       "link": "https://www.together.ai/blog/kimi-k2-7-code-vs-claude-fable-5",
