@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-06-24T08:18:24.277Z",
+  "fetched_at": "2026-06-25T08:17:26.889Z",
   "items": [
+    {
+      "title": "Bringing more control over your connectors",
+      "link": "https://mistral.ai/news/more-control-over-connectors/",
+      "date": "2026-06-24T12:00:30.000Z",
+      "description": ""
+    },
     {
       "title": "Introducing Mistral OCR 4",
       "link": "https://mistral.ai/news/ocr-4/",

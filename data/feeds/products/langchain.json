@@ -1,7 +1,49 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-24T08:18:24.277Z",
+  "fetched_at": "2026-06-25T08:17:26.889Z",
   "items": [
+    {
+      "title": "Introducing Rubrics: Build Agents that Evaluate and Correct Their Work",
+      "link": "https://www.langchain.com/blog/introducing-rubrics-for-deepagents",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "Deep Agents' RubricMiddleware adds a self-evaluation loop to your agent runs. Set a rubric, configure a grader, and get reliable outputs on tasks where correctness matters."
+    },
+    {
+      "title": "How Lyft Built a Self-Serve AI Agent Platform with LangGraph and LangSmith",
+      "link": "https://www.langchain.com/blog/lyft-built-a-self-serve-ai-agent-platform-for-customer-support-with-langgraph-and-langsmith",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "Lyft used LangGraph and LangSmith to build a self-serve AI agent platform for customer support, cutting agent development from months to weeks."
+    },
+    {
+      "title": "Introducing Langsmith Engine",
+      "link": "https://www.langchain.com/blog/introducing-langsmith-engine",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "LangSmith Engine watches your production traces, clusters failures into named issues, and proposes targeted fixes and eval coverage. Stop manually triaging agent failures."
+    },
+    {
+      "title": "We built SmithDB, the data layer for agent observability",
+      "link": "https://www.langchain.com/blog/introducing-smithdb",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "Introducing SmithDB: LangSmith's purpose-built distributed database for agent observability, delivering up to 12x faster performance with full portability."
+    },
+    {
+      "title": "The Agent Development Lifecycle: Build, Test, Deploy & Monitor AI Agents | LangChain",
+      "link": "https://www.langchain.com/blog/the-agent-development-lifecycle",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "Learn how leading engineering teams ship AI agents reliably and repeatedly using a four-phase agent development lifecycle: Build, Test, Deploy, and Monitor. Includes guidance on evals, runtimes, obse…"
+    },
+    {
+      "title": "How LangSmith and LangChain OSS Help You Meet EU AI Act Requirements",
+      "link": "https://www.langchain.com/blog/langsmith-langchain-oss-eu-ai-act",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "The EU AI Act compliance deadline is August 2, 2026. Learn what the EU AI Act requires, and how LangSmith and LangChain OSS products help you meet each requirement."
+    },
+    {
+      "title": "How Klarna&#39;s AI assistant redefined customer support at scale for 85 million active users",
+      "link": "https://www.langchain.com/blog/customers-klarna",
+      "date": "2026-06-25T00:21:53.000Z",
+      "description": "Klarna's AI assistant is revolutionizing the personal shopping experience, including customer service and productivity. See how they used LangGraph and LangSmith to achieve 80% faster customer resolu…"
+    },
     {
       "title": "Introducing LangSmith’s No Code Agent Builder",
       "link": "https://www.langchain.com/blog/langsmith-agent-builder",

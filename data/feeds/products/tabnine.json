@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-06-24T08:18:24.277Z",
+  "fetched_at": "2026-06-25T08:17:26.889Z",
   "items": [
+    {
+      "title": "The Next AI Coding Stack Is Multi-Assistant",
+      "link": "https://www.tabnine.com/blog/the-next-ai-coding-stack-is-multi-assistant/",
+      "date": "2026-06-24T14:43:42.000Z",
+      "description": "The Next AI Coding Stack Is Multi-Assistant Enterprise software teams are not standardizing on one AI coding assistant. They are adding many. One developer may use Cursor for repository navigation, C…"
+    },
     {
       "title": "Bigger Context Windows Are Not Enterprise Context",
       "link": "https://www.tabnine.com/blog/bigger-context-windows-are-not-enterprise-context/",
