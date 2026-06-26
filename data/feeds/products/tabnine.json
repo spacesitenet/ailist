@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-06-25T08:17:26.889Z",
+  "fetched_at": "2026-06-26T08:25:44.205Z",
   "items": [
+    {
+      "title": "Stop Measuring AI Coding Assistants by Feel",
+      "link": "https://www.tabnine.com/blog/stop-measuring-ai-coding-assistants-by-feel/",
+      "date": "2026-06-25T11:18:50.000Z",
+      "description": "Stop Measuring AI Coding Assistants by Feel AI coding assistants often feel fast. A developer asks for a function, a refactor, or a test, and usable-looking code appears in seconds. That experience i…"
+    },
     {
       "title": "The Next AI Coding Stack Is Multi-Assistant",
       "link": "https://www.tabnine.com/blog/the-next-ai-coding-stack-is-multi-assistant/",

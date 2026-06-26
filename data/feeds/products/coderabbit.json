@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-25T08:17:26.889Z",
+  "fetched_at": "2026-06-26T08:25:44.205Z",
   "items": [
+    {
+      "title": "Loop engineering: Designing loops you can actually walk away from",
+      "link": "https://coderabbit.ai/blog/loop-engineering",
+      "date": "2026-06-25T00:00:00.000Z",
+      "description": "Loop engineering allows you to step away completely by designing a system that operates autonomously, removing the human from the loop entirely."
+    },
     {
       "title": "How a hackathon project turned into my work at CodeRabbit",
       "link": "https://coderabbit.ai/blog/how-a-hackathon-project-turned-into-my-work-at-coderabbit",

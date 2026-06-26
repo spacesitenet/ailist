@@ -1,7 +1,25 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-25T08:17:26.889Z",
+  "fetched_at": "2026-06-26T08:25:44.205Z",
   "items": [
+    {
+      "title": "How we built SmithDB’s inverted index for full-text search",
+      "link": "https://www.langchain.com/blog/full-text-search-in-smithdb-constructing-and-querying-our-inverted-index-pt-2",
+      "date": "2026-06-25T18:33:49.000Z",
+      "description": "A technical deep dive into how LangChain built full-text search in SmithDB, from constructing and compacting inverted indexes to routing queries across local SSD and object storage."
+    },
+    {
+      "title": "June 2026: LangChain Newsletter — Fleet On-Call Copilot, Deep Agents Rubrics, and More",
+      "link": "https://www.langchain.com/blog/june-2026-langchain-newsletter",
+      "date": "2026-06-25T17:50:53.000Z",
+      "description": "New in LangSmith: a Fleet on-call copilot for alert triage, computer use for agents, voice trace debugging, and experiment status tracking. Plus Deep Agents Rubrics, programmatic subagents, a new Lan…"
+    },
+    {
+      "title": "Why the Best AI Agents Are Simple: Sierra’s Zack Reneau-Wedeen on the Max Agency Podcast",
+      "link": "https://www.langchain.com/blog/why-the-best-agents-are-simpler-than-you-think-sierra-max-agency-podcast",
+      "date": "2026-06-25T14:53:53.000Z",
+      "description": "On the Max Agency Podcast, Harrison Chase and Sierra’s Zack Reneau-Wedeen sat down to explore the future of AI agents. Learn why simple architectures, outcome-based pricing, and avoiding \"org chart s…"
+    },
     {
       "title": "Introducing Rubrics: Build Agents that Evaluate and Correct Their Work",
       "link": "https://www.langchain.com/blog/introducing-rubrics-for-deepagents",

@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-06-25T08:17:26.889Z",
+  "fetched_at": "2026-06-26T08:25:44.205Z",
   "items": [
+    {
+      "title": "Weaviate 1.38 Release",
+      "link": "https://weaviate.io/blog/weaviate-1-38-release",
+      "date": "2026-06-25T00:00:00.000Z",
+      "description": "This release brings the HFresh disk-based vector index and the built-in MCP Server to general availability, rebuilds cluster-wide async replication to run from a single scheduler (on by default), and…"
+    },
     {
       "title": "Import & Vectorize Data with Weaviate at Scale",
       "link": "https://weaviate.io/blog/data-import-best-practices",
