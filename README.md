@@ -20,6 +20,7 @@ AI is moving too quickly for static blog lists and vendor-sponsored rankings. AI
 ## Tech Stack
 
 - **[Hugo](https://gohugo.io/)** for static generation and Content Adapters
+[Auferet](https://auferet.com) - AI game master with persistent memory for your characters and uploaded lore; solo or multiplayer, with 5e and Pathfinder 2e modes.
 - **[Bun](https://bun.sh/)** for package management and TypeScript scripts
 - **[Tailwind CSS v4](https://tailwindcss.com/)** for styling
 - **[Biome](https://biomejs.dev/)** for linting and formatting
