@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-06-26T08:25:44.205Z",
+  "fetched_at": "2026-06-27T07:43:41.738Z",
   "items": [
+    {
+      "title": "Context Readiness Is the New AI Coding Benchmark",
+      "link": "https://www.tabnine.com/blog/context-readiness-ai-coding-benchmark/",
+      "date": "2026-06-26T13:02:05.000Z",
+      "description": "Context Readiness Is the New AI Coding Benchmark AI coding assistants have moved from novelty to daily infrastructure. Developers now use tools such as Claude, Cursor, Windsurf, Microsoft Copilot, an…"
+    },
     {
       "title": "Stop Measuring AI Coding Assistants by Feel",
       "link": "https://www.tabnine.com/blog/stop-measuring-ai-coding-assistants-by-feel/",

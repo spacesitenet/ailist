@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-26T08:25:44.205Z",
+  "fetched_at": "2026-06-27T07:43:41.738Z",
   "items": [
+    {
+      "title": "What we got wrong about code review",
+      "link": "https://coderabbit.ai/blog/what-we-got-wrong-about-code-review",
+      "date": "2026-06-26T00:00:00.000Z",
+      "description": "As the volume of AI-generated code grew, the harder problem became clear: review isn't only about speed, it's about whether developers still understand and trust what they're shipping."
+    },
     {
       "title": "Loop engineering: Designing loops you can actually walk away from",
       "link": "https://coderabbit.ai/blog/loop-engineering",
