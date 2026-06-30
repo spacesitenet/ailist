@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-06-29T09:22:09.286Z",
+  "fetched_at": "2026-06-30T08:24:23.869Z",
   "items": [
+    {
+      "title": "Generating Test Data for Pinecone",
+      "link": "https://www.pinecone.io/blog/generating-test-data-for-pinecone/",
+      "date": "2026-06-29T18:49:00.000Z",
+      "description": "A repeatable workflow for building large, realistic vector test datasets: CC News to Parquet to local embeddings to Pinecone bulk import."
+    },
     {
       "title": "What Indexing Algorithms Does Pinecone Use?",
       "link": "https://www.pinecone.io/learn/pinecone-indexing-algorithms/",
