@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-06-30T08:24:23.869Z",
+  "fetched_at": "2026-07-01T08:44:27.866Z",
   "items": [
+    {
+      "title": "How Deep Agents Run Untrusted Code Without a Sandbox",
+      "link": "https://www.langchain.com/blog/running-untrusted-agent-code-without-a-sandbox",
+      "date": "2026-06-30T15:53:45.000Z",
+      "description": "A smaller, in-process alternative to full sandboxes: WASM + QuickJS for isolation, least-privilege capabilities, and snapshot-based durable pauses."
+    },
+    {
+      "title": "Harbor x LangChain: A Unified Stack for Evaluating Agents",
+      "link": "https://www.langchain.com/blog/unified-stack-for-evaluating-agents",
+      "date": "2026-06-30T15:22:15.000Z",
+      "description": "Evaluating long-running, stateful agents needs a new kind of runner. Here's how Deep Agents, LangSmith sandboxes, and observability plug into Harbor."
+    },
     {
       "title": "Introducing Dynamic Subagents in Deep Agents",
       "link": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
