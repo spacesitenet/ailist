@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-01T08:44:27.866Z",
+  "fetched_at": "2026-07-02T08:00:22.093Z",
   "items": [
+    {
+      "title": "Announcing our $800M Series C to accelerate the shift to open-source AI",
+      "link": "https://www.together.ai/blog/announcing-our-series-c",
+      "date": "2026-07-01T00:00:00.000Z",
+      "description": "We raised $800M to accelerate the shift to open-source AI. Here's why the economics of closed models don't scale, and what we're building next."
+    },
     {
       "title": "Together AI at ICML 2026: frontier research across the full stack",
       "link": "https://www.together.ai/blog/icml-2026",

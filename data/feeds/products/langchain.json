@@ -1,7 +1,25 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-01T08:44:27.866Z",
+  "fetched_at": "2026-07-02T08:00:22.093Z",
   "items": [
+    {
+      "title": "OpenWiki: Open Source Repo Documentation for Coding Agents",
+      "link": "https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation",
+      "date": "2026-07-01T17:58:04.000Z",
+      "description": "OpenWiki generates and maintains codebase documentation so coding agents can find the repo context they need without loading everything into one instruction file."
+    },
+    {
+      "title": "How to Use RLMs in Deep Agents",
+      "link": "https://www.langchain.com/blog/how-to-use-rlms-in-deep-agents",
+      "date": "2026-07-01T15:38:16.000Z",
+      "description": "Recursive language models (RLMs) fix context rot by having agents write code that dispatches subagents over context chunks instead of pumping everything in one context window. Deep Agents now impleme…"
+    },
+    {
+      "title": "How Pendo uses LangSmith to trace Novus from user behavior to code fixes",
+      "link": "https://www.langchain.com/blog/how-pendo-used-langsmith-to-trace-novus-from-user-behavior-to-code-fixes",
+      "date": "2026-07-01T15:00:02.000Z",
+      "description": "Pendo used LangSmith to debug, evaluate, and monitor Novus, its AI product agent that turns behavioral data and session replays into code fixes."
+    },
     {
       "title": "How Deep Agents Run Untrusted Code Without a Sandbox",
       "link": "https://www.langchain.com/blog/running-untrusted-agent-code-without-a-sandbox",
@@ -13,6 +31,18 @@
       "link": "https://www.langchain.com/blog/unified-stack-for-evaluating-agents",
       "date": "2026-06-30T15:22:15.000Z",
       "description": "Evaluating long-running, stateful agents needs a new kind of runner. Here's how Deep Agents, LangSmith sandboxes, and observability plug into Harbor."
+    },
+    {
+      "title": "How Rippling built production AI in 6 months with Deep Agents and LangSmith",
+      "link": "https://www.langchain.com/blog/how-rippling-went-ai-native-across-every-product-in-6-months-with-deep-agents-and-langsmith",
+      "date": "2026-06-30T01:27:48.000Z",
+      "description": "Rippling uses LangChain Deep Agents and LangSmith to run cross-domain AI across HR, IT, finance, payroll, and global operations."
+    },
+    {
+      "title": "Extraction Benchmarking",
+      "link": "https://www.langchain.com/blog/extraction-benchmarking",
+      "date": "2026-06-30T01:27:48.000Z",
+      "description": "Compare GPT-4, Claude, and open-source LLMs on structured data extraction from chat logs. Benchmark results, evaluation metrics, and dataset creation insights."
     },
     {
       "title": "Introducing Dynamic Subagents in Deep Agents",

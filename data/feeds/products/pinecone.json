@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-07-01T08:44:27.866Z",
+  "fetched_at": "2026-07-02T08:00:22.093Z",
   "items": [
+    {
+      "title": "Pinecone Nexus Is Now in Public Preview",
+      "link": "https://www.pinecone.io/blog/pinecone-nexus-public-preview/",
+      "date": "2026-07-01T12:00:00.000Z",
+      "description": "Pinecone Nexus, the knowledge engine for AI agents, is now in Public Preview. Compile enterprise knowledge once; query it from any agent."
+    },
     {
       "title": "Generating Test Data for Pinecone",
       "link": "https://www.pinecone.io/blog/generating-test-data-for-pinecone/",
