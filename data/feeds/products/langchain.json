@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-02T08:00:22.093Z",
+  "fetched_at": "2026-07-03T07:55:34.767Z",
   "items": [
+    {
+      "title": "Your coding agent bill doubled. Here’s how to fix it.",
+      "link": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
+      "date": "2026-07-02T20:47:20.000Z",
+      "description": "Learn why coding agent bills spiral out of control — and how to trace, compare, and govern spend across Claude Code, Cursor, Copilot, and more in one place."
+    },
     {
       "title": "OpenWiki: Open Source Repo Documentation for Coding Agents",
       "link": "https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation",

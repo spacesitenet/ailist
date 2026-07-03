@@ -1,7 +1,25 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-06-29T09:22:09.286Z",
+  "fetched_at": "2026-07-03T07:55:34.767Z",
   "items": [
+    {
+      "title": "Stop guessing why CodeRabbit posted that review comment",
+      "link": "https://coderabbit.ai/blog/context-behind-code-review-comments",
+      "date": "2026-07-02T00:00:00.000Z",
+      "description": "Every CodeRabbit comment now shows a Source line. Trace any finding to the exact guideline or linked repo, and drop the ones that don't fit your codebase."
+    },
+    {
+      "title": "Claude Sonnet 5 review: Should you switch?",
+      "link": "https://coderabbit.ai/blog/claude-sonnet-5-review",
+      "date": "2026-06-30T00:00:00.000Z",
+      "description": "A hands-on review of Claude Sonnet 5 after a week of real coding and code-review work: how it compares to Sonnet 4.6, what it costs, and who should upgrade."
+    },
+    {
+      "title": "CodeRabbit Agent is now in Discord",
+      "link": "https://coderabbit.ai/blog/coderabbit-agent-in-discord",
+      "date": "2026-06-30T00:00:00.000Z",
+      "description": "Bring the CodeRabbit Agent into your Discord server. Turn channels into workspaces where CodeRabbit investigates, plans, automates, and does real code work."
+    },
     {
       "title": "What we got wrong about code review",
       "link": "https://coderabbit.ai/blog/what-we-got-wrong-about-code-review",
