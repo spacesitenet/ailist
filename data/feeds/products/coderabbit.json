@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-07T08:14:59.427Z",
+  "fetched_at": "2026-07-08T07:23:11.153Z",
   "items": [
+    {
+      "title": "The case for monorepos, and what they cost you",
+      "link": "https://coderabbit.ai/blog/monorepo-vs-polyrepo",
+      "date": "2026-07-07T00:00:00.000Z",
+      "description": "Monorepos keep shared code in sync but make every bad PR everyone's problem. Here's when to commit to one, when polyrepo wins, and how to review at scale."
+    },
     {
       "title": "Stop guessing why CodeRabbit posted that review comment",
       "link": "https://coderabbit.ai/blog/context-behind-code-review-comments",

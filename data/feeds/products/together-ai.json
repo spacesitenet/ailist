@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-07T08:14:59.427Z",
+  "fetched_at": "2026-07-08T07:23:11.153Z",
   "items": [
+    {
+      "title": "Open, convenient and predictable: Introducing Provisioned Throughput",
+      "link": "https://www.together.ai/blog/provisioned-throughput",
+      "date": "2026-07-08T00:00:00.000Z",
+      "description": "Provisioned Throughput gives you reserved inference capacity for frontier open models like MiniMax M3 and GLM-5.2. Token-based pricing, a 99% uptime SLA, and up to 90% lower cost than proprietary API…"
+    },
     {
       "title": "Announcing our $800M Series C to accelerate the shift to open-source AI",
       "link": "https://www.together.ai/blog/announcing-our-series-c",

@@ -1,6 +1,6 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-07-07T08:14:59.427Z",
+  "fetched_at": "2026-07-08T07:23:11.153Z",
   "items": [
     {
       "title": "Pinecone Nexus Is Now in Public Preview",
@@ -13,6 +13,12 @@
       "link": "https://www.pinecone.io/blog/generating-test-data-for-pinecone/",
       "date": "2026-06-29T18:49:00.000Z",
       "description": "A repeatable workflow for building large, realistic vector test datasets: CC News to Parquet to local embeddings to Pinecone bulk import."
+    },
+    {
+      "title": "Sparse V3: how Pinecone's sparse index learned to skip",
+      "link": "https://www.pinecone.io/blog/sparse-v3/",
+      "date": "2026-06-18T21:34:00.000Z",
+      "description": ""
     },
     {
       "title": "What Indexing Algorithms Does Pinecone Use?",

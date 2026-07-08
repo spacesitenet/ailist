@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-07T08:14:59.427Z",
+  "fetched_at": "2026-07-08T07:23:11.153Z",
   "items": [
+    {
+      "title": "How Schneider Electric Built Their LLMOps Foundations With LangSmith",
+      "link": "https://www.langchain.com/blog/how-schneider-electric-built-their-llmops-foundations-at-enterprise-scale-with-langsmith",
+      "date": "2026-07-07T15:31:56.000Z",
+      "description": "Learn how Schneider Electric built enterprise LLMOps foundations with LangSmith to improve observability, evaluation, and deployment for AI products at scale."
+    },
+    {
+      "title": "Improving Agents is a Data Mining Problem",
+      "link": "https://www.langchain.com/blog/improving-agents-is-a-data-mining-problem",
+      "date": "2026-07-07T15:05:42.000Z",
+      "description": "How LangChain mines agent traces to find failures, fine-tune judge models cheaper than frontier LLMs, and hill-climb performance with evals."
+    },
     {
       "title": "Your coding agent bill doubled. Here’s how to fix it.",
       "link": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
