@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-07-08T07:23:11.153Z",
+  "fetched_at": "2026-07-09T08:29:34.864Z",
   "items": [
+    {
+      "title": "Introducing Robostral Navigate",
+      "link": "https://mistral.ai/news/robostral-navigate/",
+      "date": "2026-07-08T12:00:59.000Z",
+      "description": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed."
+    },
     {
       "title": "Leanstral 1.5: Proof Abundance for All",
       "link": "https://mistral.ai/news/leanstral-1-5/",
