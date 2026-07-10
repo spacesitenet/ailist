@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-09T08:29:34.864Z",
+  "fetched_at": "2026-07-10T08:15:44.984Z",
   "items": [
+    {
+      "title": "Security at AI Speed: You Can’t Fix What You Can’t Detect and Understand",
+      "link": "https://coderabbit.ai/blog/security-at-ai-speed",
+      "date": "2026-07-09T00:00:00.000Z",
+      "description": "More security flaws are going into AI generated code while faster exploitation is coming out. That is why code security deserves attention now more than ever."
+    },
+    {
+      "title": "GPT-5.6 Sol and Terra: Where they fit for coding agents and code review",
+      "link": "https://coderabbit.ai/blog/gpt-5-6-sol-and-terra-benchmark",
+      "date": "2026-07-09T00:00:00.000Z",
+      "description": "OpenAI’s GPT-5.6 family includes capability tiers: Sol as the flagship model, Terra as the lower-cost option, and Luna as the fastest, lowest-cost tier."
+    },
     {
       "title": "How CodeRabbit helps open source maintainers avoid burnout on Discord",
       "link": "https://coderabbit.ai/blog/coderabbit-agent-discord-open-source",

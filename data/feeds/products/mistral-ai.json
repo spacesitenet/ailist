@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-07-09T08:29:34.864Z",
+  "fetched_at": "2026-07-10T08:15:44.984Z",
   "items": [
+    {
+      "title": "Your Prompts and Skills need a system of record.",
+      "link": "https://mistral.ai/news/manage-prompts-and-skills-in-studio/",
+      "date": "2026-07-09T12:00:00.000Z",
+      "description": "Studio provides a system of record for AI prompts and skills—versioned, owned, and traceable. Iterate fast, ship with control, and ensure consistent AI behavior."
+    },
     {
       "title": "Introducing Robostral Navigate",
       "link": "https://mistral.ai/news/robostral-navigate/",

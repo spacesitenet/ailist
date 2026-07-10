@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-07-09T08:29:34.864Z",
+  "fetched_at": "2026-07-10T08:15:44.984Z",
   "items": [
+    {
+      "title": "Text match filters for agents",
+      "link": "https://www.pinecone.io/blog/text-match-filters/",
+      "date": "2026-07-14T13:00:00.000Z",
+      "description": "Semantic search returns results close in meaning, not results that answer what you meant. See how Pinecone's text match filters fix unstated query context, no pre-labeling required."
+    },
     {
       "title": "Pinecone Nexus Is Now in Public Preview",
       "link": "https://www.pinecone.io/blog/pinecone-nexus-public-preview/",
