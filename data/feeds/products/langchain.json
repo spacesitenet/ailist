@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-10T08:15:44.984Z",
+  "fetched_at": "2026-07-11T07:05:36.547Z",
   "items": [
+    {
+      "title": "OpenWiki Brains: Proactive Memory for AI Agents",
+      "link": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+      "date": "2026-07-10T16:46:35.000Z",
+      "description": "OpenWiki Brains turns sources like Gmail, Notion, Git, X, Hacker News, and web search into a local wiki that agents can use as fresh, proactive memory."
+    },
     {
       "title": "Deep Agents Code on NVIDIA NemoClaw",
       "link": "https://www.langchain.com/blog/deep-agents-code-on-nemoclaw-a-governed-blueprint-for-your-most-sensitive-code",

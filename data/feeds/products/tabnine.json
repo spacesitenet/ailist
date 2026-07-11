@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-07-10T08:15:44.984Z",
+  "fetched_at": "2026-07-11T07:05:36.547Z",
   "items": [
+    {
+      "title": "The Verification Gap: Why Faster Code Generation Is Making Software Quality Worse",
+      "link": "https://www.tabnine.com/blog/ai-verification-gap-code-quality/",
+      "date": "2026-07-10T10:44:31.000Z",
+      "description": "The software engineering industry has successfully solved the code generation problem. Thanks to the rapid adoption of AI coding assistants, the cost and time required to write a line of code have pl…"
+    },
     {
       "title": "Your AI Coding Bill Is a Context Problem, Not a Usage Problem",
       "link": "https://www.tabnine.com/blog/ai-coding-token-costs-context-problem/",
