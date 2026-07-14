@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-13T08:09:39.628Z",
+  "fetched_at": "2026-07-14T07:03:24.443Z",
   "items": [
+    {
+      "title": "2026 is becoming the year of AI quality",
+      "link": "https://coderabbit.ai/blog/2026-is-becoming-the-year-of-ai-quality",
+      "date": "2026-07-13T00:00:00.000Z",
+      "description": "As AI makes code generation fast and abundant, the real engineering constraint is shifting from producing code to understanding, trusting, and taking accountability for it."
+    },
     {
       "title": "Security at AI Speed: You Can’t Fix What You Can’t Detect and Understand",
       "link": "https://coderabbit.ai/blog/security-at-ai-speed",
