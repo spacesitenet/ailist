@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-15T07:06:25.934Z",
+  "fetched_at": "2026-07-16T07:15:26.589Z",
   "items": [
+    {
+      "title": "The hidden cost of your security stack",
+      "link": "https://coderabbit.ai/blog/hidden-cost-security-stack",
+      "date": "2026-07-16T00:00:00.000Z",
+      "description": "Security tool sprawl creates hidden costs in alerts, context switching, backlogs, and verification work as teams ship more AI-generated code."
+    },
+    {
+      "title": "What happens to explainability after trust is earned",
+      "link": "https://coderabbit.ai/blog/what-happens-to-explainability-after-trust-is-earned",
+      "date": "2026-07-14T00:00:00.000Z",
+      "description": "CodeRabbit's Quiet mode reflects a shift in explainability: once teams trust an AI reviewer, the product should preserve full review depth while prioritizing the inline comments that most deserve att…"
+    },
     {
       "title": "2026 is becoming the year of AI quality",
       "link": "https://coderabbit.ai/blog/2026-is-becoming-the-year-of-ai-quality",

@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-15T07:06:25.934Z",
+  "fetched_at": "2026-07-16T07:15:26.589Z",
   "items": [
+    {
+      "title": "New in Fleet: Deploy AI agents to Slack in one click",
+      "link": "https://www.langchain.com/blog/new-in-langsmith-fleet-bring-agents-into-slack-in-one-click",
+      "date": "2026-07-15T18:36:26.000Z",
+      "description": "Build custom AI agents in Fleet without code, then deploy them to Slack in one click. Give agents custom identities, use them in channels and threads, and keep work moving where your team already col…"
+    },
+    {
+      "title": "Agents need their own computer. Here&#39;s how to give them one safely.",
+      "link": "https://www.langchain.com/blog/agents-need-their-own-computer",
+      "date": "2026-07-15T18:36:26.000Z",
+      "description": "For most of computing history, a developer environment meant a physical machine, then a VM, then a container, with each one shared across the work happening on it, each one requiring deliberate setup…"
+    },
     {
       "title": "How to Debug Coding Agents with LangSmith Traces",
       "link": "https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open",
