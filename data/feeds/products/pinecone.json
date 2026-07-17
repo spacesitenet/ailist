@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-07-16T07:15:26.589Z",
+  "fetched_at": "2026-07-17T07:10:21.496Z",
   "items": [
+    {
+      "title": "Behind the Benchmarking Pipeline ",
+      "link": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
+      "date": "2026-07-16T17:31:00.000Z",
+      "description": ""
+    },
     {
       "title": "Text match filters for agents",
       "link": "https://www.pinecone.io/blog/text-match-filters/",

@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-16T07:15:26.589Z",
+  "fetched_at": "2026-07-17T07:10:21.496Z",
   "items": [
+    {
+      "title": "What does 99.9% uptime mean for inference?",
+      "link": "https://www.together.ai/blog/99-9-uptime-for-inference",
+      "date": "2026-07-16T00:00:00.000Z",
+      "description": "Reliability numbers are easy to publish. We break down what 99%, 99.9%, and 99.99% uptime actually require, the failure domains each tier has to survive, and the questions to ask any inference provid…"
+    },
     {
       "title": "Together AI brings Thinking Machines Lab’s new model Inkling on day 0",
       "link": "https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0",

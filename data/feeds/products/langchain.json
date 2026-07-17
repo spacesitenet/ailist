@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-16T07:15:26.589Z",
+  "fetched_at": "2026-07-17T07:10:21.496Z",
   "items": [
+    {
+      "title": "OpenWiki 0.2 brings OKF to codebase documentation",
+      "link": "https://www.langchain.com/blog/openwiki-0-2-adds-okf-support",
+      "date": "2026-07-16T18:46:10.000Z",
+      "description": "OpenWiki 0.2 generates codebase wikis in the OKF format, helping developers organize repo docs with metadata, changelogs, and agent-friendly retrieval."
+    },
     {
       "title": "New in Fleet: Deploy AI agents to Slack in one click",
       "link": "https://www.langchain.com/blog/new-in-langsmith-fleet-bring-agents-into-slack-in-one-click",

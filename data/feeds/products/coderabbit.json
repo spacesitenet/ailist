@@ -1,12 +1,18 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-16T07:15:26.589Z",
+  "fetched_at": "2026-07-17T07:10:21.496Z",
   "items": [
     {
       "title": "The hidden cost of your security stack",
       "link": "https://coderabbit.ai/blog/hidden-cost-security-stack",
       "date": "2026-07-16T00:00:00.000Z",
       "description": "Security tool sprawl creates hidden costs in alerts, context switching, backlogs, and verification work as teams ship more AI-generated code."
+    },
+    {
+      "title": "Close the loop after every merge: the agent that reviewed your PR can now follow through",
+      "link": "https://coderabbit.ai/blog/close-the-loop-after-every-merge",
+      "date": "2026-07-16T00:00:00.000Z",
+      "description": "Post-Merge Actions use pull request context to handle changelogs, documentation, tickets, and other work that should happen after merge."
     },
     {
       "title": "What happens to explainability after trust is earned",
