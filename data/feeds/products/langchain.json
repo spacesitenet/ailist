@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-17T07:10:21.496Z",
+  "fetched_at": "2026-07-18T06:53:08.203Z",
   "items": [
+    {
+      "title": "Open Source Extraction Service",
+      "link": "https://www.langchain.com/blog/open-source-extraction-service",
+      "date": "2026-07-18T01:05:38.000Z",
+      "description": ""
+    },
     {
       "title": "OpenWiki 0.2 brings OKF to codebase documentation",
       "link": "https://www.langchain.com/blog/openwiki-0-2-adds-okf-support",
