@@ -1,0 +1,53 @@
+name: "ImagineClip"
+slug: "imagineclip"
+description: "AI video generator for avatar clips, stylized scenes, and social-ready videos from prompts, images, and effects."
+website: "https://imagineclip.com/"
+year_founded: 2025
+headquarters:
+  - "United States"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Video"
+  - "Design"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes: []
+features:
+  - "Prompt-to-video generation"
+  - "Image-to-video generation"
+  - "Avatar clips and visual effects"
+integrations: []
+target_audience:
+  - "Content creators"
+  - "Social media teams"
+deployment_options:
+  - "Cloud"
+support_channels: []
+languages: []
+screenshots: []
+last_verified: "2026-07"
