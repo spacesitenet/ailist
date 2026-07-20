@@ -1,6 +1,6 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-19T07:22:42.157Z",
+  "fetched_at": "2026-07-20T07:51:36.302Z",
   "items": [
     {
       "title": "The hidden cost of your security stack",
@@ -223,6 +223,12 @@
       "link": "https://coderabbit.ai/ja/blog/coderabbit-review-reads-a-pr-how-author-would-explain-it",
       "date": "2026-06-09T00:00:00.000Z",
       "description": "エージェント型SDLCでは、コード生成はコモディティ化しつつあります。信頼できる検証こそが肝になりつつあります。"
+    },
+    {
+      "title": "CodeRabbit now supports NVIDIA Nemotron 3 Ultra",
+      "link": "https://coderabbit.ai/blog/coderabbit-supports-nvidia-nemotron-3-ultra",
+      "date": "2026-06-04T00:00:00.000Z",
+      "description": "NVIDIA Nemotron 3 Ultra delivers accurate and fast throughput in CodeRabbit's self-hosted AI code reviews."
     }
   ]
 }
