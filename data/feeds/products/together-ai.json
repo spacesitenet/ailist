@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-20T07:51:36.302Z",
+  "fetched_at": "2026-07-21T07:27:53.773Z",
   "items": [
+    {
+      "title": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+      "link": "https://www.together.ai/blog/together-yc-gpu-cluster",
+      "date": "2026-07-20T00:00:00.000Z",
+      "description": "No more two-year compute contracts. Together AI and YC just gave YC startups a faster way to get GPUs."
+    },
     {
       "title": "What does 99.9% uptime mean for inference?",
       "link": "https://www.together.ai/blog/99-9-uptime-for-inference",
