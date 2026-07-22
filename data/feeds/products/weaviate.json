@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-07-21T07:27:53.773Z",
+  "fetched_at": "2026-07-22T07:29:49.343Z",
   "items": [
+    {
+      "title": "Query Profiling: See Where a Slow Query Spends Its Time",
+      "link": "https://weaviate.io/blog/query-profiling",
+      "date": "2026-07-21T00:00:00.000Z",
+      "description": "When a Weaviate query is slow, the first question is where the time went. Query profiling returns a per-stage, per-shard timing breakdown, making query performance issues visible."
+    },
     {
       "title": "Weaviate 1.38 Release",
       "link": "https://weaviate.io/blog/weaviate-1-38-release",

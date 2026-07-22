@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-21T07:27:53.773Z",
+  "fetched_at": "2026-07-22T07:29:49.343Z",
   "items": [
+    {
+      "title": "How Apollo Uses Deep Agents and LangSmith for GTM AI",
+      "link": "https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop",
+      "date": "2026-07-21T23:48:02.000Z",
+      "description": "Apollo uses Deep Agents and LangSmith to power an AI Assistant that handles prospecting, enrichment, outreach, analytics, and MCP integrations."
+    },
+    {
+      "title": "Trace voice agents in LangSmith",
+      "link": "https://www.langchain.com/blog/trace-voice-agents-in-langsmith",
+      "date": "2026-07-21T16:02:57.000Z",
+      "description": "LangSmith now supports tracing for voice agents built with Pipecat, LiveKit, OpenAI Realtime, and Gemini Live. Capture audio, STT and TTS latency, interruptions, tool calls, and more in one trace."
+    },
     {
       "title": "IssueBench - How We Evaluate Engine",
       "link": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
