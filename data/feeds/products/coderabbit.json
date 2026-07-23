@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-22T07:29:49.343Z",
+  "fetched_at": "2026-07-23T07:27:13.785Z",
   "items": [
+    {
+      "title": "Code is no longer the bottleneck. Understanding is.",
+      "link": "https://coderabbit.ai/blog/code-is-no-longer-the-bottleneck-understanding-is",
+      "date": "2026-07-21T00:00:00.000Z",
+      "description": "Coding agents can expand change volume faster than teams can understand it. Review needs a shared path from intent to system behavior to code so people can keep shaping the system."
+    },
     {
       "title": "The hidden cost of your security stack",
       "link": "https://coderabbit.ai/blog/hidden-cost-security-stack",

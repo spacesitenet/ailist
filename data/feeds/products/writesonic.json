@@ -1,7 +1,19 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-07-22T07:29:49.343Z",
+  "fetched_at": "2026-07-23T07:27:13.785Z",
   "items": [
+    {
+      "title": "Do AI Engines Cite the Same Sources? We Studied 161,286 Prompts Across 4 Platforms",
+      "link": "https://writesonic.com/blog/ai-citation-source-overlap-study",
+      "date": "2026-07-22T19:31:11.000Z",
+      "description": "We ran 161,286 prompts through ChatGPT, Gemini, Perplexity, and Google AI Overviews and measured how much their citation pools overlap."
+    },
+    {
+      "title": "The Brand at #1 in AI Search Changes 52% of the Time. We Ran 631,999 Prompts to Measure It.",
+      "link": "https://writesonic.com/blog/ai-search-ranking-stability-study",
+      "date": "2026-07-22T14:03:48.000Z",
+      "description": "We ran 631,999 prompt-model pairs across 7 AI platforms, from March through June 2026, each prompt repeated a minimum of 10 times."
+    },
     {
       "title": "GPT-5.6 Sol Runs site: Queries on 71% of Its Searches. GPT-5.5 Did 11%.",
       "link": "https://writesonic.com/blog/gpt-5-6-sol-citation-study-vs-gpt-5-5",

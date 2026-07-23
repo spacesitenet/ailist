@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-22T07:29:49.343Z",
+  "fetched_at": "2026-07-23T07:27:13.785Z",
   "items": [
+    {
+      "title": "Eval Engineering Skill: Build Evals From Repo Context and Traces",
+      "link": "https://www.langchain.com/blog/towards-automating-eval-engineering",
+      "date": "2026-07-22T17:18:03.000Z",
+      "description": "LangChain's Eval Engineering Skill inspects your agent's repo and traces, proposes evals through user interviews, and outputs runnable Harbor tasks."
+    },
+    {
+      "title": "3 Years of Graph Engineering with LangGraph",
+      "link": "https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph",
+      "date": "2026-07-22T12:37:19.000Z",
+      "description": "Graph engineering isn't a new idea. It's the latest name for a well established approach to building reliable agents. It's the same idea behind loop engineering and harness engineering: building putt…"
+    },
     {
       "title": "How Apollo Uses Deep Agents and LangSmith for GTM AI",
       "link": "https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop",
