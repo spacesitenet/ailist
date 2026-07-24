@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-23T07:27:13.785Z",
+  "fetched_at": "2026-07-24T07:25:54.457Z",
   "items": [
+    {
+      "title": "The production platform for open-weight AI inference",
+      "link": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
+      "date": "2026-07-23T00:00:00.000Z",
+      "description": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs."
+    },
     {
       "title": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
       "link": "https://www.together.ai/blog/together-yc-gpu-cluster",

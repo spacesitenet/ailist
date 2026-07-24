@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-23T07:27:13.785Z",
+  "fetched_at": "2026-07-24T07:25:54.457Z",
   "items": [
+    {
+      "title": "July 2026: LangChain Newsletter — NemoClaw Blueprint, OpenWiki Brains, and More",
+      "link": "https://www.langchain.com/blog/july-2026-langchain-newsletter",
+      "date": "2026-07-24T02:31:15.000Z",
+      "description": "NemoClaw Deep Agents blueprint, LangSmith Sandboxes free trial, Fleet Slack integration, voice tracing, OpenWiki Brains, and RLMs in Deep Agents. See what's new at LangChain"
+    },
+    {
+      "title": "How We Benchmark Deep Agents",
+      "link": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+      "date": "2026-07-24T02:31:15.000Z",
+      "description": "We revamped how we benchmark Deep Agents. Here's the eval setup we run in Harbor across coding, conversation, and retrieval, and how we use it to ship changes."
+    },
     {
       "title": "Eval Engineering Skill: Build Evals From Repo Context and Traces",
       "link": "https://www.langchain.com/blog/towards-automating-eval-engineering",
