@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-07-24T07:25:54.457Z",
+  "fetched_at": "2026-07-25T07:09:54.253Z",
   "items": [
+    {
+      "title": "Opus 5 for code review: Cleaner actionable comments, noisier overall",
+      "link": "https://coderabbit.ai/blog/opus-5-model-review",
+      "date": "2026-07-24T00:00:00.000Z",
+      "description": "Opus 5 produced a cleaner actionable-comment stream, but caught fewer known issues and generated roughly four times the baseline's nitpicks. Here is where the model may fit — and where it does not."
+    },
     {
       "title": "Code is no longer the bottleneck. Understanding is.",
       "link": "https://coderabbit.ai/blog/code-is-no-longer-the-bottleneck-understanding-is",
