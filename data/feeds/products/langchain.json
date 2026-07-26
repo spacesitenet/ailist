@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-25T07:09:54.253Z",
+  "fetched_at": "2026-07-26T07:30:49.866Z",
   "items": [
+    {
+      "title": "Own Your Intelligence: The Key to Lasting AI Advantage",
+      "link": "https://www.langchain.com/blog/own-your-intelligence",
+      "date": "2026-07-25T20:43:00.000Z",
+      "description": "Learn why companies must own their agent systems, governance, context, and feedback loops to turn generic AI into lasting business advantage."
+    },
     {
       "title": "July 2026: LangChain Newsletter — NemoClaw Blueprint, OpenWiki Brains, and More",
       "link": "https://www.langchain.com/blog/july-2026-langchain-newsletter",
