@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-26T07:30:49.866Z",
+  "fetched_at": "2026-07-27T08:21:42.022Z",
   "items": [
+    {
+      "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+      "link": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+      "date": "2026-07-26T00:00:00.000Z",
+      "description": "We ran 904 DeepSWE rollouts on Kimi K3 and GPT-5.6 Sol. Sol leads pass@1; Kimi K3 wins pass@4 at 2.8x the solves per dollar, and routing between them reaches ~85.6%."
+    },
     {
       "title": "Kimi K3 vs Claude Fable 5 on DeepSWE: Cost and Coding",
       "link": "https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding",
