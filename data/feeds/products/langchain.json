@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-27T08:21:42.022Z",
+  "fetched_at": "2026-07-28T07:32:08.687Z",
   "items": [
+    {
+      "title": "How LangChain Built an Agent-First Data Stack",
+      "link": "https://www.langchain.com/blog/agent-data-stack",
+      "date": "2026-07-28T05:40:47.000Z",
+      "description": "Learn how LangChain used Hex, dbt, semantic models, and observability to build a trusted data agent and scale self-service analysis by 40x."
+    },
     {
       "title": "Own Your Intelligence: The Key to Lasting AI Advantage",
       "link": "https://www.langchain.com/blog/own-your-intelligence",
