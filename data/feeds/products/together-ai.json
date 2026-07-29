@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-28T07:32:08.687Z",
+  "fetched_at": "2026-07-29T07:37:00.758Z",
   "items": [
+    {
+      "title": "Configuring Dedicated Model Inference",
+      "link": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+      "date": "2026-07-29T00:00:00.000Z",
+      "description": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together."
+    },
     {
       "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
       "link": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
