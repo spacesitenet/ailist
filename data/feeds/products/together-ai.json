@@ -1,12 +1,24 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-07-29T07:37:00.758Z",
+  "fetched_at": "2026-07-30T07:27:12.983Z",
   "items": [
     {
       "title": "Configuring Dedicated Model Inference",
       "link": "https://www.together.ai/blog/configuring-dedicated-model-inference",
       "date": "2026-07-29T00:00:00.000Z",
       "description": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together."
+    },
+    {
+      "title": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+      "link": "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models",
+      "date": "2026-07-29T00:00:00.000Z",
+      "description": ""
+    },
+    {
+      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+      "link": "https://www.together.ai/blog/thunderagent",
+      "date": "2026-07-29T00:00:00.000Z",
+      "description": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node through…"
     },
     {
       "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",

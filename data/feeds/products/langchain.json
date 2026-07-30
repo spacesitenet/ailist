@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-29T07:37:00.758Z",
+  "fetched_at": "2026-07-30T07:27:12.983Z",
   "items": [
+    {
+      "title": "Deep Agents v0.7",
+      "link": "https://www.langchain.com/blog/deep-agents-v0-7",
+      "date": "2026-07-29T17:00:19.000Z",
+      "description": "Today we're shipping deep agents v0.7. This release simplifies the base harness, resulting in 65% fewer base input tokens at comparable performance."
+    },
+    {
+      "title": "How Similarweb Evaluates Agent Reports with LangSmith",
+      "link": "https://www.langchain.com/blog/how-similarweb-evaluates-long-form-agent-research-reports-with-langsmith",
+      "date": "2026-07-29T15:30:04.000Z",
+      "description": "Learn how Similarweb uses LangSmith to evaluate long-form agent research reports with rubrics, faithfulness checks, traces, and baseline comparisons."
+    },
     {
       "title": "How LangChain Built an Agent-First Data Stack",
       "link": "https://www.langchain.com/blog/agent-data-stack",
