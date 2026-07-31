@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-07-30T07:27:12.983Z",
+  "fetched_at": "2026-07-31T07:45:08.931Z",
   "items": [
+    {
+      "title": "Building Foundry: AI isn’t replacing creativity, it’s removing friction",
+      "link": "https://weaviate.io/blog/building-foundry-ai-creative-workflows",
+      "date": "2026-07-30T00:00:00.000Z",
+      "description": "Why AI won’t replace creatives, and how it can remove friction from messy workflows, lost files, and creative processes."
+    },
     {
       "title": "Query Profiling: See Where a Slow Query Spends Its Time",
       "link": "https://weaviate.io/blog/query-profiling",

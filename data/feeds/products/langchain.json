@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-07-30T07:27:12.983Z",
+  "fetched_at": "2026-07-31T07:45:08.931Z",
   "items": [
+    {
+      "title": "LangSmith LLM Gateway: runtime governance built into the agent lifecycle",
+      "link": "https://www.langchain.com/blog/introducing-llm-gateway",
+      "date": "2026-07-31T06:07:06.000Z",
+      "description": "Introducing LangSmith LLM Gateway: runtime governance for AI agents with spend limits, PII redaction, and trace continuity, built directly into LangSmith."
+    },
+    {
+      "title": "Introducing Align Evals: Streamlining LLM Application Evaluation",
+      "link": "https://www.langchain.com/blog/introducing-align-evals",
+      "date": "2026-07-30T22:57:56.000Z",
+      "description": "Align Evals is a new feature in LangSmith that helps you calibrate your evaluators to better match human preferences."
+    },
     {
       "title": "Deep Agents v0.7",
       "link": "https://www.langchain.com/blog/deep-agents-v0-7",

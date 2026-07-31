@@ -1,7 +1,13 @@
 {
   "source": "Tabnine",
-  "fetched_at": "2026-07-30T07:27:12.983Z",
+  "fetched_at": "2026-07-31T07:45:08.931Z",
   "items": [
+    {
+      "title": "A new chapter for Tabnine",
+      "link": "https://www.tabnine.com/blog/a-new-chapter-for-tabnine/",
+      "date": "2026-07-30T15:23:55.000Z",
+      "description": "Today marks an important milestone in Tabnine’s journey. We’re excited to announce that Tabnine has been acquired by Tricentis, the global leader in agentic quality engineering. This is a proud momen…"
+    },
     {
       "title": "The Verification Gap: Why Faster Code Generation Is Making Software Quality Worse",
       "link": "https://www.tabnine.com/blog/ai-verification-gap-code-quality/",
