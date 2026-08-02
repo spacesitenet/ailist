@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-08-01T07:23:23.454Z",
+  "fetched_at": "2026-08-02T07:26:53.107Z",
   "items": [
+    {
+      "title": "Kimi K3: The Complete Developer Guide",
+      "link": "https://www.together.ai/blog/kimi-k3-guide",
+      "date": "2026-08-01T00:00:00.000Z",
+      "description": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples."
+    },
     {
       "title": "Autoscaling endpoints for LLM inference",
       "link": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
