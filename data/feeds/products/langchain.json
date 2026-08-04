@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-03T08:20:18.493Z",
+  "fetched_at": "2026-08-04T07:30:39.731Z",
   "items": [
+    {
+      "title": "How Stripe Built Kai on Deep Agents in 1 Week",
+      "link": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+      "date": "2026-08-03T23:46:51.000Z",
+      "description": "Learn how Stripe built Kai, a company-wide AI agent on LangChain, LangGraph, and Deep Agents, reaching 5,000 users in roughly 4 weeks."
+    },
     {
       "title": "Evaluating code review agents with ReviewBench",
       "link": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
