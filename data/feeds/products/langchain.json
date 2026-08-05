@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-04T07:30:39.731Z",
+  "fetched_at": "2026-08-05T07:32:07.849Z",
   "items": [
+    {
+      "title": "Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines",
+      "link": "https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines",
+      "date": "2026-08-05T01:07:31.000Z",
+      "description": "Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines"
+    },
+    {
+      "title": "How to Evaluate Voice Agents with LangSmith",
+      "link": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+      "date": "2026-08-04T17:19:58.000Z",
+      "description": "Learn how to evaluate voice agents across execution, outcomes, and caller experience using LangSmith traces, code evaluators, LLM judges, and human review."
+    },
     {
       "title": "How Stripe Built Kai on Deep Agents in 1 Week",
       "link": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",

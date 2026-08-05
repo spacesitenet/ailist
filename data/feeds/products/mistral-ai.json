@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-08-04T07:30:39.731Z",
+  "fetched_at": "2026-08-05T07:32:07.849Z",
   "items": [
+    {
+      "title": "Introducing Shieldstral.",
+      "link": "https://mistral.ai/news/shieldstral/",
+      "date": "2026-08-04T12:00:26.000Z",
+      "description": "Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size."
+    },
     {
       "title": "Your Prompts and Skills need a system of record.",
       "link": "https://mistral.ai/news/manage-prompts-and-skills-in-studio/",
