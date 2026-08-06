@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-05T07:32:07.849Z",
+  "fetched_at": "2026-08-06T07:32:38.014Z",
   "items": [
+    {
+      "title": "How we built an autonomous SRE agent for Kubernetes",
+      "link": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+      "date": "2026-08-05T16:24:31.000Z",
+      "description": "Learn how LangChain built an autonomous SRE agent for Kubernetes deployments with Deep Agents, human approval for changes, LangSmith tracing, and evals."
+    },
     {
       "title": "Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines",
       "link": "https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines",
