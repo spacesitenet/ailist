@@ -1,7 +1,25 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-08-06T07:32:38.014Z",
+  "fetched_at": "2026-08-07T06:04:31.744Z",
   "items": [
+    {
+      "title": "Nexus GA: It's the Knowledge, Not the Models",
+      "link": "https://www.pinecone.io/blog/pinecone-nexus-generally-available/",
+      "date": "2026-08-06T12:45:00.000Z",
+      "description": ""
+    },
+    {
+      "title": "The Ceiling Was Never the Model",
+      "link": "https://www.pinecone.io/blog/the-ceiling-was-never-the-model/",
+      "date": "2026-08-06T12:00:00.000Z",
+      "description": ""
+    },
+    {
+      "title": "General Availability of Pinecone Nexus Proves Knowledge Drives Real Outcomes for Agentic AI",
+      "link": "https://www.pinecone.io/newsroom/general-availability-of-pinecone-nexus-proves-knowledge-drives-real-outcomes-for-agentic-ai/",
+      "date": "2026-08-06T04:50:00.000Z",
+      "description": "Pinecone Nexus makes agents more accurate, faster, lower cost, and trusted, outperforming agents that use frontier models alone on Sierra’s agentic work benchmark"
+    },
     {
       "title": "Behind the Benchmarking Pipeline ",
       "link": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",

@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-06T07:32:38.014Z",
+  "fetched_at": "2026-08-07T06:04:31.744Z",
   "items": [
+    {
+      "title": "Deep Agents vs LangChain vs LangGraph",
+      "link": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+      "date": "2026-08-06T18:15:51.000Z",
+      "description": "Deep Agents, LangChain, and LangGraph each offer distinct approaches to building agents. In this post, we cover the key distinctions between our open source frameworks and when you should reach for e…"
+    },
     {
       "title": "How we built an autonomous SRE agent for Kubernetes",
       "link": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",

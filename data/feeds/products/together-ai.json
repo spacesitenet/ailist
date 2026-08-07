@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-08-06T07:32:38.014Z",
+  "fetched_at": "2026-08-07T06:04:31.744Z",
   "items": [
+    {
+      "title": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+      "link": "https://www.together.ai/blog/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding",
+      "date": "2026-08-06T00:00:00.000Z",
+      "description": "We ran 900 DeepSWE rollouts on DeepSeek-V4 Flash and GPT-5.6 Luna. Luna leads pass@1 by 14 points; DeepSeek delivers 4.8x the solves per dollar."
+    },
     {
       "title": "Kimi K3: The Complete Developer Guide",
       "link": "https://www.together.ai/blog/kimi-k3-guide",
