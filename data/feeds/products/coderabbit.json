@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-07T06:04:31.744Z",
+  "fetched_at": "2026-08-08T05:35:11.632Z",
   "items": [
+    {
+      "title": "Better models don't solve a judgment bottleneck",
+      "link": "https://coderabbit.ai/blog/better-models-dont-solve-a-judgment-bottleneck",
+      "date": "2026-08-07T00:00:00.000Z",
+      "description": "Code is now plentiful, but judgment about what deserves to merge is not. Better models sharpen what agents write, but they don't make that call."
+    },
     {
       "title": "Opus 5 for code review: Cleaner actionable comments, noisier overall",
       "link": "https://coderabbit.ai/blog/opus-5-model-review",

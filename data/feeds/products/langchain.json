@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-07T06:04:31.744Z",
+  "fetched_at": "2026-08-08T05:35:11.632Z",
   "items": [
+    {
+      "title": "Managed Deep Agents: the fastest way to ship a production deep agent",
+      "link": "https://www.langchain.com/blog/introducing-managed-deep-agents",
+      "date": "2026-08-07T19:36:29.000Z",
+      "description": "Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta"
+    },
+    {
+      "title": "Managed Deep Agents is now in public beta",
+      "link": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+      "date": "2026-08-07T18:32:35.000Z",
+      "description": "Deploy Deep Agents to a managed LangSmith runtime with durable execution, memory, sandboxes, channels, evals, and production-ready infrastructure."
+    },
     {
       "title": "Deep Agents vs LangChain vs LangGraph",
       "link": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
