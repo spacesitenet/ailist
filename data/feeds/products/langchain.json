@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-11T05:47:11.955Z",
+  "fetched_at": "2026-08-12T06:07:17.947Z",
   "items": [
+    {
+      "title": "What is an AI agent?",
+      "link": "https://www.langchain.com/blog/what-is-an-agent",
+      "date": "2026-08-12T05:47:11.000Z",
+      "description": "Learn what AI agents are, how they work in an LLM loop, and where workflows fit so you can build reliable, production-ready autonomous systems."
+    },
+    {
+      "title": "How many of your agent&#39;s calls actually need a frontier model?",
+      "link": "https://www.langchain.com/blog/switchyard-agent-routing-benchmark",
+      "date": "2026-08-11T15:25:30.000Z",
+      "description": "We benchmarked NVIDIA NeMo Switchyard on 145 agent tasks. Only 7% of turns needed a frontier model, and routing cut cost 74% for six points of accuracy."
+    },
     {
       "title": "Managed Deep Agents: the fastest way to ship a production deep agent",
       "link": "https://www.langchain.com/blog/introducing-managed-deep-agents",

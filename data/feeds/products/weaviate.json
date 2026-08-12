@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-08-11T05:47:11.955Z",
+  "fetched_at": "2026-08-12T06:07:17.947Z",
   "items": [
+    {
+      "title": "Scaling Test-Time Compute in Search Mode",
+      "link": "https://weaviate.io/blog/search-mode-effort",
+      "date": "2026-08-11T00:00:00.000Z",
+      "description": "Introducing medium, high, and ultrahigh effort tiers to the Query Agent's Search Mode."
+    },
     {
       "title": "Building Foundry: AI isn’t replacing creativity, it’s removing friction",
       "link": "https://weaviate.io/blog/building-foundry-ai-creative-workflows",

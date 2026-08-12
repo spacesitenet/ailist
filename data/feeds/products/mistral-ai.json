@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-08-11T05:47:11.955Z",
+  "fetched_at": "2026-08-12T06:07:17.947Z",
   "items": [
+    {
+      "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
+      "link": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+      "date": "2026-08-11T12:00:27.000Z",
+      "description": "Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world."
+    },
     {
       "title": "Introducing Shieldstral.",
       "link": "https://mistral.ai/news/shieldstral/",

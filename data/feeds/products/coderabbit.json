@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-11T05:47:11.955Z",
+  "fetched_at": "2026-08-12T06:07:17.947Z",
   "items": [
+    {
+      "title": "Teaching NVIDIA Nemotron 3.5 Lightning to route code reviews",
+      "link": "https://coderabbit.ai/blog/teaching-nvidia-nemotron-3-5-lightning-to-route-code-reviews",
+      "date": "2026-08-11T13:00:00.000Z",
+      "description": "CodeRabbit worked with NVIDIA and Baseten to post-train NVIDIA Nemotron 3.5 Lightning for one of CodeRabbit's highest-volume routing tasks, improving route agreement while reducing estimated inferenc…"
+    },
+    {
+      "title": "The three hidden attention taxes derailing the agentic SDLC",
+      "link": "https://coderabbit.ai/blog/three-hidden-attention-taxes-agentic-sdlc",
+      "date": "2026-08-11T00:00:00.000Z",
+      "description": "Reviewing every agent-generated change is becoming impossible. The next bottleneck is deciding what deserves attention, rebuilding context, and keeping code safe after merge."
+    },
     {
       "title": "Better models don't solve a judgment bottleneck",
       "link": "https://coderabbit.ai/blog/better-models-dont-solve-a-judgment-bottleneck",
