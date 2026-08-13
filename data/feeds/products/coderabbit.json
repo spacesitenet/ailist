@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-12T06:07:17.947Z",
+  "fetched_at": "2026-08-13T06:09:45.156Z",
   "items": [
+    {
+      "title": "Code is abundant. Judgment is scarce. We raised $143 million to help it scale.",
+      "link": "https://coderabbit.ai/blog/introducing-agentic-change-management",
+      "date": "2026-08-12T13:00:00.000Z",
+      "description": "CodeRabbit raised a $143 million Series C at a $1.5 billion valuation and is introducing Agentic Change Management, the control layer for software changes created by humans and agents."
+    },
     {
       "title": "Teaching NVIDIA Nemotron 3.5 Lightning to route code reviews",
       "link": "https://coderabbit.ai/blog/teaching-nvidia-nemotron-3-5-lightning-to-route-code-reviews",

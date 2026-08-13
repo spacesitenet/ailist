@@ -1,12 +1,30 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-12T06:07:17.947Z",
+  "fetched_at": "2026-08-13T06:09:45.156Z",
   "items": [
+    {
+      "title": "Why managed agents are the next big thing in agent building",
+      "link": "https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building",
+      "date": "2026-08-13T00:00:06.000Z",
+      "description": "Managed Deep Agents gives developers a managed way to build, run, and deploy Deep Agents with built-in runtime, streaming, sandboxes, evals, memory, and auth."
+    },
+    {
+      "title": "LangSmith BYOC on AWS is generally available",
+      "link": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+      "date": "2026-08-12T18:50:08.000Z",
+      "description": "LangSmith Bring Your Own Cloud is now generally available on AWS, giving Enterprise teams managed observability, evaluation, and deployment inside their own VPC."
+    },
     {
       "title": "What is an AI agent?",
       "link": "https://www.langchain.com/blog/what-is-an-agent",
       "date": "2026-08-12T05:47:11.000Z",
       "description": "Learn what AI agents are, how they work in an LLM loop, and where workflows fit so you can build reliable, production-ready autonomous systems."
+    },
+    {
+      "title": "How to Debug AI Agents",
+      "link": "https://www.langchain.com/blog/agent-observability-powers-agent-evaluation",
+      "date": "2026-08-12T05:37:30.000Z",
+      "description": "Learn how agent observability enables effective evaluation of AI agents. Understand tracing, debugging reasoning, and performance insights to iterate and improve agent behavior."
     },
     {
       "title": "How many of your agent&#39;s calls actually need a frontier model?",

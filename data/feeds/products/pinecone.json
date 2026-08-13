@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-08-12T06:07:17.947Z",
+  "fetched_at": "2026-08-13T06:09:45.156Z",
   "items": [
+    {
+      "title": "Designing Agent-Friendly APIs",
+      "link": "https://www.pinecone.io/blog/designing-agent-friendly-apis/",
+      "date": "2026-08-12T19:55:00.000Z",
+      "description": ""
+    },
     {
       "title": "Nexus GA: It's the Knowledge, Not the Models",
       "link": "https://www.pinecone.io/blog/pinecone-nexus-generally-available/",
