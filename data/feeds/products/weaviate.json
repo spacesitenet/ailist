@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-08-13T06:09:45.156Z",
+  "fetched_at": "2026-08-14T06:07:52.293Z",
   "items": [
+    {
+      "title": "Building Foundry Part 2: Where creative workflows break",
+      "link": "https://weaviate.io/blog/building-foundry-where-workflows-break",
+      "date": "2026-08-13T00:00:00.000Z",
+      "description": "Part 2: Why folders, tags, and keyword search break down in real creative workflows and what retrieval needs to do instead."
+    },
     {
       "title": "Scaling Test-Time Compute in Search Mode",
       "link": "https://weaviate.io/blog/search-mode-effort",

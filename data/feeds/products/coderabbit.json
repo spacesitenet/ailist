@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-13T06:09:45.156Z",
+  "fetched_at": "2026-08-14T06:07:52.293Z",
   "items": [
+    {
+      "title": "Introducing CodeRabbit Security",
+      "link": "https://coderabbit.ai/blog/introducing-coderabbit-security",
+      "date": "2026-08-13T13:00:00.000Z",
+      "description": "CodeRabbit Security traces suspected vulnerabilities across the codebase, evaluates reachability and the conditions required for exploitation against code evidence, and proposes reviewable fixes in t…"
+    },
     {
       "title": "Code is abundant. Judgment is scarce. We raised $143 million to help it scale.",
       "link": "https://coderabbit.ai/blog/introducing-agentic-change-management",
