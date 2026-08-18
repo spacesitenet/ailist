@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-17T05:26:18.667Z",
+  "fetched_at": "2026-08-18T05:19:38.239Z",
   "items": [
+    {
+      "title": "AgentCore Payments middleware for LangChain agents",
+      "link": "https://www.langchain.com/blog/langchain-agentcore-payments",
+      "date": "2026-08-17T14:52:56.000Z",
+      "description": "Let your LangChain agents pay for APIs with deterministic session budgets. AgentCore Payments middleware signs x402 payments; LangSmith traces every one."
+    },
     {
       "title": "Why managed agents are the next big thing in agent building",
       "link": "https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building",

@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-08-17T05:26:18.667Z",
+  "fetched_at": "2026-08-18T05:19:38.239Z",
   "items": [
+    {
+      "title": "A/B test models in production",
+      "link": "https://www.together.ai/blog/a-b-test-models-in-production",
+      "date": "2026-08-17T00:00:00.000Z",
+      "description": "Shadow traffic proves a candidate is operationally sound. It can't tell you if users like it better. Run the split at the endpoint instead of in your app code."
+    },
     {
       "title": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
       "link": "https://www.together.ai/blog/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding",
