@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-08-20T05:21:13.613Z",
+  "fetched_at": "2026-08-21T05:23:16.858Z",
   "items": [
+    {
+      "title": "Agentic Search. More accurate and efficient results from your AI systems.",
+      "link": "https://mistral.ai/news/agentic-search/",
+      "date": "2026-08-20T12:00:17.000Z",
+      "description": "The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents"
+    },
     {
       "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
       "link": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
