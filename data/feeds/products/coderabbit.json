@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-21T05:23:16.858Z",
+  "fetched_at": "2026-08-22T05:17:42.949Z",
   "items": [
+    {
+      "title": "The pull request outlived its obituaries and got a bigger job",
+      "link": "https://coderabbit.ai/blog/the-pull-request-lives-on-ai-gave-it-a-bigger-job",
+      "date": "2026-08-20T13:00:00.000Z",
+      "description": "More changes are flowing through pull requests than ever thanks to AI-generated code, but a human still needs to decide what ships."
+    },
     {
       "title": "Introducing CodeRabbit Security",
       "link": "https://coderabbit.ai/blog/introducing-coderabbit-security",
