@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-24T05:29:57.315Z",
+  "fetched_at": "2026-08-25T05:23:14.368Z",
   "items": [
+    {
+      "title": "Toyota Scales Enterprise AI with Deep Agents and LangSmith",
+      "link": "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith",
+      "date": "2026-08-24T18:59:03.000Z",
+      "description": "See how Toyota North America uses Deep Agents and LangSmith to run 50+ production agents, cut delivery from 6 months to 4 days, and track AI ROI."
+    },
     {
       "title": "Test Agent Changes with LangSmith Preview Builds",
       "link": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
