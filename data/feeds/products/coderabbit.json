@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-25T05:23:14.368Z",
+  "fetched_at": "2026-08-26T05:23:46.770Z",
   "items": [
+    {
+      "title": "Introducing the CodeRabbit plugin for Cursor",
+      "link": "https://coderabbit.ai/blog/coderabbit-plugin-for-cursor",
+      "date": "2026-08-25T00:00:00.000Z",
+      "description": "Install the CodeRabbit plugin for Cursor and run focused code reviews from the same Agent session where you build."
+    },
     {
       "title": "The pull request outlived its obituaries and got a bigger job",
       "link": "https://coderabbit.ai/blog/the-pull-request-lives-on-ai-gave-it-a-bigger-job",

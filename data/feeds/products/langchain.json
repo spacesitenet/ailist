@@ -1,7 +1,67 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-25T05:23:14.368Z",
+  "fetched_at": "2026-08-26T05:23:46.770Z",
   "items": [
+    {
+      "title": "Using LangSmith to Support Fine-tuning",
+      "link": "https://www.langchain.com/blog/using-langsmith-to-support-fine-tuning-of-open-source-llms",
+      "date": "2026-08-25T21:17:18.000Z",
+      "description": "Learn how to fine-tune and evaluate LLMs with LangSmith for dataset management. Complete guide covers LLaMA2 and GPT-3.5 fine-tuning with practical examples."
+    },
+    {
+      "title": "Benchmarking Question/Answering Over CSV Data",
+      "link": "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data",
+      "date": "2026-08-25T21:16:24.000Z",
+      "description": "Build better Q&A systems for CSV data using LangChain agents, retrieval, and LLM evaluation. Includes benchmarks, debugging insights, and open-source code."
+    },
+    {
+      "title": "Timescale Vector x LangChain: Making PostgreSQL A Better Vector Database for AI Applications",
+      "link": "https://www.langchain.com/blog/timescale-vector-x-langchain-making-postgresql-a-better-vector-database-for-ai-applications",
+      "date": "2026-08-25T21:15:28.000Z",
+      "description": "Build faster AI apps with Timescale Vector for LangChain. Get 243% faster similarity search, time-based RAG, and PostgreSQL simplicity. Free 90-day trial."
+    },
+    {
+      "title": "Announcing our $10M seed round led by Benchmark",
+      "link": "https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark",
+      "date": "2026-08-25T21:13:35.000Z",
+      "description": "LangChain secures $10M seed round from Benchmark to empower developers building AI apps with our open-source framework for data-aware, agentic LLMs."
+    },
+    {
+      "title": "Making Data Ingestion Production Ready: a LangChain-Powered Airbyte Destination",
+      "link": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+      "date": "2026-08-25T21:12:53.000Z",
+      "description": "Scale retrieval apps to production with LangChain's Airbyte integration. Automate data ingestion with scheduling, text splitting, and 50+ embeddings."
+    },
+    {
+      "title": "LangServe Playground and Configurability",
+      "link": "https://www.langchain.com/blog/langserve-playground-and-configurability",
+      "date": "2026-08-25T21:11:56.000Z",
+      "description": "Deploy LangChain apps with LangServe's playground UI and configurable parameters. Experiment with models, share with teams, stream in real-time."
+    },
+    {
+      "title": "Retrieval",
+      "link": "https://www.langchain.com/blog/retrieval",
+      "date": "2026-08-25T21:08:06.000Z",
+      "description": "Build better AI apps with flexible retrieval methods in LangChain. Use any retriever—from semantic to hybrid—to create personalized ChatGPT for your data."
+    },
+    {
+      "title": "Introducing Pytest and Vitest integrations for LangSmith Evaluations",
+      "link": "https://www.langchain.com/blog/pytest-and-vitest-for-langsmith-evals",
+      "date": "2026-08-25T21:07:19.000Z",
+      "description": "Introducing a new way to run evals using LangSmith’s Pytest and Vitest/Jest integrations."
+    },
+    {
+      "title": "Cube x LangChain: Building AI experiences with LLMs and the semantic layer",
+      "link": "https://www.langchain.com/blog/cube-x-langchain-building-ai-experiences-with-llms-and-the-semantic-layer",
+      "date": "2026-08-25T21:05:24.000Z",
+      "description": "Build AI-powered data experiences with Cube's semantic layer and LangChain. Prevent hallucinations, query in natural language, create conversational interfaces."
+    },
+    {
+      "title": "Role Based Access Control (RBAC) for LangSmith",
+      "link": "https://www.langchain.com/blog/access-control-updates-for-langsmith",
+      "date": "2026-08-25T21:02:06.000Z",
+      "description": "LangSmith's Role Based Access Control (RBAC) helps enterprises manage resource access with custom roles and API keys."
+    },
     {
       "title": "Toyota Scales Enterprise AI with Deep Agents and LangSmith",
       "link": "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith",
