@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-08-26T05:23:46.770Z",
+  "fetched_at": "2026-08-27T15:59:30.561Z",
   "items": [
+    {
+      "title": "The world runs on open source. We’re putting more than $10 million behind it",
+      "link": "https://coderabbit.ai/blog/coderabbit-expands-its-commitment-to-open-source",
+      "date": "2026-08-26T15:00:00.000Z",
+      "description": "CodeRabbit is committing more than $10 million of its actual direct cost to open source over the next year through cash sponsorships, free Review and Security, and broader agentic support across the …"
+    },
     {
       "title": "Introducing the CodeRabbit plugin for Cursor",
       "link": "https://coderabbit.ai/blog/coderabbit-plugin-for-cursor",

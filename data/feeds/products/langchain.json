@@ -1,7 +1,49 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-08-26T05:23:46.770Z",
+  "fetched_at": "2026-08-27T15:59:30.561Z",
   "items": [
+    {
+      "title": "August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More",
+      "link": "https://www.langchain.com/blog/august-2026-langchain-newsletter",
+      "date": "2026-08-27T04:26:36.000Z",
+      "description": "Managed Deep Agents and LLM Gateway hit public beta, plus Deep Agents v0.7, Tuned Evaluators, Bring Your Own Cloud on AWS, and LangSmith Engine upgrades."
+    },
+    {
+      "title": "LangSmith LLM Gateway: Runtime Controls for Agents",
+      "link": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "LangSmith LLM Gateway is in public beta: spend caps, rate limits, model fallbacks and PII redaction for production agents, without provider lock-in."
+    },
+    {
+      "title": "Aligning LLM-as-a-Judge with Human Preferences",
+      "link": "https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "Deep dive into self-improving evaluators in LangSmith, motivated by the rise of LLM-as-a-Judge evaluators plus research on few-shot learning and aligning human preferences."
+    },
+    {
+      "title": "Announcing LangGraph v0.1 & LangGraph Cloud: Running agents at scale, reliably",
+      "link": "https://www.langchain.com/blog/langgraph-cloud",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "Our new infrastructure for running agents at scale, LangGraph Cloud, is available in beta. We also have a new stable release of LangGraph."
+    },
+    {
+      "title": "How Podium optimized agent behavior and reduced engineering intervention by 90% with LangSmith",
+      "link": "https://www.langchain.com/blog/customers-podium",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "See how Podium tests across the lifecycle development of their AI employee agent, using LangSmith for dataset curation and finetuning. They improved agent F1 response quality to 98% and reduced the n…"
+    },
+    {
+      "title": "Pushing LangSmith to new limits with Replit Agent&#39;s complex workflows",
+      "link": "https://www.langchain.com/blog/customers-replit",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "See how Replit built their agents atop LangGraph and integrated LangSmith to pinpoint issues, improve the performance of their agents, and enable human-in-the-loop workflows."
+    },
+    {
+      "title": "LangChain&#39;s Second Birthday",
+      "link": "https://www.langchain.com/blog/langchain-second-birthday",
+      "date": "2026-08-26T16:53:53.000Z",
+      "description": "Reflections on how LangChain has evolved — including our products, ecosystem, and community — over the past two years, and where we're headed next."
+    },
     {
       "title": "Using LangSmith to Support Fine-tuning",
       "link": "https://www.langchain.com/blog/using-langsmith-to-support-fine-tuning-of-open-source-llms",

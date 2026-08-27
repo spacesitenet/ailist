@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-08-26T05:23:46.770Z",
+  "fetched_at": "2026-08-27T15:59:30.561Z",
   "items": [
+    {
+      "title": "Weaviate 1.39 Release",
+      "link": "https://weaviate.io/blog/weaviate-1-39-release",
+      "date": "2026-08-27T00:00:00.000Z",
+      "description": "Weaviate 1.39 promotes the Boost API and MMR diversity selection to GA, previews 4-bit Rotational Quantization, and ships an experimental Search REST API."
+    },
     {
       "title": "Building Foundry Part 2: Where creative workflows break",
       "link": "https://weaviate.io/blog/building-foundry-where-workflows-break",
