@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-09-01T09:40:12.297Z",
+  "fetched_at": "2026-09-02T09:11:10.073Z",
   "items": [
+    {
+      "title": "Our support agent now solves most tickets without a human",
+      "link": "https://www.pinecone.io/blog/support-agent-nexus/",
+      "date": "2026-09-01T13:00:00.000Z",
+      "description": "Pinecone's support agent went from resolving 24.6% of tickets to 55.1% after compiling account knowledge into Nexus artifacts. Metrics and method inside."
+    },
     {
       "title": "One Year In, and Just Getting Started",
       "link": "https://www.pinecone.io/blog/one-year-in-just-getting-started/",

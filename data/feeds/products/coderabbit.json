@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-01T09:40:12.297Z",
+  "fetched_at": "2026-09-02T09:11:10.073Z",
   "items": [
+    {
+      "title": "Fable 5.1 review: Should you switch?",
+      "link": "https://coderabbit.ai/blog/fable-5-1-model-review",
+      "date": "2026-09-01T00:00:00.000Z",
+      "description": "Fable 5.1 feels fast on small coding tasks and produces fewer review comments than Fable 5. It also leaves unstated requirements alone, so clear instructions make a large difference."
+    },
     {
       "title": "The world runs on open source. We’re putting more than $10 million behind it",
       "link": "https://coderabbit.ai/blog/coderabbit-expands-its-commitment-to-open-source",
