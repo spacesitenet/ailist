@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-02T09:11:10.073Z",
+  "fetched_at": "2026-09-03T09:18:24.467Z",
   "items": [
+    {
+      "title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
+      "link": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+      "date": "2026-09-03T02:04:21.000Z",
+      "description": "A guide on scaling agents in Europe & the Middle East to see how Schneider Electric, Vodafone, and monday.com are approaching production AI at scale, from establishing shared agent platforms and LLMO…"
+    },
     {
       "title": "August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More",
       "link": "https://www.langchain.com/blog/august-2026-langchain-newsletter",
