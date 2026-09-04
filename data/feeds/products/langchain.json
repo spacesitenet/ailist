@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-03T09:18:24.467Z",
+  "fetched_at": "2026-09-04T09:11:28.072Z",
   "items": [
+    {
+      "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+      "link": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "date": "2026-09-04T04:24:04.000Z",
+      "description": "MCP support now lives in langchain.mcp, built on FastMCP for the 2026-07-28 spec, with elicitation handled as a LangGraph interrupt and tool lists cached."
+    },
     {
       "title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
       "link": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",

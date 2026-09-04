@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-03T09:18:24.467Z",
+  "fetched_at": "2026-09-04T09:11:28.072Z",
   "items": [
+    {
+      "title": "What would the last software engineer still need to do?",
+      "link": "https://coderabbit.ai/blog/the-last-software-engineer-knows-what-to-build",
+      "date": "2026-09-03T00:00:00.000Z",
+      "description": "Kent C. Dodds explains why product judgment, system understanding, and ownership become more valuable as AI agents take on more implementation work."
+    },
     {
       "title": "Fable 5.1 review: Should you switch?",
       "link": "https://coderabbit.ai/blog/fable-5-1-model-review",
