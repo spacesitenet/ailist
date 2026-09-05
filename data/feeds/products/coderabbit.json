@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-04T09:11:28.072Z",
+  "fetched_at": "2026-09-05T08:42:54.817Z",
   "items": [
+    {
+      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+      "link": "https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "date": "2026-09-04T00:00:00.000Z",
+      "description": "CodeRabbit’s early GPT-6 Astra evaluation covers cross-file bug detection, customer data protection, public API pricing, and building NIGHTSHIFT."
+    },
     {
       "title": "What would the last software engineer still need to do?",
       "link": "https://coderabbit.ai/blog/the-last-software-engineer-knows-what-to-build",
