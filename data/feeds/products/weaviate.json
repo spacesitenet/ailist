@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-09-08T09:14:37.585Z",
+  "fetched_at": "2026-09-09T09:18:01.232Z",
   "items": [
+    {
+      "title": "Building Foundry Part 3: From archive to creative search",
+      "link": "https://weaviate.io/blog/building-foundry-creative-search",
+      "date": "2026-09-08T00:00:00.000Z",
+      "description": "Part 3: We turn a messy creative archive into a searchable library using a manifest, Weaviate, and hybrid search."
+    },
     {
       "title": "How to extract meaning from charts and tables in PDFs",
       "link": "https://weaviate.io/blog/charts-tables-pdfs",

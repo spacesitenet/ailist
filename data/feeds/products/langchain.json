@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-08T09:14:37.585Z",
+  "fetched_at": "2026-09-09T09:18:01.232Z",
   "items": [
+    {
+      "title": "Organizing Context in a Multi-Agent Harness",
+      "link": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "date": "2026-09-08T18:07:23.000Z",
+      "description": "Learn how context modes in deepagents help subagents fork a supervisor's context or start isolated — for faster, cheaper, more focused multi-agent work."
+    },
     {
       "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
       "link": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
