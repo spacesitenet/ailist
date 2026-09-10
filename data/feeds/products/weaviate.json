@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-09-09T09:18:01.232Z",
+  "fetched_at": "2026-09-10T09:16:46.049Z",
   "items": [
+    {
+      "title": "HFresh: Memory-Efficient Vector Search",
+      "link": "https://weaviate.io/blog/hfresh",
+      "date": "2026-09-09T00:00:00.000Z",
+      "description": "HFresh is Weaviate's disk-based vector index for memory-efficient vector search, combining low heap usage with incremental background maintenance."
+    },
     {
       "title": "Building Foundry Part 3: From archive to creative search",
       "link": "https://weaviate.io/blog/building-foundry-creative-search",

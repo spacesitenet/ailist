@@ -1,7 +1,19 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-09-09T09:18:01.232Z",
+  "fetched_at": "2026-09-10T09:16:46.049Z",
   "items": [
+    {
+      "title": "Introducing the Pinecone Documents API",
+      "link": "https://www.pinecone.io/learn/pinecone-documents-api/",
+      "date": "2026-09-09T12:00:00.000Z",
+      "description": "Pinecone's new Documents API models text, dense, and sparse fields in one schema. See what's new, what's changing, and how to migrate with the Python SDK."
+    },
+    {
+      "title": "Full-Text Search is Now Generally Available In Pinecone Database",
+      "link": "https://www.pinecone.io/blog/full-text-search-generally-available/",
+      "date": "2026-09-09T12:00:00.000Z",
+      "description": "Pinecone Full-Text Search is generally available: BM25 keyword ranking and Lucene query syntax in the same index and schema as your dense vectors."
+    },
     {
       "title": "Our support agent now solves most tickets without a human",
       "link": "https://www.pinecone.io/blog/support-agent-nexus/",

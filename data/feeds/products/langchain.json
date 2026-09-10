@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-09T09:18:01.232Z",
+  "fetched_at": "2026-09-10T09:16:46.049Z",
   "items": [
+    {
+      "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
+      "link": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "date": "2026-09-09T18:33:03.000Z",
+      "description": "Learn how Connections in Managed Deep Agents securely manage credentials, support per-user OAuth, and let agents act with each caller’s identity."
+    },
     {
       "title": "Organizing Context in a Multi-Agent Harness",
       "link": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
