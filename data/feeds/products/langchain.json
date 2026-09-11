@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-10T09:16:46.049Z",
+  "fetched_at": "2026-09-11T09:15:41.027Z",
   "items": [
+    {
+      "title": "How Credit Genie keeps codebase docs fresh with OpenWiki",
+      "link": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+      "date": "2026-09-10T19:09:10.000Z",
+      "description": "See how Credit Genie uses OpenWiki to automate repo documentation, reduce tribal knowledge, and give engineers and coding agents searchable codebase context."
+    },
     {
       "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
       "link": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",

@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-10T09:16:46.049Z",
+  "fetched_at": "2026-09-11T09:15:41.027Z",
   "items": [
+    {
+      "title": "A software factory needs a review gate it can trust",
+      "link": "https://coderabbit.ai/blog/software-factory-review-gate",
+      "date": "2026-09-10T00:00:00.000Z",
+      "description": "Agents can write, test, and revise code across much of the delivery process. But teams still need a reliable way to decide which changes can move automatically and which require accountable human rev…"
+    },
     {
       "title": "Whose taste is shaping your agentic SDLC?",
       "link": "https://coderabbit.ai/blog/taste-decides-what-should-ship",

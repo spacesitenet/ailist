@@ -1,7 +1,19 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-09-10T09:16:46.049Z",
+  "fetched_at": "2026-09-11T09:15:41.027Z",
   "items": [
+    {
+      "title": "Introducing preemptible compute: the same compute, half the price",
+      "link": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
+      "date": "2026-09-10T00:00:00.000Z",
+      "description": "Together GPU Clusters now supports preemptible compute: the same GPU capacity at a flat 50% of the on-demand rate, with a five-minute drain window."
+    },
+    {
+      "title": "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+      "link": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+      "date": "2026-09-10T00:00:00.000Z",
+      "description": "We ported ThunderKittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cuBLAS and CuTe DSL. Here…"
+    },
     {
       "title": "The Open Source AI Stack",
       "link": "https://www.together.ai/blog/the-open-source-ai-stack",

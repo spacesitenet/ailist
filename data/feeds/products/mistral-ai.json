@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-09-10T09:16:46.049Z",
+  "fetched_at": "2026-09-11T09:15:41.027Z",
   "items": [
+    {
+      "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+      "link": "https://mistral.ai/news/mistral-x-cloudera/",
+      "date": "2026-09-10T10:42:55.000Z",
+      "description": "Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms."
+    },
     {
       "title": "Modernizing complex legacy code with AI agents.",
       "link": "https://mistral.ai/news/legacy-code-modernization/",
