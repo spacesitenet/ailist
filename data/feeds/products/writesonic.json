@@ -1,7 +1,13 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-09-11T09:15:41.027Z",
+  "fetched_at": "2026-09-12T08:56:45.323Z",
   "items": [
+    {
+      "title": "Introducing Prompt targets: track the questions your buyers actually ask",
+      "link": "https://writesonic.com/blog/prompt-targets",
+      "date": "2026-09-11T15:35:15.000Z",
+      "description": "Prompt targets help you generate non-branded prompts that reflect your real buyers, funnel stages, and markets, so AI visibility becomes more actionable."
+    },
     {
       "title": "GPT-6 Astra Cites Brand Sites 71% of the Time. No ChatGPT Model Has Gone Higher.",
       "link": "https://writesonic.com/blog/gpt-6-astra-citation-study",

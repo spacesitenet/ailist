@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-09-11T09:15:41.027Z",
+  "fetched_at": "2026-09-12T08:56:45.323Z",
   "items": [
+    {
+      "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+      "link": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+      "date": "2026-09-11T00:00:00.000Z",
+      "description": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower training prices on selecte…"
+    },
     {
       "title": "Introducing preemptible compute: the same compute, half the price",
       "link": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
