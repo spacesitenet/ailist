@@ -21,7 +21,6 @@ categories:
 platforms:
   - "macOS"
   - "Linux"
-  - "Windows"
 models:
   -
     delivery: "self-hosted"
