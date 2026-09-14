@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-13T09:52:54.058Z",
+  "fetched_at": "2026-09-14T10:12:20.936Z",
   "items": [
+    {
+      "title": "How We Built LangChain’s Paid Media Agent",
+      "link": "https://www.langchain.com/blog/paid-media-agent",
+      "date": "2026-09-14T02:43:39.000Z",
+      "description": "How LangChain built a paid media agent to analyze campaign performance, optimize ads, propose changes, and turn marketing data into action."
+    },
+    {
+      "title": "How we built LangChain’s GTM Agent",
+      "link": "https://www.langchain.com/blog/how-we-built-langchains-gtm-agent",
+      "date": "2026-09-14T00:59:47.000Z",
+      "description": "Learn how we built a GTM agent that increased lead conversion by 250% while saving each sales rep 40 hours per month"
+    },
     {
       "title": "How Credit Genie keeps codebase docs fresh with OpenWiki",
       "link": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
