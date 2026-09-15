@@ -1,0 +1,48 @@
+name: "YYLO"
+slug: "yylo"
+description: "Open-source CLI for orchestrating AI coding agents with typed task, validation, merge, and release-readiness workflows."
+website: "https://yylo.dev/"
+year_founded: 2026
+headquarters: []
+open_source: true
+license: "MIT"
+source_code_url: "https://github.com/yylo-dev/yylo"
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: true
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Coding"
+platforms:
+  - "macOS"
+  - "Linux"
+models:
+  -
+    delivery: "self-hosted"
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Free and open source (MIT). Install with npm (@yylo/cli); equivalent yylo and yy launchers; bring your own model-provider keys."
+features: []
+integrations: []
+target_audience: []
+deployment_options:
+  - "Self-hosted"
+support_channels: []
+languages: []
+screenshots: []
+last_verified: "2026-09"
