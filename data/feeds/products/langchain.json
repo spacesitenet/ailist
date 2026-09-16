@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-15T09:41:56.919Z",
+  "fetched_at": "2026-09-16T09:35:43.782Z",
   "items": [
+    {
+      "title": "Scaling Agents in Healthcare & Life Sciences: Lessons from Madrigal Pharmaceuticals, Abridge, and Vizient",
+      "link": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",
+      "date": "2026-09-16T01:29:00.000Z",
+      "description": "Agent programs in healthcare and life sciences are being built under a different set of constraints than those in most industries. There’s plenty of upside if the constraints can be resolved. Success…"
+    },
     {
       "title": "How We Built LangChain’s Paid Media Agent",
       "link": "https://www.langchain.com/blog/paid-media-agent",

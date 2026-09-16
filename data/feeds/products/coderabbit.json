@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-15T09:41:56.919Z",
+  "fetched_at": "2026-09-16T09:35:43.782Z",
   "items": [
+    {
+      "title": "Your PR queue should tell you what to do next",
+      "link": "https://coderabbit.ai/blog/coderabbit-triage",
+      "date": "2026-09-15T00:00:00.000Z",
+      "description": "CodeRabbit Triage brings priority, risk, ownership, and next-action context into the pull request queue so reviewers know where their attention is needed."
+    },
     {
       "title": "A software factory needs a review gate it can trust",
       "link": "https://coderabbit.ai/blog/software-factory-review-gate",
