@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-09-16T09:35:43.782Z",
+  "fetched_at": "2026-09-17T09:44:05.989Z",
   "items": [
+    {
+      "title": "Migrating from closed to open source models, Together",
+      "link": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "Moving from closed to open source models can take weeks, not years. A five-stage playbook: discover, evaluate, adapt, decide, and production."
+    },
     {
       "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
       "link": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
