@@ -1,0 +1,56 @@
+name: "AI Tools Radar"
+slug: "ai-tools-radar"
+description: "AI tools directory and editorial platform for discovering, comparing, and tracking AI products, with daily AI industry news."
+website: "https://aitoolsradar.com/"
+year_founded: null
+headquarters:
+  - "United States"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: "https://aitoolsradar.com/en/newsletter"
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Search"
+  - "Productivity"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "AI Tools Radar combines AI product discovery with daily AI industry news and newsletter coverage."
+features:
+  - "AI tools directory"
+  - "AI industry news"
+  - "Daily newsletter"
+integrations: []
+target_audience:
+  - "AI tool users"
+  - "Founders"
+  - "Researchers"
+deployment_options:
+  - "Cloud"
+support_channels: []
+languages:
+  - "English"
+screenshots: []
+last_verified: "2026-09"
