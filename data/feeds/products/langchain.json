@@ -1,7 +1,25 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-17T09:44:05.989Z",
+  "fetched_at": "2026-09-18T09:17:33.080Z",
   "items": [
+    {
+      "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
+      "link": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "date": "2026-09-18T01:47:48.000Z",
+      "description": "What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain"
+    },
+    {
+      "title": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents",
+      "link": "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph",
+      "date": "2026-09-17T17:40:45.000Z",
+      "description": "See how Included Health used Deep Agents, LangGraph, and LangSmith to build Dot, a federated healthcare navigation agent with human handoff and clinical oversight."
+    },
+    {
+      "title": "Building an Agent Harness for Life Sciences: Introducing Deep Life Sci",
+      "link": "https://www.langchain.com/blog/agent-harness-life-sciences",
+      "date": "2026-09-17T17:40:45.000Z",
+      "description": "Deep Life Sci is LangChain's open source agentic assistant for clinical and lab scientists. It pulls from 600K+ ClinicalTrials.gov studies, 29M PubMed abstracts, and 12M PubMed Central full-text arti…"
+    },
     {
       "title": "Scaling Agents in Healthcare & Life Sciences: Lessons from Madrigal Pharmaceuticals, Abridge, and Vizient",
       "link": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",

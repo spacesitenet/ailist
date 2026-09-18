@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-09-17T09:44:05.989Z",
+  "fetched_at": "2026-09-18T09:17:33.080Z",
   "items": [
+    {
+      "title": "VQ-bench: a Composable Vector Quantization Framework",
+      "link": "https://www.pinecone.io/blog/vq-bench/",
+      "date": "2026-09-17T15:12:52.000Z",
+      "description": "Most published quantizers are built from the same small set of primitives. VQ-bench is an open-source library of those primitives, plus a reproducible benchmark of 14 quantizers across VIBE datasets."
+    },
     {
       "title": "VQ-bench: A Composable Vector Quantization Framework",
       "link": "https://www.pinecone.io/research/VQ-bench/",
