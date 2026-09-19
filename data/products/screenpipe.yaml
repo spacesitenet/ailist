@@ -1,0 +1,46 @@
+name: "Screenpipe"
+slug: "screenpipe"
+description: "Desktop screen and audio capture for searchable work history, AI recall, meeting notes, and MCP context."
+website: "https://screenpipe.com"
+year_founded: null
+headquarters: []
+open_source: false
+license: "Screenpipe Commercial License"
+source_code_url: "https://github.com/screenpipe/screenpipe"
+has_api: true
+developer_portal_url: "https://github.com/screenpipe/screenpipe"
+has_cli: true
+has_mcp: true
+self_signup: true
+discontinued: false
+categories:
+  - "AI Assistant"
+  - "Meeting Assistant"
+  - "Productivity"
+  - "Search"
+platforms:
+  - "macOS"
+  - "Windows"
+  - "Linux"
+models: []
+stats: {}
+notes:
+  - "Source-available under the Screenpipe Commercial License, not an OSI-approved open-source license: https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md"
+  - "Raw screen and audio history is stored locally by default. Configured cloud AI, transcription, sync, and integrations can transmit context off-device."
+  - "macOS and Windows have native installers; Linux requires building from source. Installation and platform support: https://github.com/screenpipe/screenpipe#install"
+  - "See current free and paid plans at https://screenpipe.com/pricing . Pricing models are left unclassified here rather than hard-coding changing prices or entitlements."
+  - "Official MCP package and setup: https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp"
+  - "Headquarters, founding year, compliance certifications, and enterprise SSO/SAML were not independently verified for this listing. Omitted boolean fields use the catalog defaults and should not be read as an audit finding."
+features:
+  - "Search captured screen text and audio transcripts"
+  - "Review past activity on a visual timeline"
+  - "Generate meeting notes and work summaries from captured context"
+  - "Query work history through MCP or the local REST API"
+  - "Filter capture by application and window"
+target_audience:
+  - "Knowledge workers"
+  - "Developers building context-aware assistants"
+deployment_options:
+  - "Desktop capture and local storage"
+  - "Optional cloud AI and integrations"
+last_verified: "2026-09-19"
