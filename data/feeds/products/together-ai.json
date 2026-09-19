@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-09-18T09:17:33.080Z",
+  "fetched_at": "2026-09-19T09:04:23.047Z",
   "items": [
+    {
+      "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+      "link": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+      "date": "2026-09-18T00:00:00.000Z",
+      "description": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing."
+    },
     {
       "title": "Migrating from closed to open source models, Together",
       "link": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",

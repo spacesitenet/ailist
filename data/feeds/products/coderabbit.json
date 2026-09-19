@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-18T09:17:33.080Z",
+  "fetched_at": "2026-09-19T09:04:23.047Z",
   "items": [
+    {
+      "title": "Rethinking PR triage from first principles",
+      "link": "https://coderabbit.ai/blog/rethinking-pr-triage-from-first-principles",
+      "date": "2026-09-18T00:00:00.000Z",
+      "description": "CodeRabbit Triage brings priority, risk, ownership, and next-action context into the pull request queue so reviewers know where their attention is needed."
+    },
     {
       "title": "Your PR queue should tell you what to do next",
       "link": "https://coderabbit.ai/blog/coderabbit-triage",
