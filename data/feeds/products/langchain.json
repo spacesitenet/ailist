@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-19T09:04:23.047Z",
+  "fetched_at": "2026-09-20T09:31:23.816Z",
   "items": [
+    {
+      "title": "Can Jev Be a Better Agent Evaluator?",
+      "link": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+      "date": "2026-09-20T00:43:49.000Z",
+      "description": "We tested using Jev-as-a-Judge against LLM judges on accuracy, repeatability, latency, and cost to see whether System One models could offer a new approach to agent evaluation."
+    },
     {
       "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
       "link": "https://www.langchain.com/blog/building-a-harness-with-jev",
