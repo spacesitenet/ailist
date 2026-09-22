@@ -1,0 +1,64 @@
+name: "shortshort"
+slug: "shortshort"
+description: "Turns one long video such as a talk, podcast, or course into vertical 9:16 shorts with word-by-word captions."
+website: "https://www.shortshort.io/"
+year_founded: 2026
+headquarters:
+  - "France"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Video"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Prices are in EUR. Free plan: 60 credits at sign-up, no credit card. Starter 12 EUR, Creator 29 EUR, Studio 79 EUR per month (115, 278 and 758 EUR a year)."
+  - "1 credit = 1 minute of source video, whatever the number of shorts. Monthly credits: Starter 480, Creator 1600, Studio 6000. Top-up packs that do not expire: 400 credits for 9 EUR, 1200 for 24 EUR, 4000 for 69 EUR."
+  - "Shorts per video: 3 on Free, 5 on Starter, 10 on Creator, 20 on Studio."
+  - "Free-plan exports are watermarked and published to a public community gallery; paid plans export without watermark and can opt out of the gallery."
+  - "Does not do dubbing or translation, virality scoring, B-roll or added music, publishing to social networks, or any aspect ratio other than 9:16. No public API."
+  - "Pricing and limits verified from the official website in September 2026."
+features:
+  - "Upload of MP4, MOV or WebM files up to 3 hours and 2 GB"
+  - "Word-by-word transcription"
+  - "Selection of 15 to 90 second passages that start and end on a complete sentence"
+  - "9:16 reframing that follows the face on screen and keeps slides and wide shots full-frame"
+  - "Word-by-word captions in four styles"
+  - "Editable bounds, clip choice, title and captions before rendering"
+  - "MP4 export at 1080 x 1920, 30 fps"
+integrations: []
+target_audience:
+  - "Podcasters"
+  - "Course creators"
+  - "Speakers"
+deployment_options:
+  - "Cloud"
+support_channels:
+  - "Email"
+languages: []
+screenshots: []
+last_verified: "2026-09"
