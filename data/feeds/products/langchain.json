@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-21T10:17:52.280Z",
+  "fetched_at": "2026-09-22T09:33:24.394Z",
   "items": [
+    {
+      "title": "Jev is now available in LangSmith Evals",
+      "link": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+      "date": "2026-09-21T17:14:45.000Z",
+      "description": "Use Jev as a judge for LangSmith evals to evaluate agent traces with faster, cheaper structured feedback across production runs, datasets, and regression tests."
+    },
     {
       "title": "Can Jev Be a Better Agent Evaluator?",
       "link": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
