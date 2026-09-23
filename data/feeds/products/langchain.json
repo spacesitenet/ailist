@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-22T09:33:24.394Z",
+  "fetched_at": "2026-09-23T09:38:24.980Z",
   "items": [
+    {
+      "title": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases",
+      "link": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
+      "date": "2026-09-22T17:08:51.000Z",
+      "description": "See how LangSmith helps healthcare AI teams turn clinical review into reusable evaluators, datasets, and release gates for safer AI in production."
+    },
     {
       "title": "Jev is now available in LangSmith Evals",
       "link": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",

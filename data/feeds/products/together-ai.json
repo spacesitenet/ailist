@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-09-22T09:33:24.394Z",
+  "fetched_at": "2026-09-23T09:38:24.980Z",
   "items": [
+    {
+      "title": "Canary rollouts: upgrade models in production without downtime",
+      "link": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
+      "date": "2026-09-22T00:00:00.000Z",
+      "description": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on ded…"
+    },
     {
       "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
       "link": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",

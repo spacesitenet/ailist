@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-22T09:33:24.394Z",
+  "fetched_at": "2026-09-23T09:38:24.980Z",
   "items": [
+    {
+      "title": "Claude Opus 5.5 for code review: More catches, different misses",
+      "link": "https://coderabbit.ai/blog/opus-5-5-model-review",
+      "date": "2026-09-22T00:00:00.000Z",
+      "description": "We tested Opus 5.5 against our production reviewer to see which bugs it catches, which it misses, and whether higher reasoning effort actually improves the results."
+    },
     {
       "title": "Rethinking PR triage from first principles",
       "link": "https://coderabbit.ai/blog/rethinking-pr-triage-from-first-principles",
