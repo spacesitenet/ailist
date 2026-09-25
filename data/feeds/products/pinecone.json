@@ -1,6 +1,6 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-09-24T09:37:36.818Z",
+  "fetched_at": "2026-09-25T09:54:59.939Z",
   "items": [
     {
       "title": "Pinecone BYOC: Trusted AI Knowledge in the Customer Cloud",
@@ -25,6 +25,12 @@
       "link": "https://www.pinecone.io/blog/best-knowledge-engine-platforms/",
       "date": "2026-09-14T14:00:00.000Z",
       "description": "Compare knowledge engines, graph platforms, enterprise search, agent memory, and managed retrieval for production AI agents."
+    },
+    {
+      "title": "Best Knowledge Engine Platforms in 2026",
+      "link": "https://www.pinecone.io/compare/best-knowledge-engine-platforms/",
+      "date": "2026-09-14T14:00:00.000Z",
+      "description": "How Pinecone Nexus, Databricks Genie, Snowflake Cortex, Microsoft IQ, Palantir Foundry, and Glean compare as knowledge platforms for AI agents."
     },
     {
       "title": "Introducing the Pinecone Documents API",

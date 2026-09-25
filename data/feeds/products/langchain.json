@@ -1,7 +1,43 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-09-24T09:37:36.818Z",
+  "fetched_at": "2026-09-25T09:54:59.939Z",
   "items": [
+    {
+      "title": "New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and more",
+      "link": "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories",
+      "date": "2026-09-25T08:00:01.000Z",
+      "description": "LangChain announced new updates to LangSmith. Updates include Engine v2 with red teaming and automatic testing, a new version of Managed Deep Agents, trajectories and more."
+    },
+    {
+      "title": "New in LangSmith Engine: red teaming and automated testing",
+      "link": "https://www.langchain.com/blog/langsmith-engine-v2-redteam",
+      "date": "2026-09-24T17:22:02.000Z",
+      "description": "LangSmith Engine now includes Red Teaming to proactively detect agent issues and automated agent testing. Learn more about the Engine v2 release."
+    },
+    {
+      "title": "Introducing LangSmith Fine-Tuning",
+      "link": "https://www.langchain.com/blog/langsmith-fine-tuning",
+      "date": "2026-09-24T15:51:45.000Z",
+      "description": "LangChain introduces LangSmith Fine-Tuning and SmithTune, a CLI built for post-training models. Train specialized models without building data pipelines by hand."
+    },
+    {
+      "title": "Managed Deep Agents delivers a better user experience for agents in production",
+      "link": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+      "date": "2026-09-24T15:51:45.000Z",
+      "description": "Managed Deep Agents is the simplest way to build, deploy, and run agents in production. The 0.8 release adds support for user-owned credentials, user-level memory, HTTP channels, file transfer in Sla…"
+    },
+    {
+      "title": "Trajectories now in LangSmith: A readable view of every agent session",
+      "link": "https://www.langchain.com/blog/langsmith-trajectories-tracing",
+      "date": "2026-09-24T15:51:45.000Z",
+      "description": "Trajectories in LangSmith provide a conversational view of an agent session. Trajectories make trace data easy to navigate and speed up debugging for long-running agents."
+    },
+    {
+      "title": "LangSmith Custom Apps: Build custom interfaces around your agent data",
+      "link": "https://www.langchain.com/blog/langsmith-custom-apps",
+      "date": "2026-09-24T15:04:21.000Z",
+      "description": "LangSmith Custom Apps lets you build the interface you want with your LangSmith data, publish it into your workspace, and skip the hosting, auth, and permissions work. Learn more."
+    },
     {
       "title": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases",
       "link": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
