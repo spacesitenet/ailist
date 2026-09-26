@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-25T09:54:59.939Z",
+  "fetched_at": "2026-09-26T09:37:37.179Z",
   "items": [
+    {
+      "title": "The Merge: Your tests pass. Can your agent finish the job?",
+      "link": "https://coderabbit.ai/blog/the-merge-cua-can-your-agent-finish-the-job",
+      "date": "2026-09-25T20:00:00.000Z",
+      "description": "Cua AI co-founder Francesco Bonacci explains why developers need to check whether AI agents finish the job, even when the tools they use work correctly."
+    },
     {
       "title": "Do you understand what you’re about to merge?",
       "link": "https://coderabbit.ai/blog/do-you-understand-what-youre-about-to-merge",
