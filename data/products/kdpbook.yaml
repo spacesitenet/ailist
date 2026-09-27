@@ -1,0 +1,87 @@
+name: "kdpbook.io"
+slug: "kdpbook"
+description: "AI book studio for Amazon KDP that turns a book described in a chat, or an imported manuscript, into the interior PDF, full-wrap cover PDF, Kindle EPUB and listing sheet."
+website: "https://kdpbook.io"
+year_founded: 2026
+headquarters:
+  - "France"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Writing"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: "Starter"
+        payment_model: "subscription"
+        billing_basis: "flat_rate"
+        monthly: 25
+        yearly: 250
+        included_units: 2500
+        overage_per_unit: null
+        max_units: null
+      - name: "Author"
+        payment_model: "subscription"
+        billing_basis: "flat_rate"
+        monthly: 49
+        yearly: 490
+        included_units: 5500
+        overage_per_unit: null
+        max_units: null
+      - name: "Studio"
+        payment_model: "subscription"
+        billing_basis: "flat_rate"
+        monthly: 99
+        yearly: 990
+        included_units: 12000
+        overage_per_unit: null
+        max_units: null
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Prices are in USD. Free plan: 2,000 credits once at sign-up, no credit card. Free exports carry a 'kdpbook.io preview' watermark, are not for sale, and free-plan books are public in the community library."
+  - "Paid plans include monthly credits (Starter 2,500, Author 5,500, Studio 12,000), watermark-free exports and a commercial license. Yearly billing costs 10 months. 1 credit is about 0.01 USD, and only what is produced is charged."
+  - "Free KDP calculators (spine width, cover size with template, printing cost, royalties) need no account."
+  - "No public API and no mobile app. Independent, not affiliated with Amazon. KDP requires publishers to disclose AI-generated text and images."
+  - "Pricing and limits verified from the official website in September 2026."
+features:
+  - "36 book types in 8 families: picture books, illustrated stories, novels, non-fiction, coloring books, activity and puzzle books, journals, comics"
+  - "40 illustration styles, plus a custom style described in words or taken from a reference image"
+  - "Character reference sheets reused on every illustration"
+  - "Paperback (16 standard trims plus custom), hardcover (5 trims) and Kindle eBook (reflowable or fixed layout)"
+  - "34 KDP-supported languages"
+  - "Exports: interior PDF, full-wrap cover PDF sized from the final page count, Kindle EPUB with Kindle cover, and a listing sheet with title, description, 7 keywords, categories and AI-disclosure answers"
+  - "Page editor with live preview, AI rewrites, image redraws, continuous KDP preflight and a 3D book preview"
+integrations: []
+target_audience:
+  - "Self-publishing authors"
+  - "Children's book creators"
+  - "Low-content book publishers"
+deployment_options:
+  - "Cloud"
+support_channels:
+  - "Email"
+languages: []
+screenshots: []
+last_verified: "2026-09"
