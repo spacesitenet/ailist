@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-28T11:19:39.762Z",
+  "fetched_at": "2026-09-29T10:58:52.817Z",
   "items": [
+    {
+      "title": "Claude Sonnet 5.5 for code review: More catches than Sonnet 5, in half the time",
+      "link": "https://coderabbit.ai/blog/sonnet-5-5-model-review",
+      "date": "2026-09-28T00:00:00.000Z",
+      "description": "We benchmarked Claude Sonnet 5.5 for AI code review against Sonnet 5 and Opus 5.5: which bugs it catches, how fast it reviews, and what a review costs."
+    },
     {
       "title": "The Merge: Your tests pass. Can your agent finish the job?",
       "link": "https://coderabbit.ai/blog/the-merge-cua-can-your-agent-finish-the-job",

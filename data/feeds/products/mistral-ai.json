@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-09-28T11:19:39.762Z",
+  "fetched_at": "2026-09-29T10:58:52.817Z",
   "items": [
+    {
+      "title": "Hallo, Deutschland!",
+      "link": "https://mistral.ai/news/hallo-deutschland/",
+      "date": "2026-09-28T15:57:59.000Z",
+      "description": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry."
+    },
     {
       "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
       "link": "https://mistral.ai/news/mistral-x-mozilla/",
