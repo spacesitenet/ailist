@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-09-29T10:58:52.817Z",
+  "fetched_at": "2026-09-30T10:49:01.150Z",
   "items": [
+    {
+      "title": "CodeRabbit joins the OpenAI Marketplace",
+      "link": "https://coderabbit.ai/blog/coderabbit-openai-marketplace",
+      "date": "2026-09-29T00:00:00.000Z",
+      "description": "OpenAI customers can apply their existing OpenAI spend commitment towards CodeRabbit through the OpenAI Marketplace, simplifying procurement."
+    },
     {
       "title": "Claude Sonnet 5.5 for code review: More catches than Sonnet 5, in half the time",
       "link": "https://coderabbit.ai/blog/sonnet-5-5-model-review",
