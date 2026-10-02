@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-01T11:15:32.908Z",
+  "fetched_at": "2026-10-02T10:47:59.732Z",
   "items": [
+    {
+      "title": "How to Build a Model Router in the Harness",
+      "link": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "date": "2026-10-01T17:01:32.000Z",
+      "description": "How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own."
+    },
     {
       "title": "Building Production Agents with Jev and LangGraph",
       "link": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",

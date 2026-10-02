@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-01T11:15:32.908Z",
+  "fetched_at": "2026-10-02T10:47:59.732Z",
   "items": [
+    {
+      "title": "The Merge: What if your ‘if-statements’ could think?",
+      "link": "https://coderabbit.ai/blog/the-merge-typesafe-jev-smart-if-statements",
+      "date": "2026-10-01T00:00:00.000Z",
+      "description": "TypeSafe's Allie Laabs explains how to find Jev-shaped problems in your code, why you should ask every question up front, and why coding agents still need help getting it right."
+    },
     {
       "title": "CodeRabbit joins the OpenAI Marketplace",
       "link": "https://coderabbit.ai/blog/coderabbit-openai-marketplace",
