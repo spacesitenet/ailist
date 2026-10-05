@@ -1,6 +1,6 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-10-04T10:48:42.350Z",
+  "fetched_at": "2026-10-05T11:55:57.252Z",
   "items": [
     {
       "title": "Weaviate security release - High severity fix for credential disclosure in the Google modules",
