@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-05T11:55:57.252Z",
+  "fetched_at": "2026-10-06T11:35:52.057Z",
   "items": [
+    {
+      "title": "How independent AI code review builds trust in agent-generated changes",
+      "link": "https://coderabbit.ai/blog/why-agentic-change-management-starts-with-independent-ai-code-review",
+      "date": "2026-10-05T07:00:00.000Z",
+      "description": "Independent AI code review gives teams evidence to trust proposed changes, supported by CodeRabbit’s governance and control layer for agentic software development."
+    },
     {
       "title": "The Merge: What if your ‘if-statements’ could think?",
       "link": "https://coderabbit.ai/blog/the-merge-typesafe-jev-smart-if-statements",

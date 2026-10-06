@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-10-05T11:55:57.252Z",
+  "fetched_at": "2026-10-06T11:35:52.057Z",
   "items": [
+    {
+      "title": "Together Link: open models in the harness you already use. Start with one command today.",
+      "link": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+      "date": "2026-10-05T00:00:00.000Z",
+      "description": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%."
+    },
     {
       "title": "How to train your own Jev for $17",
       "link": "https://www.together.ai/blog/how-to-train-your-own-jev",
