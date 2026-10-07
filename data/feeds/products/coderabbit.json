@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-06T11:35:52.057Z",
+  "fetched_at": "2026-10-07T11:25:43.642Z",
   "items": [
+    {
+      "title": "How CodeRabbit Security performed on a real-world vulnerability benchmark",
+      "link": "https://coderabbit.ai/blog/security-agent-benchmarks",
+      "date": "2026-10-06T12:00:00.000Z",
+      "description": "CodeRabbit Security led three other systems in our vulnerability-detection benchmark. Here’s what we tested and how we scored it."
+    },
     {
       "title": "How independent AI code review builds trust in agent-generated changes",
       "link": "https://coderabbit.ai/blog/why-agentic-change-management-starts-with-independent-ai-code-review",

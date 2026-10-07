@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-10-06T11:35:52.057Z",
+  "fetched_at": "2026-10-07T11:25:43.642Z",
   "items": [
+    {
+      "title": "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+      "link": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
+      "date": "2026-10-06T00:00:00.000Z",
+      "description": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA"
+    },
     {
       "title": "Together Link: open models in the harness you already use. Start with one command today.",
       "link": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
