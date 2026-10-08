@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-07T11:25:43.642Z",
+  "fetched_at": "2026-10-08T11:41:22.175Z",
   "items": [
+    {
+      "title": "Revamping Skills in Deep Agents",
+      "link": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "date": "2026-10-07T18:49:50.000Z",
+      "description": "Deep Agents now lets you bind tools to skills, pin skills at runtime, and reload skills mid-thread, so agents with expansive skill repositories stay context-efficient and effective."
+    },
+    {
+      "title": "What&#39;s New in Managed Deep Agents: schedules, per-run configuration, and Slack reactions",
+      "link": "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack",
+      "date": "2026-10-07T18:09:51.000Z",
+      "description": "LangChain just released new capabilities in Managed Deep Agents. Agents can now schedule follow-ups, reconfigure themselves on every run, and react to Slack messages."
+    },
     {
       "title": "How to Build a Model Router in the Harness",
       "link": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
