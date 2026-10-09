@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-08T11:41:22.175Z",
+  "fetched_at": "2026-10-09T11:34:39.488Z",
   "items": [
+    {
+      "title": "Open-source reviews on CodeRabbit topped 1 million in a single month",
+      "link": "https://coderabbit.ai/blog/one-million-open-source-reviews-september-2026",
+      "date": "2026-10-08T12:00:00.000Z",
+      "description": "See which open-source projects ran the most CodeRabbit reviews in September and how we’re backing maintainers through a commitment of more than $10 million to open source."
+    },
+    {
+      "title": "The feature works. But does it belong?",
+      "link": "https://coderabbit.ai/blog/the-feature-works-does-it-belong",
+      "date": "2026-10-08T00:00:00.000Z",
+      "description": "TRM Labs’ Rahul Raina and CodeRabbit’s Harjot Gill on choosing, validating, and shipping work as agents take on more development."
+    },
     {
       "title": "Introducing collaborative coding: Build together with Slack Code and CodeRabbit Agent for Slack",
       "link": "https://coderabbit.ai/blog/introducing-collaborative-coding",

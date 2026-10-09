@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-08T11:41:22.175Z",
+  "fetched_at": "2026-10-09T11:34:39.488Z",
   "items": [
+    {
+      "title": "How Snyk Turned an Internal Support Agent into a Customer Feature",
+      "link": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
+      "date": "2026-10-09T00:43:34.000Z",
+      "description": "Discover how Snyk transformed an internal support agent into Snyk Assist, a customer-facing AI feature powered by LangChain, LangGraph, and LangSmith."
+    },
+    {
+      "title": "Agents that can pay: building Restock with Stripe&#39;s Link and Managed Deep Agents",
+      "link": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+      "date": "2026-10-08T17:37:00.000Z",
+      "description": "Build an agent that pays for real purchases. Restock runs in Slack on Managed Deep Agents and pays with Stripe's Link over the Machine Payments Protocol."
+    },
     {
       "title": "Revamping Skills in Deep Agents",
       "link": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",

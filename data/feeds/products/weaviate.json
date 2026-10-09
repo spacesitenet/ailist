@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-10-08T11:41:22.175Z",
+  "fetched_at": "2026-10-09T11:34:39.488Z",
   "items": [
+    {
+      "title": "Persistent memory for Claude Code with Weaviate Engram",
+      "link": "https://weaviate.io/blog/engram-for-claude-code",
+      "date": "2026-10-08T00:00:00.000Z",
+      "description": "The Engram plugin gives Claude Code persistent, long-term memory, so it remembers what you've done and brings it back when it matters."
+    },
     {
       "title": "Weaviate security release - High severity fix for credential disclosure in the Google modules",
       "link": "https://weaviate.io/blog/weaviate-security-release-googlemodules-2026",
