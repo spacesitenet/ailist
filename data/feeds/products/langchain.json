@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-09T11:34:39.488Z",
+  "fetched_at": "2026-10-10T10:52:32.959Z",
   "items": [
+    {
+      "title": "How to build great out-of-the-box user experiences with Managed Deep Agents",
+      "link": "https://www.langchain.com/blog/slack-sdk-managed-deep-agents",
+      "date": "2026-10-09T19:34:01.000Z",
+      "description": "Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more."
+    },
     {
       "title": "How Snyk Turned an Internal Support Agent into a Customer Feature",
       "link": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
