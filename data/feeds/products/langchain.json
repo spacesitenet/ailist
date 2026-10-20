@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-19T10:23:49.565Z",
+  "fetched_at": "2026-10-20T09:43:31.692Z",
   "items": [
+    {
+      "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
+      "link": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "date": "2026-10-19T16:44:34.000Z",
+      "description": "How Numan built Nu, an AI health coach, on LangGraph and LangSmith with per-category evals, simulated conversations, and safety gates on a regulatory line."
+    },
     {
       "title": "October 2026 LangChain Newsletter: Everything we shipped at Interrupt NYC & London",
       "link": "https://www.langchain.com/blog/october-2026-langchain-newsletter",

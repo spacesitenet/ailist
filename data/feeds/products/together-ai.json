@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-10-19T10:23:49.565Z",
+  "fetched_at": "2026-10-20T09:43:31.692Z",
   "items": [
+    {
+      "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
+      "link": "https://www.together.ai/blog/together-post-training",
+      "date": "2026-10-19T00:00:00.000Z",
+      "description": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure."
+    },
     {
       "title": "Meta Muse Spark Open is live on Together AI",
       "link": "https://www.together.ai/blog/meta-muse-spark-open",
