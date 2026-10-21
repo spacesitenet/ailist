@@ -1,0 +1,59 @@
+name: "Pulse"
+slug: "pulse"
+description: "AI-moderated customer interviews for market research. An AI moderator runs interviews by voice, video, text chat, phone call and WhatsApp, and returns the themes with the quotes behind each one."
+website: "https://pulsecorp.co"
+year_founded: 2026
+headquarters:
+  - "India"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Research"
+  - "Marketing"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Free trial and paid plans. Plan prices are not published on the website."
+  - "Sign-up is open at app.pulsecorp.co with no waitlist. Launched publicly on 2026-10-06. Based in Bengaluru, Karnataka. Bootstrapped."
+features:
+  - "AI moderator that asks, listens and probes when an answer is vague"
+  - "Interviews by voice, video, text chat, phone call and WhatsApp"
+  - "Participant recruitment, or invite your own customers"
+  - "Themes grouped by what people said, with the quotes behind each one"
+  - "Insight repository that keeps every study's findings in one place"
+integrations: []
+target_audience:
+  - "Product teams"
+  - "Marketing teams"
+  - "Research teams"
+deployment_options:
+  - "Cloud"
+support_channels:
+  - "Email"
+languages: []
+screenshots: []
+last_verified: "2026-10"
