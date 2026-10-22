@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-21T09:44:39.898Z",
+  "fetched_at": "2026-10-22T09:44:10.128Z",
   "items": [
+    {
+      "title": "Which software engineering skills matter in the age of AI?",
+      "link": "https://coderabbit.ai/blog/software-engineering-skills-ai-kunal-kushwaha",
+      "date": "2026-10-21T00:00:00.000Z",
+      "description": "Kunal Kushwaha on technical fundamentals, product judgment, code review, and running LLMs locally as AI coding agents take on more implementation work."
+    },
     {
       "title": "CodeRabbit brings independent validation to Cursor Origin",
       "link": "https://coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin",
