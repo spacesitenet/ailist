@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-10-22T09:44:10.128Z",
+  "fetched_at": "2026-10-23T09:40:19.841Z",
   "items": [
+    {
+      "title": "How Weaviate responded to the eMudhra certificate compromise",
+      "link": "https://weaviate.io/blog/weaviate-emudhra-response",
+      "date": "2026-10-22T00:00:00.000Z",
+      "description": "Weaviate patched its entire customer estate and infrastructure platform in under 17 hours to mitigate the risk of eight leaked certificates from the eMudhra certificate authority."
+    },
     {
       "title": "Weaviate security release - Medium severity fix for a cross-collection vector disclosure in nearObject (CVE pending assignment)",
       "link": "https://weaviate.io/blog/weaviate-security-release-nearobject-2026",
