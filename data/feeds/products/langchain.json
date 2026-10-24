@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-23T09:40:19.841Z",
+  "fetched_at": "2026-10-24T09:12:45.011Z",
   "items": [
+    {
+      "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+      "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+      "date": "2026-10-23T21:32:37.000Z",
+      "description": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in."
+    },
     {
       "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
       "link": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
