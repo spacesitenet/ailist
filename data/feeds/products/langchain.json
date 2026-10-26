@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-25T09:29:53.107Z",
+  "fetched_at": "2026-10-26T10:38:32.106Z",
   "items": [
+    {
+      "title": "The five components of building a \"company harness\"",
+      "link": "https://www.langchain.com/blog/components-building-company-harness",
+      "date": "2026-10-25T18:06:32.000Z",
+      "description": "Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work."
+    },
     {
       "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
       "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
