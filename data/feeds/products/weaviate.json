@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-10-26T10:38:32.106Z",
+  "fetched_at": "2026-10-27T10:07:28.631Z",
   "items": [
+    {
+      "title": "Deprecating the GraphQL API: timeline and migration paths",
+      "link": "https://weaviate.io/blog/graphql-api-deprecation",
+      "date": "2026-10-26T00:00:00.000Z",
+      "description": "Weaviate's GraphQL API is deprecated as of October 26, 2026. See the timeline for Weaviate Cloud and self-hosted, who is affected, and how to migrate."
+    },
     {
       "title": "How Weaviate responded to the eMudhra certificate compromise",
       "link": "https://weaviate.io/blog/weaviate-emudhra-response",

@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-10-26T10:38:32.106Z",
+  "fetched_at": "2026-10-27T10:07:28.631Z",
   "items": [
+    {
+      "title": "How to Migrate from Chroma Cloud to Pinecone",
+      "link": "https://www.pinecone.io/blog/migrate-chroma-cloud-to-pinecone/",
+      "date": "2026-10-26T14:00:32.000Z",
+      "description": "Chroma Cloud stops accepting writes on November 22, 2026 and stops serving reads on December 22, 2026. This guide migrates a Chroma Cloud collection to Pinecone Database during a planned write pause."
+    },
     {
       "title": "When vectors became an implementation detail",
       "link": "https://www.pinecone.io/blog/when-vectors-became-an-implementation-detail/",
