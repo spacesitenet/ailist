@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-27T10:07:28.631Z",
+  "fetched_at": "2026-10-28T10:54:01.987Z",
   "items": [
+    {
+      "title": "CodeRabbit Secure now hunts across repos and beyond the merge",
+      "link": "https://coderabbit.ai/blog/coderabbit-secure-cross-repository-security",
+      "date": "2026-10-27T12:00:00.000Z",
+      "description": "CodeRabbit Secure now goes beyond the point-in-time scan, with cross-repo security analysis, runtime verification, and enforceable merge checks that keep security connected to your code as it changes."
+    },
     {
       "title": "For the next two weeks, we're covering $1 million in security scans and fixes",
       "link": "https://coderabbit.ai/blog/one-million-security-scans-and-fixes",

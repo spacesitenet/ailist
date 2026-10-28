@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-10-27T10:07:28.631Z",
+  "fetched_at": "2026-10-28T10:54:01.987Z",
   "items": [
+    {
+      "title": "Introducing pg_pinecone: Open-Source Search for Your Postgres Data",
+      "link": "https://www.pinecone.io/blog/introducing-pg-pinecone/",
+      "date": "2026-10-27T13:00:00.000Z",
+      "description": "pg_pinecone is an open source (Apache 2.0) Postgres extension for search on the data you already store, built on the search engine Pinecone runs at scale."
+    },
     {
       "title": "How to Migrate from Chroma Cloud to Pinecone",
       "link": "https://www.pinecone.io/blog/migrate-chroma-cloud-to-pinecone/",

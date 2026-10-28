@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-10-27T10:07:28.631Z",
+  "fetched_at": "2026-10-28T10:54:01.987Z",
   "items": [
+    {
+      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+      "link": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
+      "date": "2026-10-27T00:00:00.000Z",
+      "description": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works."
+    },
     {
       "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
       "link": "https://www.together.ai/blog/together-post-training",

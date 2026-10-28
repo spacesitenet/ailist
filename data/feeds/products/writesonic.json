@@ -1,7 +1,13 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-10-27T10:07:28.631Z",
+  "fetched_at": "2026-10-28T10:54:01.987Z",
   "items": [
+    {
+      "title": "The Search Index Behind Every AI Engine (& How To Track Each One)",
+      "link": "https://writesonic.com/blog/ai-engine-indexes",
+      "date": "2026-10-27T14:00:00.000Z",
+      "description": "ChatGPT, Perplexity, Copilot, and Google's AI features each read a different search index. Here's what they use and how to track it."
+    },
     {
       "title": "GEO Is A Distraction. Tell That To The Buyer.",
       "link": "https://writesonic.com/blog/geo-is-a-distraction",

@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-27T10:07:28.631Z",
+  "fetched_at": "2026-10-28T10:54:01.987Z",
   "items": [
+    {
+      "title": "How We Built Our Design Agent",
+      "link": "https://www.langchain.com/blog/design-agent",
+      "date": "2026-10-27T17:05:05.000Z",
+      "description": "How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it."
+    },
     {
       "title": "The five components of building a \"company harness\"",
       "link": "https://www.langchain.com/blog/components-building-company-harness",
