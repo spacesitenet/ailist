@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-10-28T10:54:01.987Z",
+  "fetched_at": "2026-10-29T11:10:55.901Z",
   "items": [
+    {
+      "title": "Why it’s time to fight AI with AI",
+      "link": "https://coderabbit.ai/blog/fighting-ai-with-ai",
+      "date": "2026-10-28T12:00:00.000Z",
+      "description": "Attackers now point AI at unfamiliar code to trace workflows and probe the assumptions its authors made. Deep Scan in CodeRabbit Secure does the same for your team first: it investigates committed co…"
+    },
     {
       "title": "CodeRabbit Secure now hunts across repos and beyond the merge",
       "link": "https://coderabbit.ai/blog/coderabbit-secure-cross-repository-security",

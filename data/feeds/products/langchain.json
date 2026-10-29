@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-28T10:54:01.987Z",
+  "fetched_at": "2026-10-29T11:10:55.901Z",
   "items": [
+    {
+      "title": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
+      "link": "https://www.langchain.com/blog/proactive-agents",
+      "date": "2026-10-28T17:28:42.000Z",
+      "description": "Most proactive agents run on a simple cron. Learn what scheduled runs unlock, from memory to smart triage, and how to add them to Managed Deep Agents."
+    },
+    {
+      "title": "How to build evidence-grounded agent memory with OpenWiki and Graphs",
+      "link": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+      "date": "2026-10-28T17:28:42.000Z",
+      "description": "LangChain used OpenWiki, its open-source wiki compiler, and an evidence graph to build a persistent memory layer that preserves knowledge for agents to reuse across tasks. Learn how."
+    },
     {
       "title": "How We Built Our Design Agent",
       "link": "https://www.langchain.com/blog/design-agent",
