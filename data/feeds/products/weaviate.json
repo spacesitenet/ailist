@@ -1,6 +1,6 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-10-29T11:10:55.901Z",
+  "fetched_at": "2026-10-30T11:05:48.400Z",
   "items": [
     {
       "title": "Deprecating the GraphQL API: timeline and migration paths",
@@ -25,6 +25,12 @@
       "link": "https://weaviate.io/blog/pathseer-filtered-vector-search",
       "date": "2026-10-14T00:00:00.000Z",
       "description": "Weaviate 1.40 adds PathSeer, a third HNSW filter strategy from a SIGMOD 2026 paper, contributed by the paper's first author. How it works, and how it compares to sweeping and ACORN."
+    },
+    {
+      "title": "Weaviate 1.40 Release",
+      "link": "https://weaviate.io/blog/weaviate-1-40-release",
+      "date": "2026-10-14T00:00:00.000Z",
+      "description": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
     },
     {
       "title": "Persistent memory for Claude Code with Weaviate Engram",

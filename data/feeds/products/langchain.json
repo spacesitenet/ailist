@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-10-29T11:10:55.901Z",
+  "fetched_at": "2026-10-30T11:05:48.400Z",
   "items": [
+    {
+      "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+      "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+      "date": "2026-10-29T17:03:39.000Z",
+      "description": "Managed Deep Agents v0.10 adds browser use, so agents can work on sites with no API and hand you the window to sign in, and async subagents for background work."
+    },
+    {
+      "title": "Browser Use in Managed Deep Agents",
+      "link": "https://www.langchain.com/blog/browser-use-in-managed-deep-agents",
+      "date": "2026-10-29T16:45:29.000Z",
+      "description": "Managed Deep Agents now runs a browser for your agent, with tools tuned for context-efficient browser use and a handoff so you can sign in yourself."
+    },
     {
       "title": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
       "link": "https://www.langchain.com/blog/proactive-agents",

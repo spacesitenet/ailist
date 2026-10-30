@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-10-29T11:10:55.901Z",
+  "fetched_at": "2026-10-30T11:05:48.400Z",
   "items": [
+    {
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "link": "https://mistral.ai/news/mistral-large-4-oss/",
+      "date": "2026-10-29T12:00:07.000Z",
+      "description": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
+    },
     {
       "title": "Mistral Advances AI for Engineering with NVIDIA",
       "link": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
