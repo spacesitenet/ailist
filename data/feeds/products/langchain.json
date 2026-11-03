@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-02T12:57:21.098Z",
+  "fetched_at": "2026-11-03T12:29:15.395Z",
   "items": [
+    {
+      "title": "New context engineering challenges in late 2026",
+      "link": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
+      "date": "2026-11-02T17:12:41.000Z",
+      "description": "LangChain CEO Harrison Chase shares insights into the biggest harness engineering challenges with the emergence of proactive agents."
+    },
     {
       "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
       "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",

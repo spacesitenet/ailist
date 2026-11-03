@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-02T12:57:21.098Z",
+  "fetched_at": "2026-11-03T12:29:15.395Z",
   "items": [
+    {
+      "title": "How Runtime Verification works in CodeRabbit Secure",
+      "link": "https://coderabbit.ai/blog/runtime-verification-in-coderabbit-secure",
+      "date": "2026-11-03T12:00:00.000Z",
+      "description": "Testing a suspected vulnerability takes more than sending a request and checking the response. Runtime Verification in CodeRabbit Secure turns a Deep Scan finding into a Reproducer Guide, runs it wit…"
+    },
     {
       "title": "Why it’s time to fight AI with AI",
       "link": "https://coderabbit.ai/blog/fighting-ai-with-ai",
