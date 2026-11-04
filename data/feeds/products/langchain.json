@@ -1,7 +1,25 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-03T12:29:15.395Z",
+  "fetched_at": "2026-11-04T12:40:07.597Z",
   "items": [
+    {
+      "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud",
+      "link": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure",
+      "date": "2026-11-04T02:56:29.000Z",
+      "description": "LangSmith BYOC now runs on AWS (GA), Azure and Google Cloud (Beta). Your traces, evals, and agent deployments stay in your cloud account while LangChain runs it."
+    },
+    {
+      "title": "How We Optimized Browser Use for Deep Agents",
+      "link": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+      "date": "2026-11-03T22:30:50.000Z",
+      "description": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned."
+    },
+    {
+      "title": "Why human insight is a strategic advantage for building better agents",
+      "link": "https://www.langchain.com/blog/human-insight-strategic-advantage-agents",
+      "date": "2026-11-03T21:48:04.000Z",
+      "description": "Explore 3 principles for effective human-in-the-loop workflows and how human-review is a strategic imperative for production-ready agents."
+    },
     {
       "title": "New context engineering challenges in late 2026",
       "link": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
