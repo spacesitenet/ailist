@@ -1,7 +1,19 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-11-04T12:40:07.597Z",
+  "fetched_at": "2026-11-05T12:50:45.608Z",
   "items": [
+    {
+      "title": "What's new in Writesonic: see what AI says about you, then change it",
+      "link": "https://writesonic.com/blog/whats-new-in-writesonic",
+      "date": "2026-11-04T09:13:32.000Z",
+      "description": "Fact Check, rebuilt Sentiment, Citation Decay, social citations, rebuilt Shopping and our first agent. What we shipped, feature by feature."
+    },
+    {
+      "title": "See what AI says about you. Change what it says next.",
+      "link": "https://writesonic.com/blog/see-what-ai-says-about-you",
+      "date": "2026-11-04T08:42:41.000Z",
+      "description": "Fact Check, Sentiment, Citation Decay and social citations show what AI thinks, says and cites about your brand. Here's why we built them."
+    },
     {
       "title": "HubSpot AEO Alternatives: 12 AI Visibility Tools For 2027",
       "link": "https://writesonic.com/blog/hubspot-aeo-alternatives",

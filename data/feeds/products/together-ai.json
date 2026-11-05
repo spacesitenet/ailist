@@ -1,7 +1,19 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-11-04T12:40:07.597Z",
+  "fetched_at": "2026-11-05T12:50:45.608Z",
   "items": [
+    {
+      "title": "Together Compiler: Continual Compilation for AI inference",
+      "link": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+      "date": "2026-11-04T00:00:00.000Z",
+      "description": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes."
+    },
+    {
+      "title": "Polymorphic Inference: self-tuning inference for open models",
+      "link": "https://www.together.ai/blog/polymorphic-inference",
+      "date": "2026-11-04T00:00:00.000Z",
+      "description": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned."
+    },
     {
       "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
       "link": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
