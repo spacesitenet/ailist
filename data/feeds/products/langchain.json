@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-05T12:50:45.608Z",
+  "fetched_at": "2026-11-06T12:35:42.267Z",
   "items": [
+    {
+      "title": "Agents Are Going Async",
+      "link": "https://www.langchain.com/blog/agents-are-going-async",
+      "date": "2026-11-05T20:03:27.000Z",
+      "description": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents."
+    },
     {
       "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud",
       "link": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure",

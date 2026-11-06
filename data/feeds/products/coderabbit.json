@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-05T12:50:45.608Z",
+  "fetched_at": "2026-11-06T12:35:42.267Z",
   "items": [
+    {
+      "title": "GPT-6 Cyber Security Evaluation: CodeRabbit’s Results",
+      "link": "https://coderabbit.ai/blog/gpt-6-cyber-security-evaluation",
+      "date": "2026-11-05T12:00:00.000Z",
+      "description": "Across 33 benchmark cases, CodeRabbit’s ensemble with GPT-6 Cyber caught 22 known issues versus 19 without it and reported 66% more high- and medium-severity findings."
+    },
     {
       "title": "How Runtime Verification works in CodeRabbit Secure",
       "link": "https://coderabbit.ai/blog/runtime-verification-in-coderabbit-secure",

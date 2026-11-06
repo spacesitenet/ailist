@@ -1,7 +1,13 @@
 {
   "source": "Kapwing",
-  "fetched_at": "2026-11-05T12:50:45.608Z",
+  "fetched_at": "2026-11-06T12:35:42.267Z",
   "items": [
+    {
+      "title": "5 Problems to Avoid When Building an Agentic Landing Page Translation System",
+      "link": "https://www.kapwing.com/blog/5-problems-to-avoid-when-building-an-agentic-landing-page-translation-system/",
+      "date": "2026-11-06T01:28:42.000Z",
+      "description": "We ran into some problems when we set up an internationalization system using LLMs. In this article, we share our learnings and tips on setting up a robust translation agent for landing pages, conten…"
+    },
     {
       "title": "Apple's Inadequate Response to App Store Trademark Fraud",
       "link": "https://www.kapwing.com/blog/apples-inadequate-response-to-app-store-trademark-fraud/",

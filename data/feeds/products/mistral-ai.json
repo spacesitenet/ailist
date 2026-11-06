@@ -1,7 +1,13 @@
 {
   "source": "Mistral AI",
-  "fetched_at": "2026-11-05T12:50:45.608Z",
+  "fetched_at": "2026-11-06T12:35:42.267Z",
   "items": [
+    {
+      "title": "Le Chonk brings the brains. Studio puts it to work.",
+      "link": "https://mistral.ai/news/build-with-studio/",
+      "date": "2026-11-05T12:00:14.000Z",
+      "description": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure."
+    },
     {
       "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
       "link": "https://mistral.ai/news/mistral-large-4-oss/",

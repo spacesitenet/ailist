@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-05T12:50:45.608Z",
+  "fetched_at": "2026-11-06T12:35:42.267Z",
   "items": [
+    {
+      "title": "Webinar Recap: From Data to Vectors to Context",
+      "link": "https://www.pinecone.io/blog/webinar-recap-data-to-vectors-to-context/",
+      "date": "2026-11-06T12:00:00.000Z",
+      "description": "A recap of Jörg Schad's webinar: why an agent can retrieve every relevant document and still answer wrong, and what AI agents need beyond RAG."
+    },
     {
       "title": "Introducing pg_pinecone: Open-Source Search for Your Postgres Data",
       "link": "https://www.pinecone.io/blog/introducing-pg-pinecone/",
