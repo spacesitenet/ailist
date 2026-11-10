@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-09T13:28:59.750Z",
+  "fetched_at": "2026-11-10T13:07:53.590Z",
   "items": [
+    {
+      "title": "Promptim: an experimental library for prompt optimization",
+      "link": "https://www.langchain.com/blog/promptim",
+      "date": "2026-11-09T18:30:44.000Z",
+      "description": "Automate prompt engineering with Promptim's optimization library. Save time, improve AI performance, and switch models faster."
+    },
+    {
+      "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+      "link": "https://www.langchain.com/blog/what-is-eval-driven-development",
+      "date": "2026-11-09T16:23:28.000Z",
+      "description": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments."
+    },
     {
       "title": "Agents Are Going Async",
       "link": "https://www.langchain.com/blog/agents-are-going-async",
