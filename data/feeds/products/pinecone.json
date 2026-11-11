@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-10T13:07:53.590Z",
+  "fetched_at": "2026-11-11T12:17:24.965Z",
   "items": [
+    {
+      "title": "Pinecone integrated embedding now supports OpenAI's text-embedding-3 models",
+      "link": "https://www.pinecone.io/blog/integrated-embedding-openai/",
+      "date": "2026-11-10T16:00:00.000Z",
+      "description": "Pinecone integrated embedding now supports OpenAI's text-embedding-3-small and text-embedding-3-large. Set either model on a text field and send plain text."
+    },
     {
       "title": "Webinar Recap: From Data to Vectors to Context",
       "link": "https://www.pinecone.io/blog/webinar-recap-data-to-vectors-to-context/",

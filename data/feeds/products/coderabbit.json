@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-10T13:07:53.590Z",
+  "fetched_at": "2026-11-11T12:17:24.965Z",
   "items": [
+    {
+      "title": "Multi-Repository Security Analysis with CodeRabbit Secure",
+      "link": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",
+      "date": "2026-11-10T12:00:00.000Z",
+      "description": "An application can have an authentication check and still expose data if a caller can bypass the service that enforces it. Multi-repository analysis in CodeRabbit Secure gives Deep Scan agents read-o…"
+    },
     {
       "title": "GPT-6 Cyber Security Evaluation: CodeRabbit’s Results",
       "link": "https://coderabbit.ai/blog/gpt-6-cyber-security-evaluation",

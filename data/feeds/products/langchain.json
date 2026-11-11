@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-10T13:07:53.590Z",
+  "fetched_at": "2026-11-11T12:17:24.965Z",
   "items": [
+    {
+      "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
+      "link": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+      "date": "2026-11-10T17:22:14.000Z",
+      "description": "See how Workday used LangGraph and LangSmith to build an internal AI agent platform that cut prototype time from months to less than a day and compliance needs."
+    },
     {
       "title": "Promptim: an experimental library for prompt optimization",
       "link": "https://www.langchain.com/blog/promptim",
