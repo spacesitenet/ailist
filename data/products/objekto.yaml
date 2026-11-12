@@ -1,0 +1,68 @@
+name: "objekto.io"
+slug: "objekto"
+description: "Designs print-ready multi-part 3D models from a few words, a photo or a sketch, then has them made by an industrial 3D-printing workshop and delivered in France."
+website: "https://objekto.io/en"
+year_founded: 2026
+headquarters:
+  - "France"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: null
+has_api: false
+developer_portal_url: null
+has_cli: false
+has_mcp: false
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Design"
+platforms:
+  - "Web"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing: []
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Prices are in EUR, VAT included. Free plan: 2,000 credits once at sign-up, no credit card; there is no free monthly plan and no trial. Creator 29 EUR, Pro 70 EUR, Studio 299 EUR per month; yearly billing costs 10 months."
+  - "Monthly credits: Creator 2,900, Pro 7,800 (10% off every credit), Studio 40,000 (25% off every credit). Unique printed parts per object: 4 on Free, 8 on Creator, 12 on Pro and Studio."
+  - "Design is paid in credits per generation: 950 for 1 part, 1,900 for 2 to 4 parts, 3,400 for 5 to 8 parts, 5,200 for 9 to 12 parts. Dimension sliders, print quotes, renders, file exports and the assembly guide cost 0 credits."
+  - "Prints are paid separately in euros, never with credits, at a firm price including VAT and delivery shown before ordering. Delivery to France only at launch."
+  - "No certified products (medical, food contact, load rating), no weapons and no toys for children under 3. No public API and no mobile app."
+  - "Pricing and limits verified from the official website in November 2026."
+features:
+  - "Describe the object in a few words, a photo or a sketch, in one of three modes: Design, Invent (three directions for a wild idea, from the Creator plan) and Repair / replace"
+  - "Part-by-part design as parametric CAD, up to 12 unique parts per object"
+  - "Printability check on every part: wall thickness, smallest detail, clearances, maximum size per material, interference, stability"
+  - "Exploded view, parts list and assembly guide with every design"
+  - "Dimension sliders that recalculate without AI, and a chat for other changes"
+  - "Materials include PA12 nylon (SLS, MJF, full colour), flexible TPE and TPU, resins, PETG, PLA and lost-wax cast brass"
+  - "STL, 3MF and STEP downloads on paid plans; parametric source code on Pro and Studio"
+  - "Community gallery to publish (CC BY, CC BY-NC or order-only), remix or order designs"
+integrations: []
+target_audience:
+  - "Makers and DIYers"
+  - "People who need a custom or replacement part"
+  - "Inventors and product designers prototyping"
+  - "Gift givers"
+deployment_options:
+  - "Cloud"
+support_channels:
+  - "Email"
+languages:
+  - "English"
+  - "French"
+screenshots: []
+last_verified: "2026-11"
