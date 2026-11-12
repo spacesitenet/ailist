@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-11T12:17:24.965Z",
+  "fetched_at": "2026-11-12T13:26:41.050Z",
   "items": [
+    {
+      "title": "Agentic software development with CodeRabbit and Google Antigravity",
+      "link": "https://coderabbit.ai/blog/agentic-software-development-coderabbit-google-antigravity",
+      "date": "2026-11-11T12:00:00.000Z",
+      "description": "Bring CodeRabbit’s specialized AI code reviews into Google Antigravity for a build -> review -> fix agentic loop"
+    },
     {
       "title": "Multi-Repository Security Analysis with CodeRabbit Secure",
       "link": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",

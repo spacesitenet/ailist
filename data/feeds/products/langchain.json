@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-11T12:17:24.965Z",
+  "fetched_at": "2026-11-12T13:26:41.050Z",
   "items": [
+    {
+      "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
+      "link": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+      "date": "2026-11-12T03:34:55.000Z",
+      "description": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context."
+    },
     {
       "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
       "link": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
