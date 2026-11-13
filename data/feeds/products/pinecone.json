@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-12T13:26:41.050Z",
+  "fetched_at": "2026-11-13T12:43:00.825Z",
   "items": [
+    {
+      "title": "Pinecone integrated embedding now supports Google's Gemini Embedding 2",
+      "link": "https://www.pinecone.io/blog/integrated-embedding-google/",
+      "date": "2026-11-12T16:00:00.000Z",
+      "description": "Pinecone integrated embedding now supports Google's Gemini Embedding 2. Set it on a text field and send plain text."
+    },
     {
       "title": "Pinecone integrated embedding now supports OpenAI's text-embedding-3 models",
       "link": "https://www.pinecone.io/blog/integrated-embedding-openai/",
