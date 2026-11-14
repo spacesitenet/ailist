@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-13T12:43:00.825Z",
+  "fetched_at": "2026-11-14T11:51:38.046Z",
   "items": [
+    {
+      "title": "CodeRabbit went looking for trouble in open-source code and isn’t done yet",
+      "link": "https://coderabbit.ai/blog/coderabbit-secure-deep-scan-open-source",
+      "date": "2026-11-13T12:00:00.000Z",
+      "description": "Missing access checks and exposed data were among the 1,215 high or critical findings CodeRabbit Secure uncovered across 1,125 public repositories. Now, eligible open-source projects can get their fi…"
+    },
     {
       "title": "CodeRabbit Passes $100 million in ARR",
       "link": "https://coderabbit.ai/blog/coderabbit-100-million-arr",

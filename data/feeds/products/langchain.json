@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-13T12:43:00.825Z",
+  "fetched_at": "2026-11-14T11:51:38.046Z",
   "items": [
+    {
+      "title": "LangChain Raises $300M Series C at $3B Valuation",
+      "link": "https://www.langchain.com/blog/series-c",
+      "date": "2026-11-13T16:06:29.000Z",
+      "description": "LangChain raises $300M Series C at a $3B valuation, led by CapitalG, to help every company own its intelligence with LangSmith, the agent engineering platform."
+    },
     {
       "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
       "link": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
