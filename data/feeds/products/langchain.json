@@ -1,7 +1,13 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-14T11:51:38.046Z",
+  "fetched_at": "2026-11-15T12:21:30.267Z",
   "items": [
+    {
+      "title": "Goal Engineering",
+      "link": "https://www.langchain.com/blog/goal-engineering",
+      "date": "2026-11-14T16:00:01.000Z",
+      "description": "The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more."
+    },
     {
       "title": "LangChain Raises $300M Series C at $3B Valuation",
       "link": "https://www.langchain.com/blog/series-c",
