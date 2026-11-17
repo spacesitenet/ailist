@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-16T13:14:30.455Z",
+  "fetched_at": "2026-11-17T13:57:58.706Z",
   "items": [
+    {
+      "title": "From tasks to goals",
+      "link": "https://www.langchain.com/blog/from-tasks-to-goals",
+      "date": "2026-11-16T23:53:29.000Z",
+      "description": "LangChain CEO and Co-founder Harrison Chase shares how we're moving from task-specific agents to goal-focused agents. Learn more."
+    },
+    {
+      "title": "Why we rebuilt LangSmith around the agent",
+      "link": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
+      "date": "2026-11-16T18:37:11.000Z",
+      "description": "We reorganized LangSmith around a single agent record. Build, run, improve, and govern every agent from one place, on any framework or runtime."
+    },
     {
       "title": "Goal Engineering",
       "link": "https://www.langchain.com/blog/goal-engineering",

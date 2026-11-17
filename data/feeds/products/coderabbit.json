@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-16T13:14:30.455Z",
+  "fetched_at": "2026-11-17T13:57:58.706Z",
   "items": [
+    {
+      "title": "The hard part of AI coding is deciding what to keep",
+      "link": "https://coderabbit.ai/blog/the-merge-ryan-vogel-deciding-what-to-keep",
+      "date": "2026-11-16T20:00:00.000Z",
+      "description": "A PR can pass review while nobody decides if the change belongs. Harjot Gill and Ryan Vogel discuss engineering judgment in agent-written code."
+    },
     {
       "title": "CodeRabbit went looking for trouble in open-source code and isn’t done yet",
       "link": "https://coderabbit.ai/blog/coderabbit-secure-deep-scan-open-source",

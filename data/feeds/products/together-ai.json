@@ -1,7 +1,25 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-11-16T13:14:30.455Z",
+  "fetched_at": "2026-11-17T13:57:58.706Z",
   "items": [
+    {
+      "title": "Last year we built megakernels. This year we deleted them: The road to Together Compiler",
+      "link": "https://www.together.ai/blog/road-to-together-compiler",
+      "date": "2026-11-16T00:00:00.000Z",
+      "description": "Together Compiler uses AI agents to rewrite and fuse the GPU kernels in a model’s forward pass. It beats hand-written megakernels by 28% on B200 (2,118 vs 1,649 tokens/s on Llama 3.2 1B). This is how…"
+    },
+    {
+      "title": "Making open models work for long-horizon agentic workloads",
+      "link": "https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads",
+      "date": "2026-11-16T00:00:00.000Z",
+      "description": "Every agent turn resends the full session. Together AI and Ollama break down how to protect the prefix cache, from the harness to the GPU."
+    },
+    {
+      "title": "How we make Together AI easy for coding agents to use",
+      "link": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai",
+      "date": "2026-11-16T00:00:00.000Z",
+      "description": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%."
+    },
     {
       "title": "Together Compiler: Continual Compilation for AI inference",
       "link": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
