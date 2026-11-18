@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-17T13:57:58.706Z",
+  "fetched_at": "2026-11-18T13:33:41.795Z",
   "items": [
+    {
+      "title": "AI feature bloat: why shipping less is better",
+      "link": "https://coderabbit.ai/blog/ai-feature-bloat-why-shipping-less-is-better",
+      "date": "2026-11-17T12:00:00.000Z",
+      "description": "Coding agents make adding features nearly free, and Hassan El-Mghari of Together AI argues that is exactly why you should ship fewer of them. He explains how he tests ideas before building anything a…"
+    },
     {
       "title": "The hard part of AI coding is deciding what to keep",
       "link": "https://coderabbit.ai/blog/the-merge-ryan-vogel-deciding-what-to-keep",

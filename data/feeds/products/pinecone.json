@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-17T13:57:58.706Z",
+  "fetched_at": "2026-11-18T13:33:41.795Z",
   "items": [
+    {
+      "title": "Vector-to-document index conversion is now available",
+      "link": "https://www.pinecone.io/blog/index-conversion/",
+      "date": "2026-11-17T16:00:00.000Z",
+      "description": "With vector-to-document index conversion, Pinecone converts a legacy vector index to a new document index in one job while the legacy vector index keeps serving traffic."
+    },
     {
       "title": "Pinecone integrated embedding now supports Google's Gemini Embedding 2",
       "link": "https://www.pinecone.io/blog/integrated-embedding-google/",

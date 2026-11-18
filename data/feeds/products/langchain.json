@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-17T13:57:58.706Z",
+  "fetched_at": "2026-11-18T13:33:41.795Z",
   "items": [
+    {
+      "title": "Protect sensitive data in your traces: new controls in LangSmith",
+      "link": "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith",
+      "date": "2026-11-17T21:31:36.000Z",
+      "description": "New controls are now in LangSmith to help teams manage access to sensitive trace data. Learn more."
+    },
+    {
+      "title": "What We’ve Learned Building Proactive Agents",
+      "link": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+      "date": "2026-11-17T16:49:23.000Z",
+      "description": "Proactive agents work toward goals in the background and check in when they need you. What we've learned about memory and UX from building GTM Agent and Robin."
+    },
     {
       "title": "From tasks to goals",
       "link": "https://www.langchain.com/blog/from-tasks-to-goals",
