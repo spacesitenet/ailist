@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-18T13:33:41.795Z",
+  "fetched_at": "2026-11-19T14:00:34.688Z",
   "items": [
+    {
+      "title": "Introducing CodeRabbit Verify: Agentic application testing and AI quality assurance",
+      "link": "https://coderabbit.ai/blog/introducing-coderabbit-verify",
+      "date": "2026-11-18T12:00:00.000Z",
+      "description": "Automatically test your agentic code, catch functional bugs, and ship software faster with less manual QA"
+    },
     {
       "title": "AI feature bloat: why shipping less is better",
       "link": "https://coderabbit.ai/blog/ai-feature-bloat-why-shipping-less-is-better",

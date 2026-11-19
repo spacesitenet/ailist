@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-18T13:33:41.795Z",
+  "fetched_at": "2026-11-19T14:00:34.688Z",
   "items": [
+    {
+      "title": "pg_pinecone now deploys on Railway in one click",
+      "link": "https://www.pinecone.io/blog/pg-pinecone-railway/",
+      "date": "2026-11-18T16:00:00.000Z",
+      "description": "The Railway template for pg_pinecone deploys Postgres with Pinecone's vector search built in. Its index uses less memory than pgvector, so it costs less to run."
+    },
     {
       "title": "Vector-to-document index conversion is now available",
       "link": "https://www.pinecone.io/blog/index-conversion/",

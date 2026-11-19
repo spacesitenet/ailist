@@ -1,7 +1,25 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-18T13:33:41.795Z",
+  "fetched_at": "2026-11-19T14:00:34.688Z",
   "items": [
+    {
+      "title": "Catch production failures early with LangSmith Alerts",
+      "link": "https://www.langchain.com/blog/langsmith-alerts",
+      "date": "2026-11-18T19:33:12.000Z",
+      "description": "Set up real‑time notifications on error rates, run latency & feedback scores to spot failures before your customers do."
+    },
+    {
+      "title": "Announcing Data Annotation Queues",
+      "link": "https://www.langchain.com/blog/announcing-data-annotation-queue",
+      "date": "2026-11-18T19:33:12.000Z",
+      "description": "Review logs, annotate data, and build datasets with LangSmith's Data Annotation Queues. Improve LLM app performance from prototype to production."
+    },
+    {
+      "title": "LangSmith for Coding Agents: Now track spend by outcome",
+      "link": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+      "date": "2026-11-18T16:27:01.000Z",
+      "description": "LangSmith now offers reporting built for coding agents, along with new capabilities that tie their spend to the pull requests they produce."
+    },
     {
       "title": "Protect sensitive data in your traces: new controls in LangSmith",
       "link": "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith",
