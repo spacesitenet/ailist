@@ -1,7 +1,13 @@
 {
   "source": "Weaviate",
-  "fetched_at": "2026-11-19T14:00:34.688Z",
+  "fetched_at": "2026-11-20T13:42:55.381Z",
   "items": [
+    {
+      "title": "Improving Developer Experience in the Age of Agents",
+      "link": "https://weaviate.io/blog/developer-experience-agentic-age",
+      "date": "2026-11-19T00:00:00.000Z",
+      "description": "Coding agents may be changing how developers work - what does that mean for developer experience? Here's how we are starting to think about both."
+    },
     {
       "title": "Deprecating the GraphQL API: timeline and migration paths",
       "link": "https://weaviate.io/blog/graphql-api-deprecation",

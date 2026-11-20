@@ -1,7 +1,13 @@
 {
   "source": "Writesonic",
-  "fetched_at": "2026-11-19T14:00:34.688Z",
+  "fetched_at": "2026-11-20T13:42:55.381Z",
   "items": [
+    {
+      "title": "Bing AI Mode vs Copilot: only 14% of cited websites overlap",
+      "link": "https://writesonic.com/blog/bing-ai-mode-vs-copilot",
+      "date": "2026-11-20T06:34:28.000Z",
+      "description": "We ran 15,563 prompts through Copilot and Bing AI Mode. Brand visibility held at 36%, but the two engines shared only 14% of the websites they cited."
+    },
     {
       "title": "How To Choose The Best AI Search Visibility Tool",
       "link": "https://writesonic.com/blog/how-to-choose-ai-search-visibility-tool",

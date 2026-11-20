@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-19T14:00:34.688Z",
+  "fetched_at": "2026-11-20T13:42:55.381Z",
   "items": [
+    {
+      "title": "AI pull requests in open source have a context problem",
+      "link": "https://coderabbit.ai/blog/ai-pull-requests-open-source-context-problem",
+      "date": "2026-11-19T20:00:00.000Z",
+      "description": "Agent-written PRs keep ignoring contribution guides. Here’s what prompts.chat creator Fatih Kadir Akın thinks agents need, starting with context."
+    },
+    {
+      "title": "GPT-6.2 Sol and Astra review: should you switch?",
+      "link": "https://coderabbit.ai/blog/gpt-6-2-sol-and-astra-review",
+      "date": "2026-11-19T20:00:00.000Z",
+      "description": "We tested GPT-6.2 Sol and Astra for coding and code review. Compare Sol with 6.1 and see whether added catches justify more comments and review cost."
+    },
     {
       "title": "Introducing CodeRabbit Verify: Agentic application testing and AI quality assurance",
       "link": "https://coderabbit.ai/blog/introducing-coderabbit-verify",

@@ -1,7 +1,13 @@
 {
   "source": "Pinecone",
-  "fetched_at": "2026-11-19T14:00:34.688Z",
+  "fetched_at": "2026-11-20T13:42:55.381Z",
   "items": [
+    {
+      "title": "Pinecone now exports cost and usage data in FOCUS format",
+      "link": "https://www.pinecone.io/blog/cost-usage-export/",
+      "date": "2026-11-19T16:00:00.000Z",
+      "description": "The Cost and Usage Export API provides Pinecone cost and usage data in FOCUS, so finance teams can see spend by project and index in their FinOps reports."
+    },
     {
       "title": "pg_pinecone now deploys on Railway in one click",
       "link": "https://www.pinecone.io/blog/pg-pinecone-railway/",

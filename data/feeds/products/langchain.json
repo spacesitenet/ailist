@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-19T14:00:34.688Z",
+  "fetched_at": "2026-11-20T13:42:55.381Z",
   "items": [
+    {
+      "title": "Why agent governance starts with observability",
+      "link": "https://www.langchain.com/blog/agent-governance-observability",
+      "date": "2026-11-20T00:57:43.000Z",
+      "description": "A strong AI agent governance strategy"
+    },
+    {
+      "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+      "link": "https://www.langchain.com/blog/langsmith-tool-gateway",
+      "date": "2026-11-19T15:51:28.000Z",
+      "description": "LangSmith Tool Gateway, now in Public Beta, handles credentials, identity, and access for every agent tool call, with policies, approvals, and traces."
+    },
     {
       "title": "Catch production failures early with LangSmith Alerts",
       "link": "https://www.langchain.com/blog/langsmith-alerts",
