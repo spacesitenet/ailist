@@ -1,7 +1,13 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-11-20T13:42:55.381Z",
+  "fetched_at": "2026-11-21T13:08:15.968Z",
   "items": [
+    {
+      "title": "Qwen3 TTS is now available on Together AI",
+      "link": "https://www.together.ai/blog/qwen3-tts",
+      "date": "2026-11-20T00:00:00.000Z",
+      "description": "Qwen3 TTS is now available on Together AI. Keep one voice across your product, change its tone with a plain-language instruction and move it between 10 languages, with first audio in as little as 97m…"
+    },
     {
       "title": "Tencent Hy4 is live on Together AI",
       "link": "https://www.together.ai/blog/tencent-hy4",
