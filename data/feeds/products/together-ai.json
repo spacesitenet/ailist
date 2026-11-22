@@ -1,7 +1,19 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-11-21T13:08:15.968Z",
+  "fetched_at": "2026-11-22T12:56:09.278Z",
   "items": [
+    {
+      "title": "Security event: Prompt leakage for requests in June and July of 2026",
+      "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "date": "2026-11-21T00:00:00.000Z",
+      "description": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026."
+    },
+    {
+      "title": "Qwen4 Max is live on Together AI",
+      "link": "https://www.together.ai/blog/qwen4-max",
+      "date": "2026-11-21T00:00:00.000Z",
+      "description": "Qwen4 Max, Alibaba's flagship Qwen model, is live on Together AI and 30% off through November 22, 2026. We sent it a bug report and an entire repository in one request. Its patch passed the project's…"
+    },
     {
       "title": "Qwen3 TTS is now available on Together AI",
       "link": "https://www.together.ai/blog/qwen3-tts",
