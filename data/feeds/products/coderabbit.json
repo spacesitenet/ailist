@@ -1,7 +1,19 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-22T12:56:09.278Z",
+  "fetched_at": "2026-11-23T15:30:58.585Z",
   "items": [
+    {
+      "title": "How I learned to stop worrying and trust agentic code",
+      "link": "https://coderabbit.ai/blog/how-i-learned-to-stop-worrying-and-trust-agentic-code",
+      "date": "2026-11-23T12:00:00.000Z",
+      "description": "According to a recent developer survey, 7 in 10 engineers aren't fully confident they understand the AI-generated code they review. It doesn’t have to be this way."
+    },
+    {
+      "title": "Fable 5.2 vs Astra and Sol: choosing a model for real coding work",
+      "link": "https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol",
+      "date": "2026-11-20T18:00:00.000Z",
+      "description": "What Fable 5.2, Astra, and Sol results suggest for coding: useful catches, review effort, reasoning settings, and the cost of a completed task."
+    },
     {
       "title": "AI pull requests in open source have a context problem",
       "link": "https://coderabbit.ai/blog/ai-pull-requests-open-source-context-problem",
