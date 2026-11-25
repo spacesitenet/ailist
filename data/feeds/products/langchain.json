@@ -1,7 +1,19 @@
 {
   "source": "LangChain",
-  "fetched_at": "2026-11-24T15:24:46.407Z",
+  "fetched_at": "2026-11-25T15:08:13.235Z",
   "items": [
+    {
+      "title": "The Agent Lake",
+      "link": "https://www.langchain.com/blog/the-agent-lake",
+      "date": "2026-11-25T01:32:21.000Z",
+      "description": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models."
+    },
+    {
+      "title": "How We Achieved ISO 42001 with LangSmith",
+      "link": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+      "date": "2026-11-25T01:04:06.000Z",
+      "description": "LangChain earned ISO/IEC 42001 certification, the international standard for AI management systems, using LangSmith. Learn how."
+    },
     {
       "title": "How to build a knowledge factory for AI agents",
       "link": "https://www.langchain.com/blog/knowledge-factory",

@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-24T15:24:46.407Z",
+  "fetched_at": "2026-11-25T15:08:13.235Z",
   "items": [
+    {
+      "title": "How We Built a Security Harness That Finds Real Vulnerabilities",
+      "link": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+      "date": "2026-11-24T12:00:00.000Z",
+      "description": "At CodeRabbit, we approach security scanning as a mapping and search problem. The harness decides where to look, records what got inspected, and sets the standard of evidence for a finding."
+    },
     {
       "title": "How I learned to stop worrying and trust agentic code",
       "link": "https://coderabbit.ai/blog/how-i-learned-to-stop-worrying-and-trust-agentic-code",
