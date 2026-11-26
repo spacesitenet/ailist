@@ -1,7 +1,13 @@
 {
   "source": "CodeRabbit",
-  "fetched_at": "2026-11-25T15:08:13.235Z",
+  "fetched_at": "2026-11-26T14:35:45.670Z",
   "items": [
+    {
+      "title": "Your Jira ticket belongs in the code review",
+      "link": "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review",
+      "date": "2026-11-25T12:00:00.000Z",
+      "description": "Once CodeRabbit is connected to Jira and Slack, you can describe the work and ask CodeRabbit Agent to create a Jira issue, make the changes, and open a linked PR in GitHub."
+    },
     {
       "title": "How We Built a Security Harness That Finds Real Vulnerabilities",
       "link": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",

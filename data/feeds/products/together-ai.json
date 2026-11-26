@@ -1,7 +1,19 @@
 {
   "source": "Together AI",
-  "fetched_at": "2026-11-25T15:08:13.235Z",
+  "fetched_at": "2026-11-26T14:35:45.670Z",
   "items": [
+    {
+      "title": "Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language",
+      "link": "https://www.together.ai/blog/distilling-kimi-into-qwen",
+      "date": "2026-11-26T00:00:00.000Z",
+      "description": "Qwen3.8-27B answered in Thai when asked for Lao. We distilled Kimi-K3.1-Pro's Lao translation into it with Together Post-Training: 93% of the teacher's score, with Thai intact. Code and costs include…"
+    },
+    {
+      "title": "Introducing Hurdle: Run agent evals on your API, skills, and docs",
+      "link": "https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs",
+      "date": "2026-11-25T00:00:00.000Z",
+      "description": "Hurdle is an open-source npm library for agent evals. Run Claude Code and Codex against real tasks on your API, score each run with code checks, guards and an LLM judge, and see which models and cond…"
+    },
     {
       "title": "Security event: Prompt leakage for requests in June and July of 2026",
       "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
