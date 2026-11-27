@@ -1,0 +1,59 @@
+name: "Transformer.gg"
+slug: "transformer-gg"
+description: "Marketplace for sponsored posts on X. Paste your website to get matching X creators with suggested prices, send offers for free, and run campaigns from the web dashboard or via MCP server, CLI, or REST API."
+website: "https://transformer.gg/"
+year_founded: 2026
+headquarters:
+  - "United States"
+open_source: false
+license: null
+source_code_url: null
+rss_feed_url: "https://transformer.gg/blog/rss.xml"
+has_api: true
+developer_portal_url: "https://transformer.gg/docs"
+has_cli: true
+has_mcp: true
+has_sso: false
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - "Marketing"
+  - "Automation"
+platforms:
+  - "Web"
+  - "API"
+  - "CLI"
+models:
+  -
+    delivery: "cloud"
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      -
+        name: "Free to join"
+        payment_model: "free"
+        billing_basis: "flat_rate"
+        monthly: 0
+        yearly: 0
+stats: {}
+compliance:
+  soc2: false
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
+notes:
+  - "Free to join with no subscription, seat fee, or minimum. Sending offers is free; brands pay when a creator accepts and Transformer.gg takes a 20% fee on paid offers (creators keep 80%)."
+  - "Remote MCP server at https://transformer.gg/mcp (streamable HTTP) and companion CLI/docs at https://github.com/NBV-AppFactory/transformer-mcp."
+  - "Transformer.gg is part of North Bay Ventures (North Bay Opco I, Inc., Miami, Florida). The founder is Jon Oringer, who founded Shutterstock."
+features: []
+integrations: []
+target_audience: []
+deployment_options:
+  - "Cloud"
+support_channels: []
+languages: []
+screenshots: []
+last_verified: "2026-11"
