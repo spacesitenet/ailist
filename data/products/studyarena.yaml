@@ -1,0 +1,36 @@
+name: "StudyArena"
+slug: "studyarena"
+description: "Students compare three AI answers to the same study question side by side, vote for the most helpful answer, and see which models wrote them."
+website: "https://studyarena.com"
+year_founded: 2026
+headquarters:
+  - "United States"
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - "Education"
+platforms:
+  - "Web"
+models:
+  - delivery: "cloud"
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: "Free"
+        payment_model: "free"
+        billing_basis: "per_user"
+        monthly: 0
+        yearly: null
+      - name: "Supporter"
+        payment_model: "subscription"
+        billing_basis: "per_user"
+        monthly: 20
+        yearly: null
+notes:
+  - "A free account includes three-answer comparisons, voting, model reveals, and saved history."
+  - "Supporter costs US$20 per month and adds model choice and six-answer comparisons."
+target_audience:
+  - "Students"
+last_verified: "2026-11"
